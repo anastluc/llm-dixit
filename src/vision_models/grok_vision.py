@@ -8,8 +8,8 @@ class GrokVision(VisionAPI):
         load_dotenv()
         GROQ_API_URL = os.getenv("GROQ_API_URL")
         GROQ_API_KEY = os.getenv("GROQ_API_KEY")
-        self.api_key = api_key
-        self.api_endpoint = api_endpoint
+        self.api_key = GROQ_API_KEY
+        self.api_endpoint = GROQ_API_URL
 
     def analyze_image(self, image_base64: str, prompt: str) -> str:
 

@@ -34,6 +34,14 @@ class Player:
     cards: List[Card]
     score: int = 0
 
+    def __hash__(self):
+        return hash(self.name)
+    
+    def __eq__(self, other):
+        if not isinstance(other, Player):
+            return False
+        return self.name == other.name
+
 
 class DixitGame:
     def __init__(self, vision_api: VisionAPI):
@@ -45,8 +53,10 @@ class DixitGame:
 
     def load_deck(self, image_directory: str):
         for filename in os.listdir(image_directory):
-            if filename.endswith(('.jpg', '.png')):
+            if filename.endswith(('.jpeg', '.png')):
                 self.deck.append(Card(os.path.join(image_directory, filename)))
+        
+        # print(self.deck)
         random.shuffle(self.deck)
 
     def add_player(self, name: str):
@@ -68,7 +78,7 @@ class AIPlayer:
             base64_image = base64.b64encode(image_file.read()).decode('utf-8')
         return self.vision_api.analyze_image(
             base64_image,
-            "Generate a creative, metaphorical clue for this Dixit card that is neither too obvious nor too obscure."
+            "Generate a creative, metaphorical clue for this Dixit card that is neither too obvious nor too obscure. Use from 5 up to 50 words."
         )
 
     def select_matching_card(self, clue: str, hand: List[Card]) -> Card:
