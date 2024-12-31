@@ -1,13 +1,9 @@
 import os
 from dataclasses import dataclass
 from typing import List, Dict, Optional, Literal
-from abc import ABC, abstractmethod
 import random
 import base64
-from openai import OpenAI
-import anthropic
-import google.generativeai as genai
-import requests
+import time
 
 # from vision_models import ClaudeVision, GeminiVision, GrokVision, OpenAIVision, VisionAPI
 from vision_models.grok_vision import GrokVision
@@ -74,6 +70,10 @@ class AIPlayer:
         self.vision_api = vision_api
 
     def generate_clue(self, card_image: str) -> str:
+        time_delay = 5
+        print(f"Delaying {time_delay} seconds to avoid API's 429")
+        time.sleep(time_delay)
+
         with open(card_image, "rb") as image_file:
             base64_image = base64.b64encode(image_file.read()).decode('utf-8')
         return self.vision_api.analyze_image(
@@ -82,8 +82,12 @@ class AIPlayer:
         )
 
     def select_matching_card(self, clue: str, hand: List[Card]) -> Card:
+        time_delay = 5
+        
         scores = []
         for card in hand:
+            print(f"Delaying {time_delay} seconds to avoid API's 429")
+            time.sleep(time_delay)
             with open(card.image_path, "rb") as image_file:
                 base64_image = base64.b64encode(image_file.read()).decode('utf-8')
             response = self.vision_api.analyze_image(
