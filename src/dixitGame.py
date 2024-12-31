@@ -12,6 +12,9 @@ import requests
 # from vision_models import ClaudeVision, GeminiVision, GrokVision, OpenAIVision, VisionAPI
 from vision_models.grok_vision import GrokVision
 from vision_models.vision_API import VisionAPI
+from vision_models.claude_vision import ClaudeVision
+from vision_models.gemini_vision import GeminiVision
+from vision_models.openai_vision import OpenAIVision
 
 ModelType = Literal[
     "gpt-4-vision", 

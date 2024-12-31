@@ -1,4 +1,4 @@
-from vision_API import VisionAPI
+from vision_models.vision_API import VisionAPI
 from openai import OpenAI
 
 class OpenAIVision(VisionAPI):

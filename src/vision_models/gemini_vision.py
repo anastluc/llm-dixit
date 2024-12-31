@@ -1,5 +1,5 @@
 import base64
-from vision_API import VisionAPI
+from vision_models.vision_API import VisionAPI
 import os
 import google.generativeai as genai
 

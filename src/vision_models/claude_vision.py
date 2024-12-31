@@ -1,5 +1,5 @@
 import anthropic
-from vision_API import VisionAPI
+from vision_models.vision_API import VisionAPI
 
 class ClaudeVision(VisionAPI):
     def __init__(self, api_key: str, model: str):
