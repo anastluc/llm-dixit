@@ -11,11 +11,13 @@ from vision_models.claude_vision import ClaudeVision
 from vision_models.gemini_vision import GeminiVision
 from vision_models.openai_vision import OpenAIVision
 
+API_TIME_DELAY = 10
+
 MLLM_Provider = Literal[
     "openai",
     "anthropic", 
     "google", 
-    "grok-vision"]
+    "groq-vision"]
 
 @dataclass
 class Card:
@@ -66,9 +68,8 @@ class AIPlayer:
         self.vision_api = vision_api
 
     def generate_clue(self, card_image: str) -> str:
-        time_delay = 10
-        print(f"Delaying {time_delay} seconds to avoid API's 429")
-        time.sleep(time_delay)
+        print(f"Delaying {API_TIME_DELAY} seconds to avoid API's 429")
+        time.sleep(API_TIME_DELAY)
 
         with open(card_image, "rb") as image_file:
             base64_image = base64.b64encode(image_file.read()).decode('utf-8')
@@ -77,18 +78,16 @@ class AIPlayer:
             "Generate a creative, metaphorical clue for this Dixit card that is neither too obvious nor too obscure. Use from 5 up to 50 words."
         )
 
-    def select_matching_card(self, clue: str, hand: List[Card]) -> Card:
-        time_delay = 10
-        
+    def select_matching_card(self, clue: str, hand: List[Card]) -> Card:        
         scores = []
         for card in hand:
-            print(f"Delaying {time_delay} seconds to avoid API's 429")
-            time.sleep(time_delay)
+            print(f"Delaying {API_TIME_DELAY} seconds to avoid API's 429")
+            time.sleep(API_TIME_DELAY)
             with open(card.image_path, "rb") as image_file:
                 base64_image = base64.b64encode(image_file.read()).decode('utf-8')
             response = self.vision_api.analyze_image(
                 base64_image,
-                f"Rate how well this image matches the clue '{clue}' on a scale of 0-10."
+                f"Rate how well this image matches the clue '{clue}' on a scale of 0-10. Return just a number, nothing else"
             )
             try:
                 score = float(response.strip())
@@ -111,7 +110,7 @@ def create_vision_api(provider: MLLM_Provider, specific_model:str) -> VisionAPI:
 
 def play_game(
     image_directory: str,
-    ai_players,
+    players,
     max_number_of_rounds = 10,
     score_to_win = 30,
     **kwargs
@@ -120,10 +119,10 @@ def play_game(
 
     
     game = DixitGame()  # Initialize with first API
-    game.load_deck("data/original")
+    game.load_deck(image_directory)
     
-    ai_players = []
-    for i, api in enumerate(ai_players):
+    ai_players:List[AIPlayer] = []
+    for i, api in enumerate(players):
         player_name = f"AI_{api.__class__.__name__}_{i+1}"
         game.add_player(player_name)
         ai_players.append(AIPlayer(api))
@@ -138,12 +137,14 @@ def play_game(
         storyteller_card = random.choice(storyteller.cards)
         clue = ai_storyteller.generate_clue(storyteller_card.image_path)
         print(f"\n{storyteller.name} (Storyteller) gives clue: {clue}")
+        print(f"Storyteller selected card: {storyteller_card.image_path}")
         
         played_cards = {storyteller: storyteller_card}
         for player, ai in zip(game.players, ai_players):
             if player != storyteller:
                 matching_card = ai.select_matching_card(clue, player.cards)
                 played_cards[player] = matching_card
+                print(f"{player.name} played card: {matching_card.image_path}")
                 
         cards = list(played_cards.values())
         random.shuffle(cards)
@@ -153,17 +154,32 @@ def play_game(
             if player != storyteller:
                 vote = ai.select_matching_card(clue, cards)
                 votes[player] = vote
-                
+                print(f"{player.name} voted for card: {vote.image_path}")
+
+        # Count votes for storyteller's card
         storyteller_votes = sum(1 for v in votes.values() if v == storyteller_card)
+        
+        # Calculate scores for the round
         if storyteller_votes == 0 or storyteller_votes == len(game.players) - 1:
+            # All players except storyteller get 2 points
+            print("\nNo one or everyone found the storyteller's card!")
             for player in game.players:
                 if player != storyteller:
                     player.score += 2
         else:
+            # Storyteller and correct guessers get 3 points
             storyteller.score += 3
             for player, vote in votes.items():
                 if vote == storyteller_card:
                     player.score += 3
+                    print(f"{player.name} found the storyteller's card! (+3 points)")
+        
+        # Add points for players whose cards were voted for by others
+        for voter, voted_card in votes.items():
+            for player, played_card in played_cards.items():
+                if player != storyteller and voted_card == played_card and voter != player:
+                    player.score += 1
+                    print(f"{player.name} got a vote from {voter.name} for their card! (+1 point)")
                     
         print("\nScores:")
         for player in game.players:
@@ -175,8 +191,8 @@ def play_game(
     print(f"\nGame Over! Winner: {winner.name} with {winner.score} points")
 
 if __name__ == "__main__":
-    grok1 = create_vision_api("grok-vision", specific_model="llama-3.2-11b-vision-preview")
-    grok2 = create_vision_api("grok-vision", specific_model="llama-3.2-90b-vision-preview")
+    grok1 = create_vision_api("groq-vision", specific_model="llama-3.2-11b-vision-preview")
+    grok2 = create_vision_api("groq-vision", specific_model="llama-3.2-90b-vision-preview")
     claude1 = create_vision_api("antropic", specific_model="claude-3-opus")
     claude2 = create_vision_api("anthropic", specific_model="claude-3-sonnet")
     
@@ -184,26 +200,9 @@ if __name__ == "__main__":
     ai_players = [grok1, grok2, grok1, grok2]
 
     play_game(
-    image_directory="data/original",
-    ai_players = ai_players,
-    max_number_of_rounds = 10,
-    score_to_win = 30
-)
+        image_directory="data/original",
+        ai_players = ai_players,
+        max_number_of_rounds = 3,
+        score_to_win = 30
+    )
  
-# if __name__ == "__main__":
-#     # Create and run game for each player with their respective models
-#     grok1 = create_vision_api("grok-vision", specific_model="llama-3.2-11b-vision-preview")
-#     grok2 = create_vision_api("grok-vision", specific_model="llama-3.2-90b-vision-preview")
-#     claude1 = create_vision_api("antropic", specific_model="claude-3-opus")
-#     claude2 = create_vision_api("anthropic", specific_model="claude-3-sonnet")
-    
-#     # vision_apis = [grok1, grok2, claude1, claude2]
-#     vision_apis = [grok1, grok2, grok1, grok2]
-#     game = DixitGame(vision_apis[0])  # Initialize with first API
-#     game.load_deck("data/original")
-    
-#     ai_players = []
-#     for i, api in enumerate(vision_apis):
-#         player_name = f"AI_{api.__class__.__name__}_{i+1}"
-#         game.add_player(player_name)
-#         ai_players.append(AIPlayer(api))
