@@ -2,17 +2,28 @@ import requests
 from vision_models.vision_API import VisionAPI
 import os
 from dotenv import load_dotenv
+from typing import Literal
 
 class GrokVision(VisionAPI):
-    def __init__(self, api_key: str, api_endpoint: str):        
+    VALID_MODELS = Literal["llama-3.2-11b-vision-preview", "llama-3.2-90b-vision-preview"]
+    
+    def __init__(
+        self,
+        model: VALID_MODELS = "llama-3.2-90b-vision-preview"
+    ):        
         load_dotenv()
         GROQ_API_URL = os.getenv("GROQ_API_URL")
         GROQ_API_KEY = os.getenv("GROQ_API_KEY")
         self.api_key = GROQ_API_KEY
         self.api_endpoint = GROQ_API_URL
+        
+        if model not in ["llama-3.2-11b-vision-preview", "llama-3.2-90b-vision-preview"]:
+            raise ValueError(
+                f"Invalid model: {model}. Must be one of: llama-3.2-11b-vision-preview, llama-3.2-90b-vision-preview"
+            )
+        self.model = model
 
     def analyze_image(self, image_base64: str, prompt: str) -> str:
-
         messages = [
             {
                 "role": "user",
@@ -24,23 +35,19 @@ class GrokVision(VisionAPI):
         ]
 
         # Make API request
-        response = self.make_api_request("llama-3.2-90b-vision-preview", messages)
+        response = self.make_api_request(messages)
 
         if response.status_code != 200:
             raise Exception(f"API request failed with status code {response.status_code}")
         
         return response.json()["choices"][0]["message"]["content"]
-        # if response.status_code == 200:
-        #     content = response.json()["choices"][0]["message"]["content"]
-        #     return content
-        
 
-    def make_api_request(self, model: str, messages: list) -> requests.Response:
+    def make_api_request(self, messages: list) -> requests.Response:
         """Make request to Groq API."""
         return requests.post(
             self.api_endpoint,
             json={
-                "model": model,
+                "model": self.model,
                 "messages": messages,
                 "max_tokens": 1000
             },

@@ -5,19 +5,16 @@ import random
 import base64
 import time
 
-# from vision_models import ClaudeVision, GeminiVision, GrokVision, OpenAIVision, VisionAPI
 from vision_models.grok_vision import GrokVision
 from vision_models.vision_API import VisionAPI
 from vision_models.claude_vision import ClaudeVision
 from vision_models.gemini_vision import GeminiVision
 from vision_models.openai_vision import OpenAIVision
 
-ModelType = Literal[
-    "gpt-4-vision", 
-    "gpt-4-vision-preview", 
-    "claude-3-opus", 
-    "claude-3-sonnet", 
-    "gemini-pro-vision", 
+MLLM_Provider = Literal[
+    "openai",
+    "anthropic", 
+    "google", 
     "grok-vision"]
 
 @dataclass
@@ -40,8 +37,7 @@ class Player:
 
 
 class DixitGame:
-    def __init__(self, vision_api: VisionAPI):
-        self.vision_api = vision_api
+    def __init__(self):
         self.players: List[Player] = []
         self.current_round: Optional[int] = None
         self.deck: List[Card] = []
@@ -70,7 +66,7 @@ class AIPlayer:
         self.vision_api = vision_api
 
     def generate_clue(self, card_image: str) -> str:
-        time_delay = 5
+        time_delay = 10
         print(f"Delaying {time_delay} seconds to avoid API's 429")
         time.sleep(time_delay)
 
@@ -82,7 +78,7 @@ class AIPlayer:
         )
 
     def select_matching_card(self, clue: str, hand: List[Card]) -> Card:
-        time_delay = 5
+        time_delay = 10
         
         scores = []
         for card in hand:
@@ -101,42 +97,39 @@ class AIPlayer:
                 scores.append((0, card))
         return max(scores, key=lambda x: x[0])[1]
 
-def create_vision_api(model: ModelType, api_key: str, **kwargs) -> VisionAPI:
-    if model in ["gpt-4-vision", "gpt-4-vision-preview"]:
-        return OpenAIVision(api_key, model)
-    elif model in ["claude-3-opus", "claude-3-sonnet"]:
-        return ClaudeVision(api_key, model)
-    elif model == "gemini-pro-vision":
-        return GeminiVision(api_key)
-    elif model == "grok-vision":
-        GROQ_API_URL = os.getenv("GROQ_API_URL")
-        GROQ_API_URL = os.getenv("GROQ_API_KEY")
-        if not GROQ_API_URL:
-            raise ValueError("api_endpoint required for Grok Vision API")
-        return GrokVision(GROQ_API_URL, GROQ_API_URL)
+def create_vision_api(provider: MLLM_Provider, specific_model:str) -> VisionAPI:
+    if provider == "openai":
+        return OpenAIVision(specific_model)
+    elif provider == "anthropic":
+        return ClaudeVision(specific_model)
+    elif provider == "google":
+        return GeminiVision(specific_model)
+    elif provider == "groq-vision":
+        return GrokVision(specific_model)
     else:
-        raise ValueError(f"Unsupported model: {model}")
+        raise ValueError(f"Unsupported provider: {provider}")
 
 def play_game(
     image_directory: str,
-    model: ModelType,
-    api_key: str,
-    num_ai_players: int = 3,
+    ai_players,
+    max_number_of_rounds = 10,
+    score_to_win = 30,
     **kwargs
 ) -> None:
     
-    vision_api = create_vision_api(model, api_key, **kwargs)
-    game = DixitGame(vision_api)
-    game.load_deck(image_directory)
+
+    
+    game = DixitGame()  # Initialize with first API
+    game.load_deck("data/original")
     
     ai_players = []
-    for i in range(num_ai_players):
-        player_name = f"AI_Player_{i+1}"
+    for i, api in enumerate(ai_players):
+        player_name = f"AI_{api.__class__.__name__}_{i+1}"
         game.add_player(player_name)
-        ai_players.append(AIPlayer(vision_api))
+        ai_players.append(AIPlayer(api))
         
     rounds = 0
-    while rounds < 10 and any(p.score < 30 for p in game.players):
+    while rounds < max_number_of_rounds and any(p.score < score_to_win for p in game.players):
         print(f"\nRound {rounds + 1}")
         storyteller_idx = rounds % len(game.players)
         storyteller = game.players[storyteller_idx]
@@ -182,11 +175,35 @@ def play_game(
     print(f"\nGame Over! Winner: {winner.name} with {winner.score} points")
 
 if __name__ == "__main__":
+    grok1 = create_vision_api("grok-vision", specific_model="llama-3.2-11b-vision-preview")
+    grok2 = create_vision_api("grok-vision", specific_model="llama-3.2-90b-vision-preview")
+    claude1 = create_vision_api("antropic", specific_model="claude-3-opus")
+    claude2 = create_vision_api("anthropic", specific_model="claude-3-sonnet")
+    
+    # vision_apis = [grok1, grok2, claude1, claude2]
+    ai_players = [grok1, grok2, grok1, grok2]
+
     play_game(
     image_directory="data/original",
-    model="grok-vision",#"gpt-4-vision",  # or "claude-3-opus", "gemini-pro-vision", etc.
-    api_key="your_api_key",
-    num_ai_players=3,
-    api_endpoint="https://api.grok.com/vision"  # only needed for Grok
+    ai_players = ai_players,
+    max_number_of_rounds = 10,
+    score_to_win = 30
 )
  
+# if __name__ == "__main__":
+#     # Create and run game for each player with their respective models
+#     grok1 = create_vision_api("grok-vision", specific_model="llama-3.2-11b-vision-preview")
+#     grok2 = create_vision_api("grok-vision", specific_model="llama-3.2-90b-vision-preview")
+#     claude1 = create_vision_api("antropic", specific_model="claude-3-opus")
+#     claude2 = create_vision_api("anthropic", specific_model="claude-3-sonnet")
+    
+#     # vision_apis = [grok1, grok2, claude1, claude2]
+#     vision_apis = [grok1, grok2, grok1, grok2]
+#     game = DixitGame(vision_apis[0])  # Initialize with first API
+#     game.load_deck("data/original")
+    
+#     ai_players = []
+#     for i, api in enumerate(vision_apis):
+#         player_name = f"AI_{api.__class__.__name__}_{i+1}"
+#         game.add_player(player_name)
+#         ai_players.append(AIPlayer(api))
