@@ -12,15 +12,32 @@ class ClaudeVision(VisionAPI):
         
 
     def analyze_image(self, image_base64: str, prompt: str) -> str:
-        response = self.client.messages.create(
+        message = self.client.messages.create(
             model=self.model,
-            max_tokens=50,
-            messages=[{
-                "role": "user",
-                "content": [
-                    {"type": "text", "text": prompt},
-                    {"type": "image", "source": {"type": "base64", "media_type": "image/jpeg", "data": image_base64}}
-                ]
-            }]
+            max_tokens=100,
+            temperature=0,
+            messages=[
+                {
+                    "role": "user",
+                    "content": [
+                        {
+                            "type": "text",
+                            "text": f"{prompt}<image>"
+                        },
+                        {
+                            "type": "image",
+                            "source": {
+                                "type": "base64",
+                                "media_type": "image/jpeg",
+                                "data": image_base64
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "text": "</image>"
+                        }
+                    ]
+                }
+            ]
         )
-        return response.content[0].text
+        return message.content[0].text

@@ -1,0 +1,98 @@
+[
+  {
+    "round": 1,
+    "storyteller": "AI_GrokVision_1",
+    "clue": "A duo of scientists brews their best elixirs, unaware of their own concoction.",
+    "storyteller_card": "data/original/11.jpeg",
+    "played_cards": {
+      "AI_GrokVision_2": "data/original/27.jpeg",
+      "AI_GrokVision_3": "data/original/10.jpeg"
+    },
+    "votes": {
+      "AI_GrokVision_2": "data/original/27.jpeg",
+      "AI_GrokVision_3": "data/original/11.jpeg"
+    },
+    "storyteller_votes": 1,
+    "score_changes": {
+      "AI_GrokVision_1": 3,
+      "AI_GrokVision_3": 3
+    },
+    "current_scores": {
+      "AI_GrokVision_1": 3,
+      "AI_GrokVision_2": 0,
+      "AI_GrokVision_3": 3
+    }
+  },
+  {
+    "round": 2,
+    "storyteller": "AI_GrokVision_2",
+    "clue": "**Poetic Description:**\n\"Threads of destiny intertwining, a dance of paths diverging and merging.\"\n\n**Analysis:**\n\n*   The image features a white background with blue lines forming a web-like pattern.\n*   Orange leaves are scattered within the web.\n*   The poetic description captures the essence of the image by likening the lines to \"threads of destiny,\" suggesting the interconnectedness of paths in life.\n*   The phrase \"diverging and merging\" reflects the dynamic nature of these paths as they intersect and separate, much like the lines in the image.\n*   The use of \"dance\" adds a sense of movement and fluidity, implying that the connections between paths are not static but dynamic and ever-changing.\\*   Overall, the poetic description invites the viewer to consider the image as a metaphor for the complexities and interconnectedness of life's journey.",
+    "storyteller_card": "data/original/22.jpeg",
+    "played_cards": {
+      "AI_GrokVision_1": "data/original/21.jpeg",
+      "AI_GrokVision_3": "data/original/44.jpeg"
+    },
+    "votes": {
+      "AI_GrokVision_1": "data/original/21.jpeg",
+      "AI_GrokVision_3": "data/original/44.jpeg"
+    },
+    "storyteller_votes": 0,
+    "score_changes": {
+      "AI_GrokVision_1": 2,
+      "AI_GrokVision_3": 2
+    },
+    "current_scores": {
+      "AI_GrokVision_1": 5,
+      "AI_GrokVision_2": 0,
+      "AI_GrokVision_3": 5
+    }
+  },
+  {
+    "round": 3,
+    "storyteller": "AI_GrokVision_3",
+    "clue": "Lacking freedom as fish are stuck in a birdcage, but not trapped at all.",
+    "storyteller_card": "data/original/9.jpeg",
+    "played_cards": {
+      "AI_GrokVision_1": "data/original/36.jpeg",
+      "AI_GrokVision_2": "data/original/27.jpeg"
+    },
+    "votes": {
+      "AI_GrokVision_1": "data/original/36.jpeg",
+      "AI_GrokVision_2": "data/original/9.jpeg"
+    },
+    "storyteller_votes": 1,
+    "score_changes": {
+      "AI_GrokVision_3": 3,
+      "AI_GrokVision_2": 3
+    },
+    "current_scores": {
+      "AI_GrokVision_1": 5,
+      "AI_GrokVision_2": 3,
+      "AI_GrokVision_3": 8
+    }
+  },
+  {
+    "round": 4,
+    "storyteller": "AI_GrokVision_1",
+    "clue": "\"This place holds a secret, and an imp waits at the mouth.\"",
+    "storyteller_card": "data/original/17.jpeg",
+    "played_cards": {
+      "AI_GrokVision_2": "data/original/22.jpeg",
+      "AI_GrokVision_3": "data/original/7.jpeg"
+    },
+    "votes": {
+      "AI_GrokVision_2": "data/original/7.jpeg",
+      "AI_GrokVision_3": "data/original/22.jpeg"
+    },
+    "storyteller_votes": 0,
+    "score_changes": {
+      "AI_GrokVision_2": 3,
+      "AI_GrokVision_3": 3
+    },
+    "current_scores": {
+      "AI_GrokVision_1": 5,
+      "AI_GrokVision_2": 6,
+      "AI_GrokVision_3": 11
+    }
+  }
+]

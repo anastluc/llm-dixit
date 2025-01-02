@@ -1,0 +1,234 @@
+[
+  {
+    "round": 1,
+    "storyteller": "AI_GrokVision_1",
+    "clue": "If life felt like two paths, and one was a maze of mirrors, what would you choose?",
+    "storyteller_card": "data/original/32.jpeg",
+    "played_cards": {
+      "AI_GrokVision_2": {
+        "selected_card": "data/original/40.jpeg",
+        "card_scores": {
+          "data/original/13.jpeg": 4.0,
+          "data/original/33.jpeg": 4.0,
+          "data/original/40.jpeg": 8.0,
+          "data/original/28.jpeg": 6.0,
+          "data/original/3.jpeg": 7.0,
+          "data/original/39.jpeg": 8.0
+        }
+      },
+      "AI_GrokVision_3": {
+        "selected_card": "data/original/24.jpeg",
+        "card_scores": {
+          "data/original/24.jpeg": 8.0,
+          "data/original/12.jpeg": 1.0,
+          "data/original/18.jpeg": 8.0,
+          "data/original/26.jpeg": 6.0,
+          "data/original/2.jpeg": 6.0,
+          "data/original/46.jpeg": 6.0
+        }
+      }
+    },
+    "votes": {
+      "AI_GrokVision_2": {
+        "selected_card": "data/original/24.jpeg",
+        "card_scores": {
+          "data/original/24.jpeg": 8.0,
+          "data/original/40.jpeg": 7.0,
+          "data/original/32.jpeg": 6.0
+        }
+      },
+      "AI_GrokVision_3": {
+        "selected_card": "data/original/32.jpeg",
+        "card_scores": {
+          "data/original/24.jpeg": 6.0,
+          "data/original/40.jpeg": 5.0,
+          "data/original/32.jpeg": 8.0
+        }
+      }
+    },
+    "storyteller_votes": 1,
+    "score_changes": {
+      "AI_GrokVision_1": 3,
+      "AI_GrokVision_3": 4
+    },
+    "current_scores": {
+      "AI_GrokVision_1": 3,
+      "AI_GrokVision_2": 0,
+      "AI_GrokVision_3": 4
+    }
+  },
+  {
+    "round": 2,
+    "storyteller": "AI_GrokVision_2",
+    "clue": "**Interpreting the Scene**\n\n* The image shows a person trapped in a room, surrounded by personal items and clutter.\n* Two balls and chains are attached to the person's wrists.\n\n**A Symbolic Representation**\n\n* The room's confines serve as a metaphor for the human experience, with the person's space mirroring the complexities of their own mind.\n* The presence of clutter and the balls and chains can signify the burdens and weight of one's thoughts and emotions.\n* The image captures the struggle to find freedom amidst life's various constraints.",
+    "storyteller_card": "data/original/40.jpeg",
+    "played_cards": {
+      "AI_GrokVision_1": {
+        "selected_card": "data/original/17.jpeg",
+        "card_scores": {
+          "data/original/25.jpeg": 6.0,
+          "data/original/44.jpeg": 7.0,
+          "data/original/32.jpeg": 8.0,
+          "data/original/34.jpeg": 7.0,
+          "data/original/17.jpeg": 9.2,
+          "data/original/19.jpeg": 2.0
+        }
+      },
+      "AI_GrokVision_3": {
+        "selected_card": "data/original/18.jpeg",
+        "card_scores": {
+          "data/original/24.jpeg": 6.0,
+          "data/original/12.jpeg": 0.0,
+          "data/original/18.jpeg": 7.0,
+          "data/original/26.jpeg": 6.0,
+          "data/original/2.jpeg": 0.0,
+          "data/original/46.jpeg": 6.0
+        }
+      }
+    },
+    "votes": {
+      "AI_GrokVision_1": {
+        "selected_card": "data/original/40.jpeg",
+        "card_scores": {
+          "data/original/40.jpeg": 8.0,
+          "data/original/18.jpeg": 6.0,
+          "data/original/17.jpeg": 3.0
+        }
+      },
+      "AI_GrokVision_3": {
+        "selected_card": "data/original/40.jpeg",
+        "card_scores": {
+          "data/original/40.jpeg": 8.0,
+          "data/original/18.jpeg": 2.0,
+          "data/original/17.jpeg": 5.0
+        }
+      }
+    },
+    "storyteller_votes": 2,
+    "score_changes": {
+      "AI_GrokVision_1": 2,
+      "AI_GrokVision_3": 2
+    },
+    "current_scores": {
+      "AI_GrokVision_1": 5,
+      "AI_GrokVision_2": 0,
+      "AI_GrokVision_3": 6
+    }
+  },
+  {
+    "round": 3,
+    "storyteller": "AI_GrokVision_3",
+    "clue": "To reach your dais, ascend the ladder of love and fly.",
+    "storyteller_card": "data/original/46.jpeg",
+    "played_cards": {
+      "AI_GrokVision_1": {
+        "selected_card": "data/original/34.jpeg",
+        "card_scores": {
+          "data/original/25.jpeg": 3.0,
+          "data/original/44.jpeg": 0.0,
+          "data/original/32.jpeg": 6.0,
+          "data/original/34.jpeg": 8.0,
+          "data/original/17.jpeg": 6.0,
+          "data/original/19.jpeg": 6.0
+        }
+      },
+      "AI_GrokVision_2": {
+        "selected_card": "data/original/28.jpeg",
+        "card_scores": {
+          "data/original/13.jpeg": 6.0,
+          "data/original/33.jpeg": 0.0,
+          "data/original/40.jpeg": 6.0,
+          "data/original/28.jpeg": 9.0,
+          "data/original/3.jpeg": 0,
+          "data/original/39.jpeg": 6.0
+        }
+      }
+    },
+    "votes": {
+      "AI_GrokVision_1": {
+        "selected_card": "data/original/46.jpeg",
+        "card_scores": {
+          "data/original/34.jpeg": 0.0,
+          "data/original/46.jpeg": 6.0,
+          "data/original/28.jpeg": 2.0
+        }
+      },
+      "AI_GrokVision_2": {
+        "selected_card": "data/original/34.jpeg",
+        "card_scores": {
+          "data/original/34.jpeg": 8.0,
+          "data/original/46.jpeg": 8.0,
+          "data/original/28.jpeg": 8.0
+        }
+      }
+    },
+    "storyteller_votes": 1,
+    "score_changes": {
+      "AI_GrokVision_3": 3,
+      "AI_GrokVision_1": 4
+    },
+    "current_scores": {
+      "AI_GrokVision_1": 9,
+      "AI_GrokVision_2": 0,
+      "AI_GrokVision_3": 9
+    }
+  },
+  {
+    "round": 4,
+    "storyteller": "AI_GrokVision_1",
+    "clue": "\"Travel cards hold memories and ideas. Be creative.\" \n\nThis Dixit card appears to have travel and memory ideas related to it. Dixit is a creative card game in which players try to guess the inspiration behind another player's card. The cards have an abstract design that may resemble a common topic or idea. The Dixit card in the image appears to have a space station and an alien figure. It is difficult to develop a clue that requires different answers or provide a creative way to guess the inspiration of this card. Therefore, this idea was developed to challenge the player of thought and creativity.\n\nLet me know if you need help with anything else.",
+    "storyteller_card": "data/original/34.jpeg",
+    "played_cards": {
+      "AI_GrokVision_2": {
+        "selected_card": "data/original/13.jpeg",
+        "card_scores": {
+          "data/original/13.jpeg": 8.0,
+          "data/original/33.jpeg": 0,
+          "data/original/40.jpeg": 7.0,
+          "data/original/28.jpeg": 8.0,
+          "data/original/3.jpeg": 0.0,
+          "data/original/39.jpeg": 6.0
+        }
+      },
+      "AI_GrokVision_3": {
+        "selected_card": "data/original/12.jpeg",
+        "card_scores": {
+          "data/original/24.jpeg": 1.0,
+          "data/original/12.jpeg": 8.0,
+          "data/original/18.jpeg": 8.0,
+          "data/original/26.jpeg": 7.0,
+          "data/original/2.jpeg": 8.0,
+          "data/original/46.jpeg": 2.0
+        }
+      }
+    },
+    "votes": {
+      "AI_GrokVision_2": {
+        "selected_card": "data/original/12.jpeg",
+        "card_scores": {
+          "data/original/12.jpeg": 8.0,
+          "data/original/34.jpeg": 8.0,
+          "data/original/13.jpeg": 8.0
+        }
+      },
+      "AI_GrokVision_3": {
+        "selected_card": "data/original/13.jpeg",
+        "card_scores": {
+          "data/original/12.jpeg": 7.0,
+          "data/original/34.jpeg": 4.0,
+          "data/original/13.jpeg": 9.0
+        }
+      }
+    },
+    "storyteller_votes": 0,
+    "score_changes": {
+      "AI_GrokVision_2": 3,
+      "AI_GrokVision_3": 3
+    },
+    "current_scores": {
+      "AI_GrokVision_1": 9,
+      "AI_GrokVision_2": 3,
+      "AI_GrokVision_3": 12
+    }
+  }
+]
