@@ -4,8 +4,9 @@ import os
 from dotenv import load_dotenv
 from typing import Literal
 import base64
+import time
 
-class GrokVision(VisionAPI):
+class GroqVision(VisionAPI):
     VALID_MODELS = Literal["llama-3.2-11b-vision-preview", "llama-3.2-90b-vision-preview"]
     
     def __init__(
@@ -23,6 +24,7 @@ class GrokVision(VisionAPI):
                 f"Invalid model: {model}. Must be one of: llama-3.2-11b-vision-preview, llama-3.2-90b-vision-preview"
             )
         self.model = model
+        self.API_TIME_DELAY = 7
 
 
     def encode_image(self, card_image):
@@ -33,6 +35,8 @@ class GrokVision(VisionAPI):
     
     def analyze_image(self, image_path: str, prompt: str) -> str:
 
+        print(f"Delaying {self.API_TIME_DELAY} seconds to avoid API's throttling")
+        time.sleep(self.API_TIME_DELAY)
         image_base64 = self.encode_image(image_path)
         messages = [
             {

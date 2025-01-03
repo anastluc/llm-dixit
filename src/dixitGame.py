@@ -4,11 +4,12 @@ from typing import List, Dict, Optional, Literal
 import random
 import time
 
-from vision_models.grok_vision import GrokVision
+from vision_models.groq_vision import GroqVision
 from vision_models.vision_API import VisionAPI
 from vision_models.claude_vision import ClaudeVision
 from vision_models.gemini_vision import GeminiVision
 from vision_models.openai_vision import OpenAIVision
+from vision_models.xai_vision import XAI_Vision
 
 import os
 from dataclasses import dataclass
@@ -25,7 +26,8 @@ MLLM_Provider = Literal[
     "openai",
     "anthropic", 
     "google", 
-    "groq-vision"]
+    "groq-vision",
+    "xai"]
 
 @dataclass
 class Card:
@@ -109,7 +111,9 @@ def create_vision_api(provider: MLLM_Provider, specific_model:str) -> VisionAPI:
     elif provider == "google":
         return GeminiVision(specific_model)
     elif provider == "groq-vision":
-        return GrokVision(specific_model)
+        return GroqVision(specific_model)
+    elif provider == "xai":
+        return XAI_Vision(specific_model)
     else:
         raise ValueError(f"Unsupported provider: {provider}")
 
@@ -234,8 +238,8 @@ def play_game(
     print(f"\nGame log saved to: {final_log_path}")
 
 if __name__ == "__main__":
-    grok1 = create_vision_api("groq-vision", specific_model="llama-3.2-11b-vision-preview")
-    grok2 = create_vision_api("groq-vision", specific_model="llama-3.2-90b-vision-preview")
+    groq1 = create_vision_api("groq-vision", specific_model="llama-3.2-11b-vision-preview")
+    groq2 = create_vision_api("groq-vision", specific_model="llama-3.2-90b-vision-preview")
 
     claude1 = create_vision_api("anthropic", specific_model="claude-3-opus-20240229")
     claude2 = create_vision_api("anthropic", specific_model="claude-3-5-sonnet-20241022")
@@ -246,22 +250,33 @@ if __name__ == "__main__":
     gemini1 = create_vision_api("google","gemini-1.5-flash-8b")
     gemini2 = create_vision_api("google","gemini-2.0-flash-exp")
     gemini3 = create_vision_api("google","gemini-2.0-flash-thinking-exp-1219")
+
+    grok1 = create_vision_api("xai",specific_model="grok-vision-beta")
+    grok2 = create_vision_api("xai",specific_model="grok-2-vision-1212")
     
     # vision_apis = [grok1, grok2, claude1, claude2]
-    ai_players = [claude1, grok1, grok2, claude2, open1, open2]
+    ai_players = [claude1, groq1, groq2, claude2, open1, open2]
     # ai_players = [grok1, grok2, grok1]
 
-    ai_players = [claude1, grok1, grok2, claude2, open1, open2]
+    ai_players = [claude1, groq1, groq2, claude2, open1, open2]
 
     random.shuffle(ai_players)
 
-    ai_players = [grok1, grok2, claude1, claude2, open1, open2, gemini1, gemini2, gemini3]
+    ai_players = [groq1, groq2, claude1, claude2, open1, open2, gemini1, gemini2, gemini3]
     random.sample(ai_players, 6)
+
+    # ai_players = [gemini1, gemini2 , grok1, claude1, open2, gemini3, gemini2, gemini1]
+
+    # gemini is playing gemini !
+    ai_players = [gemini1, gemini2 , gemini3, gemini1, gemini2 , gemini3]
+
+    # everybody!
+    # ai_players = [ groq1, groq2, claude1,claude2, open1,open2, gemini1,gemini2,gemini3, grok1, grok2] 
 
     play_game(
         image_directory="data/original",
         players = ai_players,
-        max_number_of_rounds = 5,
+        max_number_of_rounds = 3,
         score_to_win = 30
     )
  
