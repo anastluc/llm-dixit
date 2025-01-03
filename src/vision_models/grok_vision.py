@@ -3,6 +3,7 @@ from vision_models.vision_API import VisionAPI
 import os
 from dotenv import load_dotenv
 from typing import Literal
+import base64
 
 class GrokVision(VisionAPI):
     VALID_MODELS = Literal["llama-3.2-11b-vision-preview", "llama-3.2-90b-vision-preview"]
@@ -23,7 +24,16 @@ class GrokVision(VisionAPI):
             )
         self.model = model
 
-    def analyze_image(self, image_base64: str, prompt: str) -> str:
+
+    def encode_image(self, card_image):
+        with open(card_image, "rb") as image_file:
+            base64_image = base64.b64encode(image_file.read()).decode('utf-8')
+        
+        return base64_image
+    
+    def analyze_image(self, image_path: str, prompt: str) -> str:
+
+        image_base64 = self.encode_image(image_path)
         messages = [
             {
                 "role": "user",

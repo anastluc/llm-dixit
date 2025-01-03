@@ -2,15 +2,18 @@ import base64
 from vision_models.vision_API import VisionAPI
 import os
 import google.generativeai as genai
-
+from dotenv import load_dotenv
 
 class GeminiVision(VisionAPI):
-    def __init__(self, api_key: str):
-        genai.configure(api_key=api_key)
+    def __init__(self, model: str):
+        load_dotenv()
         genai.configure(api_key=os.environ["GEMINI_API_KEY"])
-        self.model = genai.GenerativeModel('gemini-pro-vision')
+        self.model = genai.GenerativeModel(model)
 
-    def analyze_image(self, image_base64: str, prompt: str) -> str:
+    
+        
+
+    def analyze_image(self, image_path: str, prompt: str) -> str:
         # image_data = base64.b64decode(image_base64)
         # response = self.model.generate_content([prompt, {"mime_type": "image/jpeg", "data": image_data}])
         # return response.text
@@ -20,16 +23,16 @@ class GeminiVision(VisionAPI):
         "temperature": 1,
         "top_p": 0.95,
         "top_k": 40,
-        "max_output_tokens": 8192,
+        "max_output_tokens": 50,
         "response_mime_type": "text/plain",
         }
 
         model = genai.GenerativeModel(
-            model_name="gemini-2.0-flash-exp",
+            model_name=self.model,
             generation_config=generation_config,
         )
         files = [
-            self.upload_to_gemini("", mime_type="image/png"),
+            self.upload_to_gemini(image_path, mime_type="image/jpeg"),
             ]
         
         chat_session = model.start_chat(

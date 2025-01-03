@@ -2,7 +2,6 @@ import os
 from dataclasses import dataclass
 from typing import List, Dict, Optional, Literal
 import random
-import base64
 import time
 
 from vision_models.grok_vision import GrokVision
@@ -82,11 +81,9 @@ class AIPlayer:
         print(f"Delaying {API_TIME_DELAY} seconds to avoid API's throttling")
         time.sleep(API_TIME_DELAY)
 
-        with open(card_image, "rb") as image_file:
-            base64_image = base64.b64encode(image_file.read()).decode('utf-8')
         return self.vision_api.analyze_image(
-            base64_image,
-            "Generate a creative, metaphorical clue for this Dixit card that is neither too obvious nor too obscure. Use from 2 up to 15 words."
+            image_path =card_image,#base64_image,
+            prompt = "Generate a creative, metaphorical clue for this Dixit card that is neither too obvious nor too obscure. Use from 2 up to 15 words."
         )
 
     def select_matching_card(self, clue: str, hand: List[Card]) -> tuple[Card, Dict[str, float]]:        
@@ -94,10 +91,9 @@ class AIPlayer:
         for card in hand:
             print(f"Delaying {API_TIME_DELAY} seconds to avoid API's throttling")
             time.sleep(API_TIME_DELAY)
-            with open(card.image_path, "rb") as image_file:
-                base64_image = base64.b64encode(image_file.read()).decode('utf-8')
+            
             response = self.vision_api.analyze_image(
-                base64_image,
+                card.image_path,
                 f"Rate how well this image matches the clue '{clue}' on a scale of 0-10. Return just a number, nothing else"
             )
             try:
@@ -252,12 +248,21 @@ if __name__ == "__main__":
 
     open1 = create_vision_api("openai", specific_model="gpt-4o")
     open2 = create_vision_api("openai", specific_model="gpt-4o-mini")
+
+    gemini1 = create_vision_api("google","gemini-1.5-flash-8b")
+    gemini2 = create_vision_api("google","gemini-2.0-flash-exp")
+    gemini3 = create_vision_api("google","gemini-2.0-flash-thinking-exp-1219")
     
     # vision_apis = [grok1, grok2, claude1, claude2]
     ai_players = [claude1, grok1, grok2, claude3, open1, open2]
     # ai_players = [grok1, grok2, grok1]
 
+    ai_players = [claude1, grok1, grok2, claude3, open1, open2]
+
     random.shuffle(ai_players)
+
+    ai_players = [grok1, grok2, claude1, claude3, open1, open2, gemini1, gemini2, gemini3]
+    random.sample(ai_players, 6)
 
     play_game(
         image_directory="data/original",

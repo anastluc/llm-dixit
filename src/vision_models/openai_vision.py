@@ -2,6 +2,7 @@ from vision_models.vision_API import VisionAPI
 from openai import OpenAI
 from dotenv import load_dotenv
 import os
+import base64
 
 class OpenAIVision(VisionAPI):
     def __init__(self, model: str):
@@ -10,7 +11,16 @@ class OpenAIVision(VisionAPI):
         self.client = OpenAI(api_key=api_key)
         self.model = model
 
-    def analyze_image(self, image_base64: str, prompt: str) -> str:
+    def encode_image(self, card_image):
+        with open(card_image, "rb") as image_file:
+            base64_image = base64.b64encode(image_file.read()).decode('utf-8')
+        
+        return base64_image
+    
+    def analyze_image(self, image_path: str, prompt: str) -> str:
+
+        image_base64 = self.encode_image(image_path)
+
         response = self.client.chat.completions.create(
             model=self.model,
             messages=[
@@ -24,7 +34,7 @@ class OpenAIVision(VisionAPI):
                     {
                     "type": "image_url",
                     "image_url": {
-                        "url": f"\"data:image/jpeg;base64,{image_base64}\""
+                        "url": f"data:image/jpeg;base64,{image_base64}"
                     }
                     }
                 ]
