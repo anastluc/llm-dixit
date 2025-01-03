@@ -20,6 +20,8 @@ import time
 import json
 from datetime import datetime
 
+import random
+
 API_TIME_DELAY = 7
 
 MLLM_Provider = Literal[
@@ -245,17 +247,22 @@ if __name__ == "__main__":
     grok1 = create_vision_api("groq-vision", specific_model="llama-3.2-11b-vision-preview")
     grok2 = create_vision_api("groq-vision", specific_model="llama-3.2-90b-vision-preview")
     claude1 = create_vision_api("anthropic", specific_model="claude-3-opus-20240229")
-    claude2 = create_vision_api("anthropic", specific_model="claude-3-5-haiku-20241022")
+    # claude2 = create_vision_api("anthropic", specific_model="claude-3-5-haiku-20241022")
     claude3 = create_vision_api("anthropic", specific_model="claude-3-5-sonnet-20241022")
+
+    open1 = create_vision_api("openai", specific_model="gpt-4o")
+    open2 = create_vision_api("openai", specific_model="gpt-4o-mini")
     
     # vision_apis = [grok1, grok2, claude1, claude2]
-    # ai_players = [claude1, grok1, claude2, claude3, grok2]
-    ai_players = [grok1, grok2, grok1]
+    ai_players = [claude1, grok1, grok2, claude3, open1, open2]
+    # ai_players = [grok1, grok2, grok1]
+
+    random.shuffle(ai_players)
 
     play_game(
         image_directory="data/original",
         players = ai_players,
-        max_number_of_rounds = 4,
+        max_number_of_rounds = 5,
         score_to_win = 30
     )
  
