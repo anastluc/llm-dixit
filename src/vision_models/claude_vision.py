@@ -3,6 +3,7 @@ from vision_models.vision_API import VisionAPI
 from dotenv import load_dotenv
 import os
 import base64 
+import time
 
 class ClaudeVision(VisionAPI):
     def __init__(self, model: str):
@@ -10,6 +11,8 @@ class ClaudeVision(VisionAPI):
         load_dotenv()
         api_key = os.getenv("ANTHROPIC_API_KEY")
         self.client = anthropic.Client(api_key=api_key)
+
+        self.API_TIME_DELAY = 7
         
 
     def encode_image(self, card_image):
@@ -19,6 +22,8 @@ class ClaudeVision(VisionAPI):
         return base64_image
     
     def analyze_image(self, image_path: str, prompt: str) -> str:
+        print(f"Delaying {self.API_TIME_DELAY} seconds to avoid API's throttling")
+        time.sleep(self.API_TIME_DELAY)
 
         image_base64 = self.encode_image(image_path)
         message = self.client.messages.create(

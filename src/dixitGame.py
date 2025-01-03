@@ -21,8 +21,6 @@ from datetime import datetime
 
 import random
 
-API_TIME_DELAY = 7
-
 MLLM_Provider = Literal[
     "openai",
     "anthropic", 
@@ -78,8 +76,6 @@ class AIPlayer:
         self.vision_api = vision_api
 
     def generate_clue(self, card_image: str) -> str:
-        print(f"Delaying {API_TIME_DELAY} seconds to avoid API's throttling")
-        time.sleep(API_TIME_DELAY)
 
         return self.vision_api.analyze_image(
             image_path =card_image,#base64_image,
@@ -89,8 +85,6 @@ class AIPlayer:
     def select_matching_card(self, clue: str, hand: List[Card]) -> tuple[Card, Dict[str, float]]:        
         scores = {}
         for card in hand:
-            print(f"Delaying {API_TIME_DELAY} seconds to avoid API's throttling")
-            time.sleep(API_TIME_DELAY)
             
             response = self.vision_api.analyze_image(
                 card.image_path,
@@ -242,9 +236,9 @@ def play_game(
 if __name__ == "__main__":
     grok1 = create_vision_api("groq-vision", specific_model="llama-3.2-11b-vision-preview")
     grok2 = create_vision_api("groq-vision", specific_model="llama-3.2-90b-vision-preview")
+
     claude1 = create_vision_api("anthropic", specific_model="claude-3-opus-20240229")
-    # claude2 = create_vision_api("anthropic", specific_model="claude-3-5-haiku-20241022")
-    claude3 = create_vision_api("anthropic", specific_model="claude-3-5-sonnet-20241022")
+    claude2 = create_vision_api("anthropic", specific_model="claude-3-5-sonnet-20241022")
 
     open1 = create_vision_api("openai", specific_model="gpt-4o")
     open2 = create_vision_api("openai", specific_model="gpt-4o-mini")
@@ -254,14 +248,14 @@ if __name__ == "__main__":
     gemini3 = create_vision_api("google","gemini-2.0-flash-thinking-exp-1219")
     
     # vision_apis = [grok1, grok2, claude1, claude2]
-    ai_players = [claude1, grok1, grok2, claude3, open1, open2]
+    ai_players = [claude1, grok1, grok2, claude2, open1, open2]
     # ai_players = [grok1, grok2, grok1]
 
-    ai_players = [claude1, grok1, grok2, claude3, open1, open2]
+    ai_players = [claude1, grok1, grok2, claude2, open1, open2]
 
     random.shuffle(ai_players)
 
-    ai_players = [grok1, grok2, claude1, claude3, open1, open2, gemini1, gemini2, gemini3]
+    ai_players = [grok1, grok2, claude1, claude2, open1, open2, gemini1, gemini2, gemini3]
     random.sample(ai_players, 6)
 
     play_game(
