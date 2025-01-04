@@ -1,0 +1,409 @@
+[
+  {
+    "round": 1,
+    "storyteller": "AI_GeminiVision_1",
+    "clue": "A whispered secret, held in the heart.\n",
+    "storyteller_card": "data/original/26.jpeg",
+    "played_cards": {
+      "AI_GeminiVision_2": {
+        "selected_card": "data/original/45.jpeg",
+        "card_scores": {
+          "data/original/17.jpeg": 7.0,
+          "data/original/48.jpeg": 2.0,
+          "data/original/1.jpeg": 7.0,
+          "data/original/45.jpeg": 8.0,
+          "data/original/14.jpeg": 2.0,
+          "data/original/3.jpeg": 3.0
+        }
+      },
+      "AI_GeminiVision_3": {
+        "selected_card": "data/original/8.jpeg",
+        "card_scores": {
+          "data/original/8.jpeg": 0,
+          "data/original/38.jpeg": 0,
+          "data/original/12.jpeg": 0,
+          "data/original/9.jpeg": 0,
+          "data/original/27.jpeg": 0,
+          "data/original/41.jpeg": 0
+        }
+      },
+      "AI_GeminiVision_4": {
+        "selected_card": "data/original/29.jpeg",
+        "card_scores": {
+          "data/original/37.jpeg": 6.0,
+          "data/original/29.jpeg": 7.0,
+          "data/original/35.jpeg": 6.0,
+          "data/original/25.jpeg": 6.0,
+          "data/original/31.jpeg": 6.0,
+          "data/original/24.jpeg": 6.0
+        }
+      },
+      "AI_GeminiVision_5": {
+        "selected_card": "data/original/19.jpeg",
+        "card_scores": {
+          "data/original/19.jpeg": 9.0,
+          "data/original/5.jpeg": 3.0,
+          "data/original/4.jpeg": 8.0,
+          "data/original/18.jpeg": 8.0,
+          "data/original/28.jpeg": 2.0,
+          "data/original/47.jpeg": 9.0
+        }
+      },
+      "AI_GeminiVision_6": {
+        "selected_card": "data/original/43.jpeg",
+        "card_scores": {
+          "data/original/43.jpeg": 0,
+          "data/original/22.jpeg": 0,
+          "data/original/16.jpeg": 0,
+          "data/original/34.jpeg": 0,
+          "data/original/23.jpeg": 0,
+          "data/original/2.jpeg": 0
+        }
+      }
+    },
+    "votes": {
+      "AI_GeminiVision_2": {
+        "selected_card": "data/original/45.jpeg",
+        "card_scores": {
+          "data/original/8.jpeg": 7.0,
+          "data/original/19.jpeg": 6.0,
+          "data/original/26.jpeg": 7.0,
+          "data/original/29.jpeg": 7.0,
+          "data/original/43.jpeg": 3.0,
+          "data/original/45.jpeg": 8.0
+        }
+      },
+      "AI_GeminiVision_3": {
+        "selected_card": "data/original/8.jpeg",
+        "card_scores": {
+          "data/original/8.jpeg": 0,
+          "data/original/19.jpeg": 0,
+          "data/original/26.jpeg": 0,
+          "data/original/29.jpeg": 0,
+          "data/original/43.jpeg": 0,
+          "data/original/45.jpeg": 0
+        }
+      },
+      "AI_GeminiVision_4": {
+        "selected_card": "data/original/19.jpeg",
+        "card_scores": {
+          "data/original/8.jpeg": 6.0,
+          "data/original/19.jpeg": 7.0,
+          "data/original/26.jpeg": 6.0,
+          "data/original/29.jpeg": 6.0,
+          "data/original/43.jpeg": 6.0,
+          "data/original/45.jpeg": 7.0
+        }
+      },
+      "AI_GeminiVision_5": {
+        "selected_card": "data/original/45.jpeg",
+        "card_scores": {
+          "data/original/8.jpeg": 2.0,
+          "data/original/19.jpeg": 8.0,
+          "data/original/26.jpeg": 7.0,
+          "data/original/29.jpeg": 7.0,
+          "data/original/43.jpeg": 0.0,
+          "data/original/45.jpeg": 9.0
+        }
+      },
+      "AI_GeminiVision_6": {
+        "selected_card": "data/original/8.jpeg",
+        "card_scores": {
+          "data/original/8.jpeg": 0,
+          "data/original/19.jpeg": 0,
+          "data/original/26.jpeg": 0,
+          "data/original/29.jpeg": 0,
+          "data/original/43.jpeg": 0,
+          "data/original/45.jpeg": 0
+        }
+      }
+    },
+    "storyteller_votes": 0,
+    "score_changes": {
+      "AI_GeminiVision_2": 3,
+      "AI_GeminiVision_3": 3,
+      "AI_GeminiVision_4": 2,
+      "AI_GeminiVision_5": 3,
+      "AI_GeminiVision_6": 2
+    },
+    "current_scores": {
+      "AI_GeminiVision_1": 0,
+      "AI_GeminiVision_2": 3,
+      "AI_GeminiVision_3": 3,
+      "AI_GeminiVision_4": 2,
+      "AI_GeminiVision_5": 3,
+      "AI_GeminiVision_6": 2
+    }
+  },
+  {
+    "round": 2,
+    "storyteller": "AI_GeminiVision_2",
+    "clue": "Okay, I'll need to see the image associated with the file ID \"qwksw2pwnvcw\" to give you the best clue. Unfortunately, I can't access external links or files directly. \n\n**To get",
+    "storyteller_card": "data/original/3.jpeg",
+    "played_cards": {
+      "AI_GeminiVision_1": {
+        "selected_card": "data/original/21.jpeg",
+        "card_scores": {
+          "data/original/21.jpeg": 0.0,
+          "data/original/26.jpeg": 0.0,
+          "data/original/39.jpeg": 0.0,
+          "data/original/32.jpeg": 0.0,
+          "data/original/46.jpeg": 0.0,
+          "data/original/6.jpeg": 0.0
+        }
+      },
+      "AI_GeminiVision_3": {
+        "selected_card": "data/original/8.jpeg",
+        "card_scores": {
+          "data/original/8.jpeg": 0,
+          "data/original/38.jpeg": 0,
+          "data/original/12.jpeg": 0,
+          "data/original/9.jpeg": 0,
+          "data/original/27.jpeg": 0,
+          "data/original/41.jpeg": 0
+        }
+      },
+      "AI_GeminiVision_4": {
+        "selected_card": "data/original/37.jpeg",
+        "card_scores": {
+          "data/original/37.jpeg": 0.0,
+          "data/original/29.jpeg": 0.0,
+          "data/original/35.jpeg": 0.0,
+          "data/original/25.jpeg": 0.0,
+          "data/original/31.jpeg": 0.0,
+          "data/original/24.jpeg": 0.0
+        }
+      },
+      "AI_GeminiVision_5": {
+        "selected_card": "data/original/19.jpeg",
+        "card_scores": {
+          "data/original/19.jpeg": 0.0,
+          "data/original/5.jpeg": 0.0,
+          "data/original/4.jpeg": 0.0,
+          "data/original/18.jpeg": 0.0,
+          "data/original/28.jpeg": 0.0,
+          "data/original/47.jpeg": 0.0
+        }
+      },
+      "AI_GeminiVision_6": {
+        "selected_card": "data/original/43.jpeg",
+        "card_scores": {
+          "data/original/43.jpeg": 0,
+          "data/original/22.jpeg": 0,
+          "data/original/16.jpeg": 0,
+          "data/original/34.jpeg": 0,
+          "data/original/23.jpeg": 0,
+          "data/original/2.jpeg": 0
+        }
+      }
+    },
+    "votes": {
+      "AI_GeminiVision_1": {
+        "selected_card": "data/original/37.jpeg",
+        "card_scores": {
+          "data/original/37.jpeg": 0.0,
+          "data/original/19.jpeg": 0.0,
+          "data/original/8.jpeg": 0.0,
+          "data/original/21.jpeg": 0.0,
+          "data/original/43.jpeg": 0.0,
+          "data/original/3.jpeg": 0.0
+        }
+      },
+      "AI_GeminiVision_3": {
+        "selected_card": "data/original/37.jpeg",
+        "card_scores": {
+          "data/original/37.jpeg": 0,
+          "data/original/19.jpeg": 0,
+          "data/original/8.jpeg": 0,
+          "data/original/21.jpeg": 0,
+          "data/original/43.jpeg": 0,
+          "data/original/3.jpeg": 0
+        }
+      },
+      "AI_GeminiVision_4": {
+        "selected_card": "data/original/37.jpeg",
+        "card_scores": {
+          "data/original/37.jpeg": 0.0,
+          "data/original/19.jpeg": 0.0,
+          "data/original/8.jpeg": 0.0,
+          "data/original/21.jpeg": 0.0,
+          "data/original/43.jpeg": 0.0,
+          "data/original/3.jpeg": 0.0
+        }
+      },
+      "AI_GeminiVision_5": {
+        "selected_card": "data/original/37.jpeg",
+        "card_scores": {
+          "data/original/37.jpeg": 0.0,
+          "data/original/19.jpeg": 0.0,
+          "data/original/8.jpeg": 0.0,
+          "data/original/21.jpeg": 0.0,
+          "data/original/43.jpeg": 0.0,
+          "data/original/3.jpeg": 0.0
+        }
+      },
+      "AI_GeminiVision_6": {
+        "selected_card": "data/original/37.jpeg",
+        "card_scores": {
+          "data/original/37.jpeg": 0,
+          "data/original/19.jpeg": 0,
+          "data/original/8.jpeg": 0,
+          "data/original/21.jpeg": 0,
+          "data/original/43.jpeg": 0,
+          "data/original/3.jpeg": 0
+        }
+      }
+    },
+    "storyteller_votes": 0,
+    "score_changes": {
+      "AI_GeminiVision_1": 2,
+      "AI_GeminiVision_3": 2,
+      "AI_GeminiVision_4": 6,
+      "AI_GeminiVision_5": 2,
+      "AI_GeminiVision_6": 2
+    },
+    "current_scores": {
+      "AI_GeminiVision_1": 2,
+      "AI_GeminiVision_2": 3,
+      "AI_GeminiVision_3": 5,
+      "AI_GeminiVision_4": 8,
+      "AI_GeminiVision_5": 5,
+      "AI_GeminiVision_6": 4
+    }
+  },
+  {
+    "round": 3,
+    "storyteller": "AI_GeminiVision_3",
+    "clue": "Here's a thinking process to arrive at the clues for the given Dixit card:\n\n1. **Analyze the Card:** The first step is to really look at the card. What are the key visual elements?  I see:\n",
+    "storyteller_card": "data/original/27.jpeg",
+    "played_cards": {
+      "AI_GeminiVision_1": {
+        "selected_card": "data/original/39.jpeg",
+        "card_scores": {
+          "data/original/21.jpeg": 0.0,
+          "data/original/26.jpeg": 5.0,
+          "data/original/39.jpeg": 6.0,
+          "data/original/32.jpeg": 0.0,
+          "data/original/46.jpeg": 0.0,
+          "data/original/6.jpeg": 0.0
+        }
+      },
+      "AI_GeminiVision_2": {
+        "selected_card": "data/original/17.jpeg",
+        "card_scores": {
+          "data/original/17.jpeg": 0.0,
+          "data/original/48.jpeg": 0.0,
+          "data/original/1.jpeg": 0.0,
+          "data/original/45.jpeg": 0.0,
+          "data/original/14.jpeg": 0.0,
+          "data/original/3.jpeg": 0.0
+        }
+      },
+      "AI_GeminiVision_4": {
+        "selected_card": "data/original/37.jpeg",
+        "card_scores": {
+          "data/original/37.jpeg": 6.0,
+          "data/original/29.jpeg": 0.0,
+          "data/original/35.jpeg": 0.0,
+          "data/original/25.jpeg": 0.0,
+          "data/original/31.jpeg": 0.0,
+          "data/original/24.jpeg": 5.0
+        }
+      },
+      "AI_GeminiVision_5": {
+        "selected_card": "data/original/19.jpeg",
+        "card_scores": {
+          "data/original/19.jpeg": 0.0,
+          "data/original/5.jpeg": 0.0,
+          "data/original/4.jpeg": 0.0,
+          "data/original/18.jpeg": 0.0,
+          "data/original/28.jpeg": 0.0,
+          "data/original/47.jpeg": 0.0
+        }
+      },
+      "AI_GeminiVision_6": {
+        "selected_card": "data/original/43.jpeg",
+        "card_scores": {
+          "data/original/43.jpeg": 0,
+          "data/original/22.jpeg": 0,
+          "data/original/16.jpeg": 0,
+          "data/original/34.jpeg": 0,
+          "data/original/23.jpeg": 0,
+          "data/original/2.jpeg": 0
+        }
+      }
+    },
+    "votes": {
+      "AI_GeminiVision_1": {
+        "selected_card": "data/original/27.jpeg",
+        "card_scores": {
+          "data/original/37.jpeg": 5.0,
+          "data/original/19.jpeg": 0.0,
+          "data/original/39.jpeg": 0.0,
+          "data/original/27.jpeg": 8.0,
+          "data/original/43.jpeg": 0.0,
+          "data/original/17.jpeg": 0.0
+        }
+      },
+      "AI_GeminiVision_2": {
+        "selected_card": "data/original/27.jpeg",
+        "card_scores": {
+          "data/original/37.jpeg": 0.0,
+          "data/original/19.jpeg": 0.0,
+          "data/original/39.jpeg": 0.0,
+          "data/original/27.jpeg": 10.0,
+          "data/original/43.jpeg": 1.0,
+          "data/original/17.jpeg": 0.0
+        }
+      },
+      "AI_GeminiVision_4": {
+        "selected_card": "data/original/37.jpeg",
+        "card_scores": {
+          "data/original/37.jpeg": 6.0,
+          "data/original/19.jpeg": 0.0,
+          "data/original/39.jpeg": 0.0,
+          "data/original/27.jpeg": 6.0,
+          "data/original/43.jpeg": 0.0,
+          "data/original/17.jpeg": 0.0
+        }
+      },
+      "AI_GeminiVision_5": {
+        "selected_card": "data/original/17.jpeg",
+        "card_scores": {
+          "data/original/37.jpeg": 0.0,
+          "data/original/19.jpeg": 0.0,
+          "data/original/39.jpeg": 0.0,
+          "data/original/27.jpeg": 0.0,
+          "data/original/43.jpeg": 0.0,
+          "data/original/17.jpeg": 9.0
+        }
+      },
+      "AI_GeminiVision_6": {
+        "selected_card": "data/original/37.jpeg",
+        "card_scores": {
+          "data/original/37.jpeg": 0,
+          "data/original/19.jpeg": 0,
+          "data/original/39.jpeg": 0,
+          "data/original/27.jpeg": 0,
+          "data/original/43.jpeg": 0,
+          "data/original/17.jpeg": 0
+        }
+      }
+    },
+    "storyteller_votes": 2,
+    "score_changes": {
+      "AI_GeminiVision_3": 3,
+      "AI_GeminiVision_1": 3,
+      "AI_GeminiVision_2": 4,
+      "AI_GeminiVision_4": 1
+    },
+    "current_scores": {
+      "AI_GeminiVision_1": 5,
+      "AI_GeminiVision_2": 7,
+      "AI_GeminiVision_3": 8,
+      "AI_GeminiVision_4": 9,
+      "AI_GeminiVision_5": 5,
+      "AI_GeminiVision_6": 4
+    }
+  }
+]

@@ -22,6 +22,8 @@ from datetime import datetime
 
 import random
 
+from image_cache import ImageAnalysisCache
+
 MLLM_Provider = Literal[
     "openai",
     "anthropic", 
@@ -74,24 +76,62 @@ class DixitGame:
                 player.cards.append(self.deck.pop())
 
 class AIPlayer:
-    def __init__(self, vision_api: VisionAPI):
+    def __init__(self, model, vision_api: VisionAPI):
+        self.model = str(model)
         self.vision_api = vision_api
 
     def generate_clue(self, card_image: str) -> str:
 
-        return self.vision_api.analyze_image(
-            image_path =card_image,#base64_image,
-            prompt = "Generate a creative, metaphorical clue for this Dixit card that is neither too obvious nor too obscure. Use from 2 up to 15 words."
-        )
+        GEN_CLUE_PROMPT = "Generate a creative, metaphorical clue for this Dixit card that is neither too obvious nor too obscure. Use from 2 up to 15 words."
+        cache = ImageAnalysisCache()
+    
+        # Try to get cached response
+        cached_response = cache.get_cached_response(self.model, card_image, GEN_CLUE_PROMPT)
+        if cached_response is not None:
+            return cached_response
+        
+        try:
+            # Assuming original API call code is here
+            response = self.vision_api.analyze_image(
+                image_path =card_image,#base64_image,
+                prompt = GEN_CLUE_PROMPT
+            )
+            
+            # Cache the response
+            cache.cache_response(self.model, card_image, GEN_CLUE_PROMPT, response)
+            
+            return response
+        except Exception as e:
+            print(f"Error analyzing image: {e}")
+            raise
+ 
 
     def select_matching_card(self, clue: str, hand: List[Card]) -> tuple[Card, Dict[str, float]]:        
         scores = {}
+        cache = ImageAnalysisCache()
+        RATE_CARD_WITH_CLUE_PROMPT = f"Rate how well this image matches the clue '{clue}' on a scale of 0-10. Return just a number, nothing else"
+
         for card in hand:
+                # Try to get cached response
+            cached_response = cache.get_cached_response(self.model, card.image_path, RATE_CARD_WITH_CLUE_PROMPT)
             
-            response = self.vision_api.analyze_image(
-                card.image_path,
-                f"Rate how well this image matches the clue '{clue}' on a scale of 0-10. Return just a number, nothing else"
-            )
+            if cached_response is not None:
+                response = cached_response
+            else:
+            
+                try:
+                    response = self.vision_api.analyze_image(
+                        card.image_path,
+                        RATE_CARD_WITH_CLUE_PROMPT
+                    )
+                    cache.cache_response(self.model, card.image_path, RATE_CARD_WITH_CLUE_PROMPT, response)
+        
+                    
+                except Exception as e:
+                    print(f"Error analyzing image: {e}")
+                    raise
+
+                    
             try:
                 score = float(response.strip())
                 scores[card.image_path] = score
@@ -149,7 +189,7 @@ def play_game(
     for i, api in enumerate(players):
         player_name = f"AI_{api.__class__.__name__}_{i+1}"
         game.add_player(player_name)
-        ai_players.append(AIPlayer(api))
+        ai_players.append(AIPlayer(api.__class__.__name__,api))
         
     rounds = 0
     while rounds < max_number_of_rounds and any(p.score < score_to_win for p in game.players):
@@ -268,15 +308,15 @@ if __name__ == "__main__":
     # ai_players = [gemini1, gemini2 , grok1, claude1, open2, gemini3, gemini2, gemini1]
 
     # gemini is playing gemini !
-    ai_players = [gemini1, gemini2 , gemini3, gemini1, gemini2 , gemini3]
+    # ai_players = [gemini1, gemini2 , gemini3, gemini1, gemini2 , gemini3]
 
     # everybody!
-    # ai_players = [ groq1, groq2, claude1,claude2, open1,open2, gemini1,gemini2,gemini3, grok1, grok2] 
+    ai_players = [ groq1, groq2, claude1,claude2, open1,open2, gemini1,gemini2,gemini3, grok1, grok2] 
 
     play_game(
         image_directory="data/original",
         players = ai_players,
-        max_number_of_rounds = 3,
+        max_number_of_rounds = 2,
         score_to_win = 30
     )
  
