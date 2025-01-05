@@ -49,6 +49,13 @@ class Player:
             return False
         return self.name == other.name
 
+    def to_dict(self):
+        return {
+            'name': self.name,
+            'cards': str(self.cards),
+            'score': self.score
+        }
+
 
 class DixitGame:
     def __init__(self):
@@ -79,6 +86,12 @@ class AIPlayer:
     def __init__(self, model, vision_api: VisionAPI):
         self.model = str(model)
         self.vision_api = vision_api
+    
+    def to_dict(self):
+        return {
+            'model': self.model,
+            'vision_api': str(self.vision_api.__class__.__name__)
+        }
 
     def generate_clue(self, card_image: str) -> str:
 
@@ -140,6 +153,7 @@ class AIPlayer:
                 scores[card.image_path] = 0
                 print(f"Card {card} is scored as 0 for this clue as it had an error converting to number ({response.strip()})")
         
+        print(hand)
         best_card = max(hand, key=lambda x: scores[x.image_path])
         return best_card, scores
 
@@ -200,6 +214,9 @@ def play_game(
         storyteller = game.players[storyteller_idx]
         ai_storyteller = ai_players[storyteller_idx]
         round_log["storyteller"] = storyteller.name
+
+
+        round_log["players"] = ai_players
         
         storyteller_card = random.choice(storyteller.cards)
         clue = ai_storyteller.generate_clue(storyteller_card.image_path)
@@ -311,12 +328,14 @@ if __name__ == "__main__":
     # ai_players = [gemini1, gemini2 , gemini3, gemini1, gemini2 , gemini3]
 
     # everybody!
-    ai_players = [ groq1, groq2, claude1,claude2, open1,open2, gemini1,gemini2,gemini3, grok1, grok2] 
+    # ai_players = [ groq1, groq2, claude1, claude2, open1, open2, gemini1, gemini2, gemini3, grok1, grok2] 
+    ai_players = [ groq1, gemini2, gemini3, open2 ] 
+
 
     play_game(
         image_directory="data/original",
         players = ai_players,
-        max_number_of_rounds = 2,
+        max_number_of_rounds = 1,
         score_to_win = 30
     )
  
