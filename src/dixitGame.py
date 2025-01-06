@@ -181,11 +181,16 @@ class GameLogger:
     def log_round(self, round_data: dict):
         self.game_log.append(round_data)
         
+    def _json_default(self, obj):
+        if hasattr(obj, 'to_dict'):
+            return obj.to_dict()
+        raise TypeError(f'Object of type {obj.__class__.__name__} is not JSON serializable')
+        
     def save_log(self):
         filename = f"dixit_game_log_{self.timestamp}.json"
         filepath = os.path.join(self.output_dir, filename)
         with open(filepath, 'w') as f:
-            json.dump(self.game_log, f, indent=2)
+            json.dump(self.game_log, f, indent=2, default=self._json_default)
         return filepath
 
 def play_game(
@@ -203,7 +208,7 @@ def play_game(
     for i, api in enumerate(players):
         player_name = f"AI_{api.__class__.__name__}_{i+1}"
         game.add_player(player_name)
-        ai_players.append(AIPlayer(api.__class__.__name__,api))
+        ai_players.append(AIPlayer(api.model,api))
         
     rounds = 0
     while rounds < max_number_of_rounds and any(p.score < score_to_win for p in game.players):
@@ -216,7 +221,7 @@ def play_game(
         round_log["storyteller"] = storyteller.name
 
 
-        round_log["players"] = ai_players
+        round_log["players"] = [player.to_dict() for player in ai_players]
         
         storyteller_card = random.choice(storyteller.cards)
         clue = ai_storyteller.generate_clue(storyteller_card.image_path)
@@ -312,15 +317,15 @@ if __name__ == "__main__":
     grok2 = create_vision_api("xai",specific_model="grok-2-vision-1212")
     
     # vision_apis = [grok1, grok2, claude1, claude2]
-    ai_players = [claude1, groq1, groq2, claude2, open1, open2]
+    players_list = [claude1, groq1, groq2, claude2, open1, open2]
     # ai_players = [grok1, grok2, grok1]
 
-    ai_players = [claude1, groq1, groq2, claude2, open1, open2]
+    players_list = [claude1, groq1, groq2, claude2, open1, open2]
 
-    random.shuffle(ai_players)
+    random.shuffle(players_list)
 
-    ai_players = [groq1, groq2, claude1, claude2, open1, open2, gemini1, gemini2, gemini3]
-    random.sample(ai_players, 6)
+    players_list = [groq1, groq2, claude1, claude2, open1, open2, gemini1, gemini2, gemini3]
+    random.sample(players_list, 6)
 
     # ai_players = [gemini1, gemini2 , grok1, claude1, open2, gemini3, gemini2, gemini1]
 
@@ -329,12 +334,14 @@ if __name__ == "__main__":
 
     # everybody!
     # ai_players = [ groq1, groq2, claude1, claude2, open1, open2, gemini1, gemini2, gemini3, grok1, grok2] 
-    ai_players = [ groq1, gemini2, gemini3, open2 ] 
+    players_list = [ groq1,
+                   gemini2, gemini3, 
+                   open2, grok1 ] 
 
 
     play_game(
         image_directory="data/original",
-        players = ai_players,
+        players = players_list,
         max_number_of_rounds = 1,
         score_to_win = 30
     )
