@@ -2,7 +2,7 @@ import unittest
 from unittest.mock import Mock, patch
 import base64
 # from vision_models.vision_API import VisionAPI
-from vision_models.grok_vision import GrokVision
+from vision_models.groq_vision import GrokVision
 # from ..vision_API import VisionAPI
 # from ..grok_vision import GrokVision
 

@@ -1,0 +1,8 @@
+1.
+https://claude.ai/chat/78166a7e-606f-4952-80aa-28eb0cadca9d
+Create an LLM agent (that uses openai API vision model) in python that plays Dixit with others
+
+2.
+transform the code to take as a parameter the model, e.g. gpt-4o, gpt-4o-mini or gpt-4-turbo 
+Also add support for claude api , grok vision api and google gemini
+

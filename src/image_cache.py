@@ -44,6 +44,9 @@ class ImageAnalysisCache:
             ''', (model, image_hash, prompt))
             
             result = cursor.fetchone()
+
+            if result:
+                print(f"*** Hit cache: {result[0]}")
             return result[0] if result else None
 
     def cache_response(self, model: str, image_path: str, prompt: str, response: str):

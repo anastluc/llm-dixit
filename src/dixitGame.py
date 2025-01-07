@@ -336,13 +336,13 @@ if __name__ == "__main__":
     # ai_players = [ groq1, groq2, claude1, claude2, open1, open2, gemini1, gemini2, gemini3, grok1, grok2] 
     players_list = [ groq1,
                    gemini2, gemini3, 
-                   open2, grok1 ] 
+                   gemini1, groq2 ] 
 
 
     play_game(
         image_directory="data/original",
         players = players_list,
-        max_number_of_rounds = 1,
+        max_number_of_rounds = 10,
         score_to_win = 30
     )
  
