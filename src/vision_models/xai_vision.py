@@ -15,7 +15,7 @@ class XAI_Vision(VisionAPI):
             base_url="https://api.x.ai/v1"
         )
         self.model = model
-        self.API_TIME_DELAY = 5
+        self.API_TIME_DELAY = 6
 
     def encode_image(self, card_image):
         with open(card_image, "rb") as image_file:
