@@ -1,0 +1,2684 @@
+[
+  {
+    "round": 1,
+    "storyteller": "AI_GroqVision_1",
+    "players": [
+      {
+        "model": "llama-3.2-11b-vision-preview",
+        "vision_api": "GroqVision"
+      },
+      {
+        "model": "llama-3.2-90b-vision-preview",
+        "vision_api": "GroqVision"
+      },
+      {
+        "model": "claude-3-opus-20240229",
+        "vision_api": "ClaudeVision"
+      },
+      {
+        "model": "claude-3-5-sonnet-20241022",
+        "vision_api": "ClaudeVision"
+      },
+      {
+        "model": "gpt-4o",
+        "vision_api": "OpenAIVision"
+      },
+      {
+        "model": "gpt-4o-mini",
+        "vision_api": "OpenAIVision"
+      },
+      {
+        "model": "gemini-1.5-flash-8b",
+        "vision_api": "GeminiVision"
+      },
+      {
+        "model": "gemini-2.0-flash-exp",
+        "vision_api": "GeminiVision"
+      },
+      {
+        "model": "gemini-2.0-flash-thinking-exp-1219",
+        "vision_api": "GeminiVision"
+      }
+    ],
+    "clue": "'The caterpillar and butterfly share a life-changing point of no return.'",
+    "storyteller_card": "data/1_full/27.jpg",
+    "played_cards": {
+      "AI_GroqVision_2": {
+        "selected_card": "data/1_full/78.jpg",
+        "card_scores": {
+          "data/1_full/54.jpg": 0.0,
+          "data/1_full/64.jpg": 0.0,
+          "data/1_full/45.jpg": 0.0,
+          "data/1_full/78.jpg": 4.0,
+          "data/1_full/60.jpg": 0.0,
+          "data/1_full/26.jpg": 0.0
+        }
+      },
+      "AI_ClaudeVision_3": {
+        "selected_card": "data/1_full/8.jpg",
+        "card_scores": {
+          "data/1_full/8.jpg": 8.0,
+          "data/1_full/5.jpg": 8.0,
+          "data/1_full/12.jpg": 8.0,
+          "data/1_full/33.jpg": 8.0,
+          "data/1_full/38.jpg": 0.0,
+          "data/1_full/29.jpg": 8.0
+        }
+      },
+      "AI_ClaudeVision_4": {
+        "selected_card": "data/1_full/30.jpg",
+        "card_scores": {
+          "data/1_full/65.jpg": 2.0,
+          "data/1_full/55.jpg": 1.0,
+          "data/1_full/30.jpg": 7.0,
+          "data/1_full/7.jpg": 2.0,
+          "data/1_full/73.jpg": 2.0,
+          "data/1_full/69.jpg": 2.0
+        }
+      },
+      "AI_OpenAIVision_5": {
+        "selected_card": "data/1_full/40.jpg",
+        "card_scores": {
+          "data/1_full/40.jpg": 5.0,
+          "data/1_full/1.jpg": 5.0,
+          "data/1_full/22.jpg": 0.0,
+          "data/1_full/48.jpg": 4.0,
+          "data/1_full/43.jpg": 1.0,
+          "data/1_full/13.jpg": 3.0
+        }
+      },
+      "AI_OpenAIVision_6": {
+        "selected_card": "data/1_full/39.jpg",
+        "card_scores": {
+          "data/1_full/24.jpg": 0.0,
+          "data/1_full/25.jpg": 2.0,
+          "data/1_full/21.jpg": 2.0,
+          "data/1_full/39.jpg": 3.0,
+          "data/1_full/66.jpg": 2.0,
+          "data/1_full/52.jpg": 0.0
+        }
+      },
+      "AI_GeminiVision_7": {
+        "selected_card": "data/1_full/42.jpg",
+        "card_scores": {
+          "data/1_full/42.jpg": 7.0,
+          "data/1_full/44.jpg": 6.0,
+          "data/1_full/56.jpg": 6.0,
+          "data/1_full/61.jpg": 6.0,
+          "data/1_full/20.jpg": 6.0,
+          "data/1_full/53.jpg": 6.0
+        }
+      },
+      "AI_GeminiVision_8": {
+        "selected_card": "data/1_full/6.jpg",
+        "card_scores": {
+          "data/1_full/4.jpg": 9.0,
+          "data/1_full/6.jpg": 10.0,
+          "data/1_full/68.jpg": 9.0,
+          "data/1_full/37.jpg": 8.0,
+          "data/1_full/2.jpg": 9.0,
+          "data/1_full/16.jpg": 8.0
+        }
+      },
+      "AI_GeminiVision_9": {
+        "selected_card": "data/1_full/11.jpg",
+        "card_scores": {
+          "data/1_full/11.jpg": 0,
+          "data/1_full/57.jpg": 0,
+          "data/1_full/46.jpg": 0,
+          "data/1_full/41.jpg": 0,
+          "data/1_full/71.jpg": 0,
+          "data/1_full/17.jpg": 0
+        }
+      }
+    },
+    "votes": {
+      "AI_GroqVision_2": {
+        "selected_card": "data/1_full/27.jpg",
+        "card_scores": {
+          "data/1_full/11.jpg": 7.0,
+          "data/1_full/40.jpg": 4.0,
+          "data/1_full/27.jpg": 8.0,
+          "data/1_full/39.jpg": 6.0,
+          "data/1_full/6.jpg": 8.0,
+          "data/1_full/42.jpg": 7.0,
+          "data/1_full/30.jpg": 3.0,
+          "data/1_full/78.jpg": 4.0,
+          "data/1_full/8.jpg": 3.0
+        }
+      },
+      "AI_ClaudeVision_3": {
+        "selected_card": "data/1_full/40.jpg",
+        "card_scores": {
+          "data/1_full/11.jpg": 2.0,
+          "data/1_full/40.jpg": 10.0,
+          "data/1_full/27.jpg": 8.0,
+          "data/1_full/39.jpg": 8.0,
+          "data/1_full/6.jpg": 8.0,
+          "data/1_full/42.jpg": 8.0,
+          "data/1_full/30.jpg": 8.0,
+          "data/1_full/78.jpg": 8.0,
+          "data/1_full/8.jpg": 8.0
+        }
+      },
+      "AI_ClaudeVision_4": {
+        "selected_card": "data/1_full/27.jpg",
+        "card_scores": {
+          "data/1_full/11.jpg": 2.0,
+          "data/1_full/40.jpg": 2.0,
+          "data/1_full/27.jpg": 8.0,
+          "data/1_full/39.jpg": 2.0,
+          "data/1_full/6.jpg": 2.0,
+          "data/1_full/42.jpg": 2.0,
+          "data/1_full/30.jpg": 7.0,
+          "data/1_full/78.jpg": 2.0,
+          "data/1_full/8.jpg": 0.0
+        }
+      },
+      "AI_OpenAIVision_5": {
+        "selected_card": "data/1_full/27.jpg",
+        "card_scores": {
+          "data/1_full/11.jpg": 3.0,
+          "data/1_full/40.jpg": 5.0,
+          "data/1_full/27.jpg": 8.0,
+          "data/1_full/39.jpg": 8.0,
+          "data/1_full/6.jpg": 0.0,
+          "data/1_full/42.jpg": 2.0,
+          "data/1_full/30.jpg": 3.0,
+          "data/1_full/78.jpg": 3.0,
+          "data/1_full/8.jpg": 0.0
+        }
+      },
+      "AI_OpenAIVision_6": {
+        "selected_card": "data/1_full/27.jpg",
+        "card_scores": {
+          "data/1_full/11.jpg": 3.0,
+          "data/1_full/40.jpg": 4.0,
+          "data/1_full/27.jpg": 8.0,
+          "data/1_full/39.jpg": 3.0,
+          "data/1_full/6.jpg": 2.0,
+          "data/1_full/42.jpg": 0.0,
+          "data/1_full/30.jpg": 0.0,
+          "data/1_full/78.jpg": 4.0,
+          "data/1_full/8.jpg": 0.0
+        }
+      },
+      "AI_GeminiVision_7": {
+        "selected_card": "data/1_full/42.jpg",
+        "card_scores": {
+          "data/1_full/11.jpg": 6.0,
+          "data/1_full/40.jpg": 6.0,
+          "data/1_full/27.jpg": 6.0,
+          "data/1_full/39.jpg": 6.0,
+          "data/1_full/6.jpg": 6.0,
+          "data/1_full/42.jpg": 7.0,
+          "data/1_full/30.jpg": 7.0,
+          "data/1_full/78.jpg": 6.0,
+          "data/1_full/8.jpg": 6.0
+        }
+      },
+      "AI_GeminiVision_8": {
+        "selected_card": "data/1_full/6.jpg",
+        "card_scores": {
+          "data/1_full/11.jpg": 9.0,
+          "data/1_full/40.jpg": 9.0,
+          "data/1_full/27.jpg": 9.0,
+          "data/1_full/39.jpg": 0.0,
+          "data/1_full/6.jpg": 10.0,
+          "data/1_full/42.jpg": 9.0,
+          "data/1_full/30.jpg": 9.0,
+          "data/1_full/78.jpg": 9.0,
+          "data/1_full/8.jpg": 9.0
+        }
+      },
+      "AI_GeminiVision_9": {
+        "selected_card": "data/1_full/11.jpg",
+        "card_scores": {
+          "data/1_full/11.jpg": 0,
+          "data/1_full/40.jpg": 0,
+          "data/1_full/27.jpg": 0,
+          "data/1_full/39.jpg": 0,
+          "data/1_full/6.jpg": 0,
+          "data/1_full/42.jpg": 0,
+          "data/1_full/30.jpg": 0,
+          "data/1_full/78.jpg": 0,
+          "data/1_full/8.jpg": 0
+        }
+      }
+    },
+    "storyteller_votes": 4,
+    "score_changes": {
+      "AI_GroqVision_1": 3,
+      "AI_GroqVision_2": 3,
+      "AI_ClaudeVision_4": 3,
+      "AI_OpenAIVision_5": 4,
+      "AI_OpenAIVision_6": 3
+    },
+    "current_scores": {
+      "AI_GroqVision_1": 3,
+      "AI_GroqVision_2": 3,
+      "AI_ClaudeVision_3": 0,
+      "AI_ClaudeVision_4": 3,
+      "AI_OpenAIVision_5": 4,
+      "AI_OpenAIVision_6": 3,
+      "AI_GeminiVision_7": 0,
+      "AI_GeminiVision_8": 0,
+      "AI_GeminiVision_9": 0
+    }
+  },
+  {
+    "round": 2,
+    "storyteller": "AI_GroqVision_2",
+    "players": [
+      {
+        "model": "llama-3.2-11b-vision-preview",
+        "vision_api": "GroqVision"
+      },
+      {
+        "model": "llama-3.2-90b-vision-preview",
+        "vision_api": "GroqVision"
+      },
+      {
+        "model": "claude-3-opus-20240229",
+        "vision_api": "ClaudeVision"
+      },
+      {
+        "model": "claude-3-5-sonnet-20241022",
+        "vision_api": "ClaudeVision"
+      },
+      {
+        "model": "gpt-4o",
+        "vision_api": "OpenAIVision"
+      },
+      {
+        "model": "gpt-4o-mini",
+        "vision_api": "OpenAIVision"
+      },
+      {
+        "model": "gemini-1.5-flash-8b",
+        "vision_api": "GeminiVision"
+      },
+      {
+        "model": "gemini-2.0-flash-exp",
+        "vision_api": "GeminiVision"
+      },
+      {
+        "model": "gemini-2.0-flash-thinking-exp-1219",
+        "vision_api": "GeminiVision"
+      }
+    ],
+    "clue": "A mother hen orchestrates her chirping chicks, conducting an impromptu symphony of morning melodies.",
+    "storyteller_card": "data/1_full/54.jpg",
+    "played_cards": {
+      "AI_GroqVision_1": {
+        "selected_card": "data/1_full/27.jpg",
+        "card_scores": {
+          "data/1_full/36.jpg": 1.0,
+          "data/1_full/83.jpg": 0.0,
+          "data/1_full/9.jpg": 4.0,
+          "data/1_full/34.jpg": 0.0,
+          "data/1_full/27.jpg": 5.0,
+          "data/1_full/58.jpg": 0.0
+        }
+      },
+      "AI_ClaudeVision_3": {
+        "selected_card": "data/1_full/8.jpg",
+        "card_scores": {
+          "data/1_full/8.jpg": 2.0,
+          "data/1_full/5.jpg": 2.0,
+          "data/1_full/12.jpg": 1.0,
+          "data/1_full/33.jpg": 0.0,
+          "data/1_full/38.jpg": 0.0,
+          "data/1_full/29.jpg": 2.0
+        }
+      },
+      "AI_ClaudeVision_4": {
+        "selected_card": "data/1_full/30.jpg",
+        "card_scores": {
+          "data/1_full/65.jpg": 1.0,
+          "data/1_full/55.jpg": 0.0,
+          "data/1_full/30.jpg": 2.0,
+          "data/1_full/7.jpg": 2.0,
+          "data/1_full/73.jpg": 0.0,
+          "data/1_full/69.jpg": 0.0
+        }
+      },
+      "AI_OpenAIVision_5": {
+        "selected_card": "data/1_full/22.jpg",
+        "card_scores": {
+          "data/1_full/40.jpg": 0.0,
+          "data/1_full/1.jpg": 0.0,
+          "data/1_full/22.jpg": 3.0,
+          "data/1_full/48.jpg": 0.0,
+          "data/1_full/43.jpg": 0.0,
+          "data/1_full/13.jpg": 0.0
+        }
+      },
+      "AI_OpenAIVision_6": {
+        "selected_card": "data/1_full/39.jpg",
+        "card_scores": {
+          "data/1_full/24.jpg": 0.0,
+          "data/1_full/25.jpg": 0.0,
+          "data/1_full/21.jpg": 0.0,
+          "data/1_full/39.jpg": 2.0,
+          "data/1_full/66.jpg": 0.0,
+          "data/1_full/52.jpg": 0.0
+        }
+      },
+      "AI_GeminiVision_7": {
+        "selected_card": "data/1_full/42.jpg",
+        "card_scores": {
+          "data/1_full/42.jpg": 6.0,
+          "data/1_full/44.jpg": 6.0,
+          "data/1_full/56.jpg": 6.0,
+          "data/1_full/61.jpg": 6.0,
+          "data/1_full/20.jpg": 6.0,
+          "data/1_full/53.jpg": 5.0
+        }
+      },
+      "AI_GeminiVision_8": {
+        "selected_card": "data/1_full/6.jpg",
+        "card_scores": {
+          "data/1_full/4.jpg": 8.0,
+          "data/1_full/6.jpg": 9.0,
+          "data/1_full/68.jpg": 9.0,
+          "data/1_full/37.jpg": 8.0,
+          "data/1_full/2.jpg": 0.0,
+          "data/1_full/16.jpg": 7.0
+        }
+      },
+      "AI_GeminiVision_9": {
+        "selected_card": "data/1_full/11.jpg",
+        "card_scores": {
+          "data/1_full/11.jpg": 0,
+          "data/1_full/57.jpg": 0,
+          "data/1_full/46.jpg": 0,
+          "data/1_full/41.jpg": 0,
+          "data/1_full/71.jpg": 0,
+          "data/1_full/17.jpg": 0
+        }
+      }
+    },
+    "votes": {
+      "AI_GroqVision_1": {
+        "selected_card": "data/1_full/54.jpg",
+        "card_scores": {
+          "data/1_full/54.jpg": 6.0,
+          "data/1_full/42.jpg": 2.0,
+          "data/1_full/11.jpg": 1.0,
+          "data/1_full/8.jpg": 1.0,
+          "data/1_full/39.jpg": 0.0,
+          "data/1_full/22.jpg": 0.0,
+          "data/1_full/27.jpg": 5.0,
+          "data/1_full/30.jpg": 1.0,
+          "data/1_full/6.jpg": 0.0
+        }
+      },
+      "AI_ClaudeVision_3": {
+        "selected_card": "data/1_full/6.jpg",
+        "card_scores": {
+          "data/1_full/54.jpg": 7.0,
+          "data/1_full/42.jpg": 1.0,
+          "data/1_full/11.jpg": 1.0,
+          "data/1_full/8.jpg": 2.0,
+          "data/1_full/39.jpg": 2.0,
+          "data/1_full/22.jpg": 1.0,
+          "data/1_full/27.jpg": 1.0,
+          "data/1_full/30.jpg": 2.0,
+          "data/1_full/6.jpg": 8.0
+        }
+      },
+      "AI_ClaudeVision_4": {
+        "selected_card": "data/1_full/54.jpg",
+        "card_scores": {
+          "data/1_full/54.jpg": 8.0,
+          "data/1_full/42.jpg": 0.0,
+          "data/1_full/11.jpg": 1.0,
+          "data/1_full/8.jpg": 0.0,
+          "data/1_full/39.jpg": 2.0,
+          "data/1_full/22.jpg": 2.0,
+          "data/1_full/27.jpg": 0.0,
+          "data/1_full/30.jpg": 2.0,
+          "data/1_full/6.jpg": 1.0
+        }
+      },
+      "AI_OpenAIVision_5": {
+        "selected_card": "data/1_full/54.jpg",
+        "card_scores": {
+          "data/1_full/54.jpg": 8.0,
+          "data/1_full/42.jpg": 0.0,
+          "data/1_full/11.jpg": 0.0,
+          "data/1_full/8.jpg": 0.0,
+          "data/1_full/39.jpg": 0.0,
+          "data/1_full/22.jpg": 3.0,
+          "data/1_full/27.jpg": 0.0,
+          "data/1_full/30.jpg": 0.0,
+          "data/1_full/6.jpg": 0.0
+        }
+      },
+      "AI_OpenAIVision_6": {
+        "selected_card": "data/1_full/54.jpg",
+        "card_scores": {
+          "data/1_full/54.jpg": 6.0,
+          "data/1_full/42.jpg": 0.0,
+          "data/1_full/11.jpg": 0.0,
+          "data/1_full/8.jpg": 0.0,
+          "data/1_full/39.jpg": 2.0,
+          "data/1_full/22.jpg": 2.0,
+          "data/1_full/27.jpg": 2.0,
+          "data/1_full/30.jpg": 0.0,
+          "data/1_full/6.jpg": 0.0
+        }
+      },
+      "AI_GeminiVision_7": {
+        "selected_card": "data/1_full/54.jpg",
+        "card_scores": {
+          "data/1_full/54.jpg": 6.0,
+          "data/1_full/42.jpg": 6.0,
+          "data/1_full/11.jpg": 6.0,
+          "data/1_full/8.jpg": 6.0,
+          "data/1_full/39.jpg": 6.0,
+          "data/1_full/22.jpg": 6.0,
+          "data/1_full/27.jpg": 6.0,
+          "data/1_full/30.jpg": 6.0,
+          "data/1_full/6.jpg": 6.0
+        }
+      },
+      "AI_GeminiVision_8": {
+        "selected_card": "data/1_full/11.jpg",
+        "card_scores": {
+          "data/1_full/54.jpg": 0.0,
+          "data/1_full/42.jpg": 8.0,
+          "data/1_full/11.jpg": 9.0,
+          "data/1_full/8.jpg": 0.0,
+          "data/1_full/39.jpg": 9.0,
+          "data/1_full/22.jpg": 8.0,
+          "data/1_full/27.jpg": 0.0,
+          "data/1_full/30.jpg": 9.0,
+          "data/1_full/6.jpg": 9.0
+        }
+      },
+      "AI_GeminiVision_9": {
+        "selected_card": "data/1_full/54.jpg",
+        "card_scores": {
+          "data/1_full/54.jpg": 0,
+          "data/1_full/42.jpg": 0,
+          "data/1_full/11.jpg": 0,
+          "data/1_full/8.jpg": 0,
+          "data/1_full/39.jpg": 0,
+          "data/1_full/22.jpg": 0,
+          "data/1_full/27.jpg": 0,
+          "data/1_full/30.jpg": 0,
+          "data/1_full/6.jpg": 0
+        }
+      }
+    },
+    "storyteller_votes": 6,
+    "score_changes": {
+      "AI_GroqVision_2": 3,
+      "AI_GroqVision_1": 3,
+      "AI_ClaudeVision_4": 3,
+      "AI_OpenAIVision_5": 3,
+      "AI_OpenAIVision_6": 3,
+      "AI_GeminiVision_7": 3,
+      "AI_GeminiVision_9": 4,
+      "AI_GeminiVision_8": 1
+    },
+    "current_scores": {
+      "AI_GroqVision_1": 6,
+      "AI_GroqVision_2": 6,
+      "AI_ClaudeVision_3": 0,
+      "AI_ClaudeVision_4": 6,
+      "AI_OpenAIVision_5": 7,
+      "AI_OpenAIVision_6": 6,
+      "AI_GeminiVision_7": 3,
+      "AI_GeminiVision_8": 1,
+      "AI_GeminiVision_9": 4
+    }
+  },
+  {
+    "round": 3,
+    "storyteller": "AI_ClaudeVision_3",
+    "players": [
+      {
+        "model": "llama-3.2-11b-vision-preview",
+        "vision_api": "GroqVision"
+      },
+      {
+        "model": "llama-3.2-90b-vision-preview",
+        "vision_api": "GroqVision"
+      },
+      {
+        "model": "claude-3-opus-20240229",
+        "vision_api": "ClaudeVision"
+      },
+      {
+        "model": "claude-3-5-sonnet-20241022",
+        "vision_api": "ClaudeVision"
+      },
+      {
+        "model": "gpt-4o",
+        "vision_api": "OpenAIVision"
+      },
+      {
+        "model": "gpt-4o-mini",
+        "vision_api": "OpenAIVision"
+      },
+      {
+        "model": "gemini-1.5-flash-8b",
+        "vision_api": "GeminiVision"
+      },
+      {
+        "model": "gemini-2.0-flash-exp",
+        "vision_api": "GeminiVision"
+      },
+      {
+        "model": "gemini-2.0-flash-thinking-exp-1219",
+        "vision_api": "GeminiVision"
+      }
+    ],
+    "clue": "Passion's flame, encased in fragile glass, flickers with the winds of fate.",
+    "storyteller_card": "data/1_full/33.jpg",
+    "played_cards": {
+      "AI_GroqVision_1": {
+        "selected_card": "data/1_full/27.jpg",
+        "card_scores": {
+          "data/1_full/36.jpg": 6.0,
+          "data/1_full/83.jpg": 6.0,
+          "data/1_full/9.jpg": 2.0,
+          "data/1_full/34.jpg": 7.0,
+          "data/1_full/27.jpg": 8.0,
+          "data/1_full/58.jpg": 8.0
+        }
+      },
+      "AI_GroqVision_2": {
+        "selected_card": "data/1_full/45.jpg",
+        "card_scores": {
+          "data/1_full/54.jpg": 4.0,
+          "data/1_full/64.jpg": 2.0,
+          "data/1_full/45.jpg": 8.0,
+          "data/1_full/78.jpg": 0,
+          "data/1_full/60.jpg": 4.0,
+          "data/1_full/26.jpg": 0.0
+        }
+      },
+      "AI_ClaudeVision_4": {
+        "selected_card": "data/1_full/65.jpg",
+        "card_scores": {
+          "data/1_full/65.jpg": 7.0,
+          "data/1_full/55.jpg": 2.0,
+          "data/1_full/30.jpg": 7.0,
+          "data/1_full/7.jpg": 7.0,
+          "data/1_full/73.jpg": 3.0,
+          "data/1_full/69.jpg": 3.0
+        }
+      },
+      "AI_OpenAIVision_5": {
+        "selected_card": "data/1_full/43.jpg",
+        "card_scores": {
+          "data/1_full/40.jpg": 5.0,
+          "data/1_full/1.jpg": 3.0,
+          "data/1_full/22.jpg": 3.0,
+          "data/1_full/48.jpg": 7.0,
+          "data/1_full/43.jpg": 8.0,
+          "data/1_full/13.jpg": 1.0
+        }
+      },
+      "AI_OpenAIVision_6": {
+        "selected_card": "data/1_full/66.jpg",
+        "card_scores": {
+          "data/1_full/24.jpg": 2.0,
+          "data/1_full/25.jpg": 3.0,
+          "data/1_full/21.jpg": 2.0,
+          "data/1_full/39.jpg": 2.0,
+          "data/1_full/66.jpg": 4.0,
+          "data/1_full/52.jpg": 2.0
+        }
+      },
+      "AI_GeminiVision_7": {
+        "selected_card": "data/1_full/44.jpg",
+        "card_scores": {
+          "data/1_full/42.jpg": 6.0,
+          "data/1_full/44.jpg": 7.0,
+          "data/1_full/56.jpg": 7.0,
+          "data/1_full/61.jpg": 6.0,
+          "data/1_full/20.jpg": 6.0,
+          "data/1_full/53.jpg": 7.0
+        }
+      },
+      "AI_GeminiVision_8": {
+        "selected_card": "data/1_full/2.jpg",
+        "card_scores": {
+          "data/1_full/4.jpg": 8.0,
+          "data/1_full/6.jpg": 7.0,
+          "data/1_full/68.jpg": 8.0,
+          "data/1_full/37.jpg": 7.0,
+          "data/1_full/2.jpg": 9.0,
+          "data/1_full/16.jpg": 8.0
+        }
+      },
+      "AI_GeminiVision_9": {
+        "selected_card": "data/1_full/11.jpg",
+        "card_scores": {
+          "data/1_full/11.jpg": 0,
+          "data/1_full/57.jpg": 0,
+          "data/1_full/46.jpg": 0,
+          "data/1_full/41.jpg": 0,
+          "data/1_full/71.jpg": 0,
+          "data/1_full/17.jpg": 0
+        }
+      }
+    },
+    "votes": {
+      "AI_GroqVision_1": {
+        "selected_card": "data/1_full/27.jpg",
+        "card_scores": {
+          "data/1_full/27.jpg": 8.0,
+          "data/1_full/43.jpg": 5.0,
+          "data/1_full/44.jpg": 8.0,
+          "data/1_full/65.jpg": 4.0,
+          "data/1_full/66.jpg": 7.0,
+          "data/1_full/45.jpg": 2.0,
+          "data/1_full/33.jpg": 8.0,
+          "data/1_full/2.jpg": 6.0,
+          "data/1_full/11.jpg": 4.9
+        }
+      },
+      "AI_GroqVision_2": {
+        "selected_card": "data/1_full/43.jpg",
+        "card_scores": {
+          "data/1_full/27.jpg": 4.0,
+          "data/1_full/43.jpg": 8.0,
+          "data/1_full/44.jpg": 7.0,
+          "data/1_full/65.jpg": 0.0,
+          "data/1_full/66.jpg": 8.0,
+          "data/1_full/45.jpg": 8.0,
+          "data/1_full/33.jpg": 8.0,
+          "data/1_full/2.jpg": 8.0,
+          "data/1_full/11.jpg": 0
+        }
+      },
+      "AI_ClaudeVision_4": {
+        "selected_card": "data/1_full/43.jpg",
+        "card_scores": {
+          "data/1_full/27.jpg": 2.0,
+          "data/1_full/43.jpg": 9.0,
+          "data/1_full/44.jpg": 8.0,
+          "data/1_full/65.jpg": 7.0,
+          "data/1_full/66.jpg": 7.0,
+          "data/1_full/45.jpg": 2.0,
+          "data/1_full/33.jpg": 9.0,
+          "data/1_full/2.jpg": 7.0,
+          "data/1_full/11.jpg": 3.0
+        }
+      },
+      "AI_OpenAIVision_5": {
+        "selected_card": "data/1_full/33.jpg",
+        "card_scores": {
+          "data/1_full/27.jpg": 0.0,
+          "data/1_full/43.jpg": 8.0,
+          "data/1_full/44.jpg": 5.0,
+          "data/1_full/65.jpg": 4.0,
+          "data/1_full/66.jpg": 3.0,
+          "data/1_full/45.jpg": 0.0,
+          "data/1_full/33.jpg": 10.0,
+          "data/1_full/2.jpg": 2.0,
+          "data/1_full/11.jpg": 3.0
+        }
+      },
+      "AI_OpenAIVision_6": {
+        "selected_card": "data/1_full/43.jpg",
+        "card_scores": {
+          "data/1_full/27.jpg": 2.0,
+          "data/1_full/43.jpg": 8.0,
+          "data/1_full/44.jpg": 7.0,
+          "data/1_full/65.jpg": 4.0,
+          "data/1_full/66.jpg": 4.0,
+          "data/1_full/45.jpg": 2.0,
+          "data/1_full/33.jpg": 8.0,
+          "data/1_full/2.jpg": 4.0,
+          "data/1_full/11.jpg": 2.0
+        }
+      },
+      "AI_GeminiVision_7": {
+        "selected_card": "data/1_full/27.jpg",
+        "card_scores": {
+          "data/1_full/27.jpg": 7.0,
+          "data/1_full/43.jpg": 7.0,
+          "data/1_full/44.jpg": 7.0,
+          "data/1_full/65.jpg": 6.0,
+          "data/1_full/66.jpg": 7.0,
+          "data/1_full/45.jpg": 7.0,
+          "data/1_full/33.jpg": 7.0,
+          "data/1_full/2.jpg": 7.0,
+          "data/1_full/11.jpg": 7.0
+        }
+      },
+      "AI_GeminiVision_8": {
+        "selected_card": "data/1_full/44.jpg",
+        "card_scores": {
+          "data/1_full/27.jpg": 0.0,
+          "data/1_full/43.jpg": 8.0,
+          "data/1_full/44.jpg": 9.0,
+          "data/1_full/65.jpg": 8.0,
+          "data/1_full/66.jpg": 8.0,
+          "data/1_full/45.jpg": 7.0,
+          "data/1_full/33.jpg": 7.0,
+          "data/1_full/2.jpg": 9.0,
+          "data/1_full/11.jpg": 7.0
+        }
+      },
+      "AI_GeminiVision_9": {
+        "selected_card": "data/1_full/27.jpg",
+        "card_scores": {
+          "data/1_full/27.jpg": 0,
+          "data/1_full/43.jpg": 0,
+          "data/1_full/44.jpg": 0,
+          "data/1_full/65.jpg": 0,
+          "data/1_full/66.jpg": 0,
+          "data/1_full/45.jpg": 0,
+          "data/1_full/33.jpg": 0,
+          "data/1_full/2.jpg": 0,
+          "data/1_full/11.jpg": 0
+        }
+      }
+    },
+    "storyteller_votes": 1,
+    "score_changes": {
+      "AI_ClaudeVision_3": 3,
+      "AI_OpenAIVision_5": 6,
+      "AI_GroqVision_1": 2,
+      "AI_GeminiVision_7": 1
+    },
+    "current_scores": {
+      "AI_GroqVision_1": 8,
+      "AI_GroqVision_2": 6,
+      "AI_ClaudeVision_3": 3,
+      "AI_ClaudeVision_4": 6,
+      "AI_OpenAIVision_5": 13,
+      "AI_OpenAIVision_6": 6,
+      "AI_GeminiVision_7": 4,
+      "AI_GeminiVision_8": 1,
+      "AI_GeminiVision_9": 4
+    }
+  },
+  {
+    "round": 4,
+    "storyteller": "AI_ClaudeVision_4",
+    "players": [
+      {
+        "model": "llama-3.2-11b-vision-preview",
+        "vision_api": "GroqVision"
+      },
+      {
+        "model": "llama-3.2-90b-vision-preview",
+        "vision_api": "GroqVision"
+      },
+      {
+        "model": "claude-3-opus-20240229",
+        "vision_api": "ClaudeVision"
+      },
+      {
+        "model": "claude-3-5-sonnet-20241022",
+        "vision_api": "ClaudeVision"
+      },
+      {
+        "model": "gpt-4o",
+        "vision_api": "OpenAIVision"
+      },
+      {
+        "model": "gpt-4o-mini",
+        "vision_api": "OpenAIVision"
+      },
+      {
+        "model": "gemini-1.5-flash-8b",
+        "vision_api": "GeminiVision"
+      },
+      {
+        "model": "gemini-2.0-flash-exp",
+        "vision_api": "GeminiVision"
+      },
+      {
+        "model": "gemini-2.0-flash-thinking-exp-1219",
+        "vision_api": "GeminiVision"
+      }
+    ],
+    "clue": "\"Childhood dreams in miniature\"",
+    "storyteller_card": "data/1_full/55.jpg",
+    "played_cards": {
+      "AI_GroqVision_1": {
+        "selected_card": "data/1_full/83.jpg",
+        "card_scores": {
+          "data/1_full/36.jpg": 6.0,
+          "data/1_full/83.jpg": 9.0,
+          "data/1_full/9.jpg": 4.0,
+          "data/1_full/34.jpg": 6.0,
+          "data/1_full/27.jpg": 4.0,
+          "data/1_full/58.jpg": 2.0
+        }
+      },
+      "AI_GroqVision_2": {
+        "selected_card": "data/1_full/54.jpg",
+        "card_scores": {
+          "data/1_full/54.jpg": 10.0,
+          "data/1_full/64.jpg": 8.0,
+          "data/1_full/45.jpg": 8.0,
+          "data/1_full/78.jpg": 9.0,
+          "data/1_full/60.jpg": 9.0,
+          "data/1_full/26.jpg": 8.0
+        }
+      },
+      "AI_ClaudeVision_3": {
+        "selected_card": "data/1_full/5.jpg",
+        "card_scores": {
+          "data/1_full/8.jpg": 2.0,
+          "data/1_full/5.jpg": 8.0,
+          "data/1_full/12.jpg": 2.0,
+          "data/1_full/33.jpg": 2.0,
+          "data/1_full/38.jpg": 2.0,
+          "data/1_full/29.jpg": 6.0
+        }
+      },
+      "AI_OpenAIVision_5": {
+        "selected_card": "data/1_full/43.jpg",
+        "card_scores": {
+          "data/1_full/40.jpg": 8.0,
+          "data/1_full/1.jpg": 7.0,
+          "data/1_full/22.jpg": 7.0,
+          "data/1_full/48.jpg": 0.0,
+          "data/1_full/43.jpg": 9.0,
+          "data/1_full/13.jpg": 8.0
+        }
+      },
+      "AI_OpenAIVision_6": {
+        "selected_card": "data/1_full/24.jpg",
+        "card_scores": {
+          "data/1_full/24.jpg": 8.0,
+          "data/1_full/25.jpg": 8.0,
+          "data/1_full/21.jpg": 8.0,
+          "data/1_full/39.jpg": 7.0,
+          "data/1_full/66.jpg": 8.0,
+          "data/1_full/52.jpg": 5.0
+        }
+      },
+      "AI_GeminiVision_7": {
+        "selected_card": "data/1_full/42.jpg",
+        "card_scores": {
+          "data/1_full/42.jpg": 6.0,
+          "data/1_full/44.jpg": 5.0,
+          "data/1_full/56.jpg": 6.0,
+          "data/1_full/61.jpg": 5.0,
+          "data/1_full/20.jpg": 6.0,
+          "data/1_full/53.jpg": 6.0
+        }
+      },
+      "AI_GeminiVision_8": {
+        "selected_card": "data/1_full/4.jpg",
+        "card_scores": {
+          "data/1_full/4.jpg": 9.0,
+          "data/1_full/6.jpg": 9.0,
+          "data/1_full/68.jpg": 9.0,
+          "data/1_full/37.jpg": 9.0,
+          "data/1_full/2.jpg": 9.0,
+          "data/1_full/16.jpg": 9.0
+        }
+      },
+      "AI_GeminiVision_9": {
+        "selected_card": "data/1_full/11.jpg",
+        "card_scores": {
+          "data/1_full/11.jpg": 0,
+          "data/1_full/57.jpg": 0,
+          "data/1_full/46.jpg": 0,
+          "data/1_full/41.jpg": 0,
+          "data/1_full/71.jpg": 0,
+          "data/1_full/17.jpg": 0
+        }
+      }
+    },
+    "votes": {
+      "AI_GroqVision_1": {
+        "selected_card": "data/1_full/83.jpg",
+        "card_scores": {
+          "data/1_full/55.jpg": 4.0,
+          "data/1_full/4.jpg": 8.0,
+          "data/1_full/43.jpg": 8.0,
+          "data/1_full/83.jpg": 9.0,
+          "data/1_full/5.jpg": 4.0,
+          "data/1_full/54.jpg": 8.0,
+          "data/1_full/42.jpg": 6.0,
+          "data/1_full/11.jpg": 6.0,
+          "data/1_full/24.jpg": 7.0
+        }
+      },
+      "AI_GroqVision_2": {
+        "selected_card": "data/1_full/54.jpg",
+        "card_scores": {
+          "data/1_full/55.jpg": 9.0,
+          "data/1_full/4.jpg": 8.0,
+          "data/1_full/43.jpg": 9.0,
+          "data/1_full/83.jpg": 0,
+          "data/1_full/5.jpg": 8.0,
+          "data/1_full/54.jpg": 10.0,
+          "data/1_full/42.jpg": 8.0,
+          "data/1_full/11.jpg": 0,
+          "data/1_full/24.jpg": 8.0
+        }
+      },
+      "AI_ClaudeVision_3": {
+        "selected_card": "data/1_full/55.jpg",
+        "card_scores": {
+          "data/1_full/55.jpg": 8.0,
+          "data/1_full/4.jpg": 8.0,
+          "data/1_full/43.jpg": 8.0,
+          "data/1_full/83.jpg": 8.0,
+          "data/1_full/5.jpg": 8.0,
+          "data/1_full/54.jpg": 8.0,
+          "data/1_full/42.jpg": 2.0,
+          "data/1_full/11.jpg": 2.0,
+          "data/1_full/24.jpg": 8.0
+        }
+      },
+      "AI_OpenAIVision_5": {
+        "selected_card": "data/1_full/55.jpg",
+        "card_scores": {
+          "data/1_full/55.jpg": 9.0,
+          "data/1_full/4.jpg": 7.0,
+          "data/1_full/43.jpg": 9.0,
+          "data/1_full/83.jpg": 5.0,
+          "data/1_full/5.jpg": 8.0,
+          "data/1_full/54.jpg": 7.0,
+          "data/1_full/42.jpg": 3.0,
+          "data/1_full/11.jpg": 7.0,
+          "data/1_full/24.jpg": 8.0
+        }
+      },
+      "AI_OpenAIVision_6": {
+        "selected_card": "data/1_full/55.jpg",
+        "card_scores": {
+          "data/1_full/55.jpg": 8.0,
+          "data/1_full/4.jpg": 8.0,
+          "data/1_full/43.jpg": 8.0,
+          "data/1_full/83.jpg": 7.0,
+          "data/1_full/5.jpg": 7.0,
+          "data/1_full/54.jpg": 7.0,
+          "data/1_full/42.jpg": 4.0,
+          "data/1_full/11.jpg": 7.0,
+          "data/1_full/24.jpg": 8.0
+        }
+      },
+      "AI_GeminiVision_7": {
+        "selected_card": "data/1_full/55.jpg",
+        "card_scores": {
+          "data/1_full/55.jpg": 7.0,
+          "data/1_full/4.jpg": 6.0,
+          "data/1_full/43.jpg": 6.0,
+          "data/1_full/83.jpg": 6.0,
+          "data/1_full/5.jpg": 6.0,
+          "data/1_full/54.jpg": 6.0,
+          "data/1_full/42.jpg": 6.0,
+          "data/1_full/11.jpg": 5.0,
+          "data/1_full/24.jpg": 6.0
+        }
+      },
+      "AI_GeminiVision_8": {
+        "selected_card": "data/1_full/55.jpg",
+        "card_scores": {
+          "data/1_full/55.jpg": 9.0,
+          "data/1_full/4.jpg": 9.0,
+          "data/1_full/43.jpg": 9.0,
+          "data/1_full/83.jpg": 9.0,
+          "data/1_full/5.jpg": 8.0,
+          "data/1_full/54.jpg": 9.0,
+          "data/1_full/42.jpg": 9.0,
+          "data/1_full/11.jpg": 9.0,
+          "data/1_full/24.jpg": 9.0
+        }
+      },
+      "AI_GeminiVision_9": {
+        "selected_card": "data/1_full/55.jpg",
+        "card_scores": {
+          "data/1_full/55.jpg": 0,
+          "data/1_full/4.jpg": 0,
+          "data/1_full/43.jpg": 0,
+          "data/1_full/83.jpg": 0,
+          "data/1_full/5.jpg": 0,
+          "data/1_full/54.jpg": 0,
+          "data/1_full/42.jpg": 0,
+          "data/1_full/11.jpg": 0,
+          "data/1_full/24.jpg": 0
+        }
+      }
+    },
+    "storyteller_votes": 6,
+    "score_changes": {
+      "AI_ClaudeVision_4": 3,
+      "AI_ClaudeVision_3": 3,
+      "AI_OpenAIVision_5": 3,
+      "AI_OpenAIVision_6": 3,
+      "AI_GeminiVision_7": 3,
+      "AI_GeminiVision_8": 3,
+      "AI_GeminiVision_9": 3
+    },
+    "current_scores": {
+      "AI_GroqVision_1": 8,
+      "AI_GroqVision_2": 6,
+      "AI_ClaudeVision_3": 6,
+      "AI_ClaudeVision_4": 9,
+      "AI_OpenAIVision_5": 16,
+      "AI_OpenAIVision_6": 9,
+      "AI_GeminiVision_7": 7,
+      "AI_GeminiVision_8": 4,
+      "AI_GeminiVision_9": 7
+    }
+  },
+  {
+    "round": 5,
+    "storyteller": "AI_OpenAIVision_5",
+    "players": [
+      {
+        "model": "llama-3.2-11b-vision-preview",
+        "vision_api": "GroqVision"
+      },
+      {
+        "model": "llama-3.2-90b-vision-preview",
+        "vision_api": "GroqVision"
+      },
+      {
+        "model": "claude-3-opus-20240229",
+        "vision_api": "ClaudeVision"
+      },
+      {
+        "model": "claude-3-5-sonnet-20241022",
+        "vision_api": "ClaudeVision"
+      },
+      {
+        "model": "gpt-4o",
+        "vision_api": "OpenAIVision"
+      },
+      {
+        "model": "gpt-4o-mini",
+        "vision_api": "OpenAIVision"
+      },
+      {
+        "model": "gemini-1.5-flash-8b",
+        "vision_api": "GeminiVision"
+      },
+      {
+        "model": "gemini-2.0-flash-exp",
+        "vision_api": "GeminiVision"
+      },
+      {
+        "model": "gemini-2.0-flash-thinking-exp-1219",
+        "vision_api": "GeminiVision"
+      }
+    ],
+    "clue": "\"Endless tales unravel from winding homes.\"",
+    "storyteller_card": "data/1_full/1.jpg",
+    "played_cards": {
+      "AI_GroqVision_1": {
+        "selected_card": "data/1_full/9.jpg",
+        "card_scores": {
+          "data/1_full/36.jpg": 2.0,
+          "data/1_full/83.jpg": 3.0,
+          "data/1_full/9.jpg": 7.0,
+          "data/1_full/34.jpg": 6.0,
+          "data/1_full/27.jpg": 7.0,
+          "data/1_full/58.jpg": 0.0
+        }
+      },
+      "AI_GroqVision_2": {
+        "selected_card": "data/1_full/54.jpg",
+        "card_scores": {
+          "data/1_full/54.jpg": 8.0,
+          "data/1_full/64.jpg": 8.0,
+          "data/1_full/45.jpg": 5.0,
+          "data/1_full/78.jpg": 7.0,
+          "data/1_full/60.jpg": 8.0,
+          "data/1_full/26.jpg": 4.0
+        }
+      },
+      "AI_ClaudeVision_3": {
+        "selected_card": "data/1_full/5.jpg",
+        "card_scores": {
+          "data/1_full/8.jpg": 2.0,
+          "data/1_full/5.jpg": 6.0,
+          "data/1_full/12.jpg": 2.0,
+          "data/1_full/33.jpg": 2.0,
+          "data/1_full/38.jpg": 2.0,
+          "data/1_full/29.jpg": 2.0
+        }
+      },
+      "AI_ClaudeVision_4": {
+        "selected_card": "data/1_full/55.jpg",
+        "card_scores": {
+          "data/1_full/65.jpg": 2.0,
+          "data/1_full/55.jpg": 7.0,
+          "data/1_full/30.jpg": 7.0,
+          "data/1_full/7.jpg": 7.0,
+          "data/1_full/73.jpg": 3.0,
+          "data/1_full/69.jpg": 7.0
+        }
+      },
+      "AI_OpenAIVision_6": {
+        "selected_card": "data/1_full/39.jpg",
+        "card_scores": {
+          "data/1_full/24.jpg": 5.0,
+          "data/1_full/25.jpg": 6.0,
+          "data/1_full/21.jpg": 4.0,
+          "data/1_full/39.jpg": 7.0,
+          "data/1_full/66.jpg": 5.0,
+          "data/1_full/52.jpg": 3.0
+        }
+      },
+      "AI_GeminiVision_7": {
+        "selected_card": "data/1_full/42.jpg",
+        "card_scores": {
+          "data/1_full/42.jpg": 6.0,
+          "data/1_full/44.jpg": 6.0,
+          "data/1_full/56.jpg": 6.0,
+          "data/1_full/61.jpg": 6.0,
+          "data/1_full/20.jpg": 6.0,
+          "data/1_full/53.jpg": 6.0
+        }
+      },
+      "AI_GeminiVision_8": {
+        "selected_card": "data/1_full/4.jpg",
+        "card_scores": {
+          "data/1_full/4.jpg": 9.0,
+          "data/1_full/6.jpg": 1.0,
+          "data/1_full/68.jpg": 8.0,
+          "data/1_full/37.jpg": 7.0,
+          "data/1_full/2.jpg": 8.0,
+          "data/1_full/16.jpg": 0.0
+        }
+      },
+      "AI_GeminiVision_9": {
+        "selected_card": "data/1_full/11.jpg",
+        "card_scores": {
+          "data/1_full/11.jpg": 0,
+          "data/1_full/57.jpg": 0,
+          "data/1_full/46.jpg": 0,
+          "data/1_full/41.jpg": 0,
+          "data/1_full/71.jpg": 0,
+          "data/1_full/17.jpg": 0
+        }
+      }
+    },
+    "votes": {
+      "AI_GroqVision_1": {
+        "selected_card": "data/1_full/9.jpg",
+        "card_scores": {
+          "data/1_full/9.jpg": 7.0,
+          "data/1_full/4.jpg": 5.0,
+          "data/1_full/42.jpg": 1.0,
+          "data/1_full/55.jpg": 2.0,
+          "data/1_full/54.jpg": 5.0,
+          "data/1_full/39.jpg": 6.0,
+          "data/1_full/1.jpg": 6.0,
+          "data/1_full/11.jpg": 5.0,
+          "data/1_full/5.jpg": 7.0
+        }
+      },
+      "AI_GroqVision_2": {
+        "selected_card": "data/1_full/1.jpg",
+        "card_scores": {
+          "data/1_full/9.jpg": 8.0,
+          "data/1_full/4.jpg": 0.0,
+          "data/1_full/42.jpg": 3.0,
+          "data/1_full/55.jpg": 8.0,
+          "data/1_full/54.jpg": 8.0,
+          "data/1_full/39.jpg": 7.0,
+          "data/1_full/1.jpg": 10.0,
+          "data/1_full/11.jpg": 4.0,
+          "data/1_full/5.jpg": 7.0
+        }
+      },
+      "AI_ClaudeVision_3": {
+        "selected_card": "data/1_full/55.jpg",
+        "card_scores": {
+          "data/1_full/9.jpg": 6.0,
+          "data/1_full/4.jpg": 6.0,
+          "data/1_full/42.jpg": 2.0,
+          "data/1_full/55.jpg": 7.0,
+          "data/1_full/54.jpg": 2.0,
+          "data/1_full/39.jpg": 2.0,
+          "data/1_full/1.jpg": 6.0,
+          "data/1_full/11.jpg": 2.0,
+          "data/1_full/5.jpg": 6.0
+        }
+      },
+      "AI_ClaudeVision_4": {
+        "selected_card": "data/1_full/9.jpg",
+        "card_scores": {
+          "data/1_full/9.jpg": 8.0,
+          "data/1_full/4.jpg": 3.0,
+          "data/1_full/42.jpg": 2.0,
+          "data/1_full/55.jpg": 7.0,
+          "data/1_full/54.jpg": 2.0,
+          "data/1_full/39.jpg": 4.0,
+          "data/1_full/1.jpg": 8.0,
+          "data/1_full/11.jpg": 2.0,
+          "data/1_full/5.jpg": 8.0
+        }
+      },
+      "AI_OpenAIVision_6": {
+        "selected_card": "data/1_full/1.jpg",
+        "card_scores": {
+          "data/1_full/9.jpg": 7.0,
+          "data/1_full/4.jpg": 3.0,
+          "data/1_full/42.jpg": 4.0,
+          "data/1_full/55.jpg": 7.0,
+          "data/1_full/54.jpg": 3.0,
+          "data/1_full/39.jpg": 7.0,
+          "data/1_full/1.jpg": 8.0,
+          "data/1_full/11.jpg": 4.0,
+          "data/1_full/5.jpg": 3.0
+        }
+      },
+      "AI_GeminiVision_7": {
+        "selected_card": "data/1_full/9.jpg",
+        "card_scores": {
+          "data/1_full/9.jpg": 6.0,
+          "data/1_full/4.jpg": 6.0,
+          "data/1_full/42.jpg": 6.0,
+          "data/1_full/55.jpg": 5.0,
+          "data/1_full/54.jpg": 6.0,
+          "data/1_full/39.jpg": 6.0,
+          "data/1_full/1.jpg": 6.0,
+          "data/1_full/11.jpg": 6.0,
+          "data/1_full/5.jpg": 6.0
+        }
+      },
+      "AI_GeminiVision_8": {
+        "selected_card": "data/1_full/4.jpg",
+        "card_scores": {
+          "data/1_full/9.jpg": 8.0,
+          "data/1_full/4.jpg": 9.0,
+          "data/1_full/42.jpg": 0.0,
+          "data/1_full/55.jpg": 9.0,
+          "data/1_full/54.jpg": 8.0,
+          "data/1_full/39.jpg": 7.0,
+          "data/1_full/1.jpg": 8.0,
+          "data/1_full/11.jpg": 0.0,
+          "data/1_full/5.jpg": 9.0
+        }
+      },
+      "AI_GeminiVision_9": {
+        "selected_card": "data/1_full/9.jpg",
+        "card_scores": {
+          "data/1_full/9.jpg": 0,
+          "data/1_full/4.jpg": 0,
+          "data/1_full/42.jpg": 0,
+          "data/1_full/55.jpg": 0,
+          "data/1_full/54.jpg": 0,
+          "data/1_full/39.jpg": 0,
+          "data/1_full/1.jpg": 0,
+          "data/1_full/11.jpg": 0,
+          "data/1_full/5.jpg": 0
+        }
+      }
+    },
+    "storyteller_votes": 2,
+    "score_changes": {
+      "AI_OpenAIVision_5": 3,
+      "AI_GroqVision_2": 3,
+      "AI_OpenAIVision_6": 3,
+      "AI_ClaudeVision_4": 1,
+      "AI_GroqVision_1": 3
+    },
+    "current_scores": {
+      "AI_GroqVision_1": 11,
+      "AI_GroqVision_2": 9,
+      "AI_ClaudeVision_3": 6,
+      "AI_ClaudeVision_4": 10,
+      "AI_OpenAIVision_5": 19,
+      "AI_OpenAIVision_6": 12,
+      "AI_GeminiVision_7": 7,
+      "AI_GeminiVision_8": 4,
+      "AI_GeminiVision_9": 7
+    }
+  },
+  {
+    "round": 6,
+    "storyteller": "AI_OpenAIVision_6",
+    "players": [
+      {
+        "model": "llama-3.2-11b-vision-preview",
+        "vision_api": "GroqVision"
+      },
+      {
+        "model": "llama-3.2-90b-vision-preview",
+        "vision_api": "GroqVision"
+      },
+      {
+        "model": "claude-3-opus-20240229",
+        "vision_api": "ClaudeVision"
+      },
+      {
+        "model": "claude-3-5-sonnet-20241022",
+        "vision_api": "ClaudeVision"
+      },
+      {
+        "model": "gpt-4o",
+        "vision_api": "OpenAIVision"
+      },
+      {
+        "model": "gpt-4o-mini",
+        "vision_api": "OpenAIVision"
+      },
+      {
+        "model": "gemini-1.5-flash-8b",
+        "vision_api": "GeminiVision"
+      },
+      {
+        "model": "gemini-2.0-flash-exp",
+        "vision_api": "GeminiVision"
+      },
+      {
+        "model": "gemini-2.0-flash-thinking-exp-1219",
+        "vision_api": "GeminiVision"
+      }
+    ],
+    "clue": "\"Whirls of joy, where dreams dance in circles.\"",
+    "storyteller_card": "data/1_full/24.jpg",
+    "played_cards": {
+      "AI_GroqVision_1": {
+        "selected_card": "data/1_full/36.jpg",
+        "card_scores": {
+          "data/1_full/36.jpg": 6.0,
+          "data/1_full/83.jpg": 4.5,
+          "data/1_full/9.jpg": 5.0,
+          "data/1_full/34.jpg": 2.0,
+          "data/1_full/27.jpg": 6.0,
+          "data/1_full/58.jpg": 1.0
+        }
+      },
+      "AI_GroqVision_2": {
+        "selected_card": "data/1_full/78.jpg",
+        "card_scores": {
+          "data/1_full/54.jpg": 6.0,
+          "data/1_full/64.jpg": 0.0,
+          "data/1_full/45.jpg": 4.0,
+          "data/1_full/78.jpg": 8.0,
+          "data/1_full/60.jpg": 8.0,
+          "data/1_full/26.jpg": 3.0
+        }
+      },
+      "AI_ClaudeVision_3": {
+        "selected_card": "data/1_full/12.jpg",
+        "card_scores": {
+          "data/1_full/8.jpg": 2.0,
+          "data/1_full/5.jpg": 6.0,
+          "data/1_full/12.jpg": 7.0,
+          "data/1_full/33.jpg": 2.0,
+          "data/1_full/38.jpg": 7.0,
+          "data/1_full/29.jpg": 2.0
+        }
+      },
+      "AI_ClaudeVision_4": {
+        "selected_card": "data/1_full/65.jpg",
+        "card_scores": {
+          "data/1_full/65.jpg": 8.0,
+          "data/1_full/55.jpg": 2.0,
+          "data/1_full/30.jpg": 7.0,
+          "data/1_full/7.jpg": 3.0,
+          "data/1_full/73.jpg": 2.0,
+          "data/1_full/69.jpg": 2.0
+        }
+      },
+      "AI_OpenAIVision_5": {
+        "selected_card": "data/1_full/1.jpg",
+        "card_scores": {
+          "data/1_full/40.jpg": 7.0,
+          "data/1_full/1.jpg": 8.0,
+          "data/1_full/22.jpg": 4.0,
+          "data/1_full/48.jpg": 0.0,
+          "data/1_full/43.jpg": 6.0,
+          "data/1_full/13.jpg": 3.0
+        }
+      },
+      "AI_GeminiVision_7": {
+        "selected_card": "data/1_full/42.jpg",
+        "card_scores": {
+          "data/1_full/42.jpg": 7.0,
+          "data/1_full/44.jpg": 6.0,
+          "data/1_full/56.jpg": 7.0,
+          "data/1_full/61.jpg": 6.0,
+          "data/1_full/20.jpg": 6.0,
+          "data/1_full/53.jpg": 6.0
+        }
+      },
+      "AI_GeminiVision_8": {
+        "selected_card": "data/1_full/4.jpg",
+        "card_scores": {
+          "data/1_full/4.jpg": 9.0,
+          "data/1_full/6.jpg": 9.0,
+          "data/1_full/68.jpg": 9.0,
+          "data/1_full/37.jpg": 8.0,
+          "data/1_full/2.jpg": 7.0,
+          "data/1_full/16.jpg": 8.0
+        }
+      },
+      "AI_GeminiVision_9": {
+        "selected_card": "data/1_full/11.jpg",
+        "card_scores": {
+          "data/1_full/11.jpg": 0,
+          "data/1_full/57.jpg": 0,
+          "data/1_full/46.jpg": 0,
+          "data/1_full/41.jpg": 0,
+          "data/1_full/71.jpg": 0,
+          "data/1_full/17.jpg": 0
+        }
+      }
+    },
+    "votes": {
+      "AI_GroqVision_1": {
+        "selected_card": "data/1_full/78.jpg",
+        "card_scores": {
+          "data/1_full/4.jpg": 4.0,
+          "data/1_full/1.jpg": 6.0,
+          "data/1_full/11.jpg": 1.0,
+          "data/1_full/65.jpg": 5.0,
+          "data/1_full/78.jpg": 8.0,
+          "data/1_full/24.jpg": 8.0,
+          "data/1_full/12.jpg": 6.0,
+          "data/1_full/42.jpg": 5.0,
+          "data/1_full/36.jpg": 6.0
+        }
+      },
+      "AI_GroqVision_2": {
+        "selected_card": "data/1_full/24.jpg",
+        "card_scores": {
+          "data/1_full/4.jpg": 8.0,
+          "data/1_full/1.jpg": 8.0,
+          "data/1_full/11.jpg": 8.0,
+          "data/1_full/65.jpg": 8.0,
+          "data/1_full/78.jpg": 8.0,
+          "data/1_full/24.jpg": 9.0,
+          "data/1_full/12.jpg": 9.0,
+          "data/1_full/42.jpg": 4.0,
+          "data/1_full/36.jpg": 9.0
+        }
+      },
+      "AI_ClaudeVision_3": {
+        "selected_card": "data/1_full/65.jpg",
+        "card_scores": {
+          "data/1_full/4.jpg": 6.0,
+          "data/1_full/1.jpg": 7.0,
+          "data/1_full/11.jpg": 2.0,
+          "data/1_full/65.jpg": 8.0,
+          "data/1_full/78.jpg": 6.0,
+          "data/1_full/24.jpg": 6.0,
+          "data/1_full/12.jpg": 7.0,
+          "data/1_full/42.jpg": 6.0,
+          "data/1_full/36.jpg": 7.0
+        }
+      },
+      "AI_ClaudeVision_4": {
+        "selected_card": "data/1_full/24.jpg",
+        "card_scores": {
+          "data/1_full/4.jpg": 7.0,
+          "data/1_full/1.jpg": 8.0,
+          "data/1_full/11.jpg": 3.0,
+          "data/1_full/65.jpg": 8.0,
+          "data/1_full/78.jpg": 8.0,
+          "data/1_full/24.jpg": 9.0,
+          "data/1_full/12.jpg": 8.0,
+          "data/1_full/42.jpg": 2.0,
+          "data/1_full/36.jpg": 7.0
+        }
+      },
+      "AI_OpenAIVision_5": {
+        "selected_card": "data/1_full/24.jpg",
+        "card_scores": {
+          "data/1_full/4.jpg": 3.0,
+          "data/1_full/1.jpg": 8.0,
+          "data/1_full/11.jpg": 2.0,
+          "data/1_full/65.jpg": 7.0,
+          "data/1_full/78.jpg": 8.0,
+          "data/1_full/24.jpg": 9.0,
+          "data/1_full/12.jpg": 8.0,
+          "data/1_full/42.jpg": 2.0,
+          "data/1_full/36.jpg": 7.0
+        }
+      },
+      "AI_GeminiVision_7": {
+        "selected_card": "data/1_full/11.jpg",
+        "card_scores": {
+          "data/1_full/4.jpg": 6.0,
+          "data/1_full/1.jpg": 6.0,
+          "data/1_full/11.jpg": 7.0,
+          "data/1_full/65.jpg": 6.0,
+          "data/1_full/78.jpg": 6.0,
+          "data/1_full/24.jpg": 6.0,
+          "data/1_full/12.jpg": 6.0,
+          "data/1_full/42.jpg": 7.0,
+          "data/1_full/36.jpg": 6.0
+        }
+      },
+      "AI_GeminiVision_8": {
+        "selected_card": "data/1_full/4.jpg",
+        "card_scores": {
+          "data/1_full/4.jpg": 9.0,
+          "data/1_full/1.jpg": 8.0,
+          "data/1_full/11.jpg": 9.0,
+          "data/1_full/65.jpg": 9.0,
+          "data/1_full/78.jpg": 8.0,
+          "data/1_full/24.jpg": 9.0,
+          "data/1_full/12.jpg": 9.0,
+          "data/1_full/42.jpg": 8.0,
+          "data/1_full/36.jpg": 9.0
+        }
+      },
+      "AI_GeminiVision_9": {
+        "selected_card": "data/1_full/4.jpg",
+        "card_scores": {
+          "data/1_full/4.jpg": 0,
+          "data/1_full/1.jpg": 0,
+          "data/1_full/11.jpg": 0,
+          "data/1_full/65.jpg": 0,
+          "data/1_full/78.jpg": 0,
+          "data/1_full/24.jpg": 0,
+          "data/1_full/12.jpg": 0,
+          "data/1_full/42.jpg": 0,
+          "data/1_full/36.jpg": 0
+        }
+      }
+    },
+    "storyteller_votes": 3,
+    "score_changes": {
+      "AI_OpenAIVision_6": 3,
+      "AI_GroqVision_2": 4,
+      "AI_ClaudeVision_4": 4,
+      "AI_OpenAIVision_5": 3,
+      "AI_GeminiVision_9": 1,
+      "AI_GeminiVision_8": 1
+    },
+    "current_scores": {
+      "AI_GroqVision_1": 11,
+      "AI_GroqVision_2": 13,
+      "AI_ClaudeVision_3": 6,
+      "AI_ClaudeVision_4": 14,
+      "AI_OpenAIVision_5": 22,
+      "AI_OpenAIVision_6": 15,
+      "AI_GeminiVision_7": 7,
+      "AI_GeminiVision_8": 5,
+      "AI_GeminiVision_9": 8
+    }
+  },
+  {
+    "round": 7,
+    "storyteller": "AI_GeminiVision_7",
+    "players": [
+      {
+        "model": "llama-3.2-11b-vision-preview",
+        "vision_api": "GroqVision"
+      },
+      {
+        "model": "llama-3.2-90b-vision-preview",
+        "vision_api": "GroqVision"
+      },
+      {
+        "model": "claude-3-opus-20240229",
+        "vision_api": "ClaudeVision"
+      },
+      {
+        "model": "claude-3-5-sonnet-20241022",
+        "vision_api": "ClaudeVision"
+      },
+      {
+        "model": "gpt-4o",
+        "vision_api": "OpenAIVision"
+      },
+      {
+        "model": "gpt-4o-mini",
+        "vision_api": "OpenAIVision"
+      },
+      {
+        "model": "gemini-1.5-flash-8b",
+        "vision_api": "GeminiVision"
+      },
+      {
+        "model": "gemini-2.0-flash-exp",
+        "vision_api": "GeminiVision"
+      },
+      {
+        "model": "gemini-2.0-flash-thinking-exp-1219",
+        "vision_api": "GeminiVision"
+      }
+    ],
+    "clue": "A whispered secret, hiding in plain sight.\n",
+    "storyteller_card": "data/1_full/61.jpg",
+    "played_cards": {
+      "AI_GroqVision_1": {
+        "selected_card": "data/1_full/58.jpg",
+        "card_scores": {
+          "data/1_full/36.jpg": 6.0,
+          "data/1_full/83.jpg": 1.0,
+          "data/1_full/9.jpg": 1.0,
+          "data/1_full/34.jpg": 5.0,
+          "data/1_full/27.jpg": 0.0,
+          "data/1_full/58.jpg": 10.0
+        }
+      },
+      "AI_GroqVision_2": {
+        "selected_card": "data/1_full/26.jpg",
+        "card_scores": {
+          "data/1_full/54.jpg": 8.0,
+          "data/1_full/64.jpg": 8.0,
+          "data/1_full/45.jpg": 8.0,
+          "data/1_full/78.jpg": 7.0,
+          "data/1_full/60.jpg": 0,
+          "data/1_full/26.jpg": 9.0
+        }
+      },
+      "AI_ClaudeVision_3": {
+        "selected_card": "data/1_full/5.jpg",
+        "card_scores": {
+          "data/1_full/8.jpg": 2.0,
+          "data/1_full/5.jpg": 6.0,
+          "data/1_full/12.jpg": 2.0,
+          "data/1_full/33.jpg": 6.0,
+          "data/1_full/38.jpg": 6.0,
+          "data/1_full/29.jpg": 2.0
+        }
+      },
+      "AI_ClaudeVision_4": {
+        "selected_card": "data/1_full/30.jpg",
+        "card_scores": {
+          "data/1_full/65.jpg": 4.0,
+          "data/1_full/55.jpg": 3.0,
+          "data/1_full/30.jpg": 8.0,
+          "data/1_full/7.jpg": 7.0,
+          "data/1_full/73.jpg": 7.0,
+          "data/1_full/69.jpg": 7.0
+        }
+      },
+      "AI_OpenAIVision_5": {
+        "selected_card": "data/1_full/1.jpg",
+        "card_scores": {
+          "data/1_full/40.jpg": 5.0,
+          "data/1_full/1.jpg": 8.0,
+          "data/1_full/22.jpg": 8.0,
+          "data/1_full/48.jpg": 5.0,
+          "data/1_full/43.jpg": 7.0,
+          "data/1_full/13.jpg": 5.0
+        }
+      },
+      "AI_OpenAIVision_6": {
+        "selected_card": "data/1_full/24.jpg",
+        "card_scores": {
+          "data/1_full/24.jpg": 7.0,
+          "data/1_full/25.jpg": 6.0,
+          "data/1_full/21.jpg": 5.0,
+          "data/1_full/39.jpg": 7.0,
+          "data/1_full/66.jpg": 4.0,
+          "data/1_full/52.jpg": 5.0
+        }
+      },
+      "AI_GeminiVision_8": {
+        "selected_card": "data/1_full/4.jpg",
+        "card_scores": {
+          "data/1_full/4.jpg": 8.0,
+          "data/1_full/6.jpg": 7.0,
+          "data/1_full/68.jpg": 3.0,
+          "data/1_full/37.jpg": 5.0,
+          "data/1_full/2.jpg": 7.0,
+          "data/1_full/16.jpg": 7.0
+        }
+      },
+      "AI_GeminiVision_9": {
+        "selected_card": "data/1_full/11.jpg",
+        "card_scores": {
+          "data/1_full/11.jpg": 0,
+          "data/1_full/57.jpg": 0,
+          "data/1_full/46.jpg": 0,
+          "data/1_full/41.jpg": 0,
+          "data/1_full/71.jpg": 0,
+          "data/1_full/17.jpg": 0
+        }
+      }
+    },
+    "votes": {
+      "AI_GroqVision_1": {
+        "selected_card": "data/1_full/58.jpg",
+        "card_scores": {
+          "data/1_full/11.jpg": 3.0,
+          "data/1_full/1.jpg": 7.0,
+          "data/1_full/58.jpg": 10.0,
+          "data/1_full/24.jpg": 3.0,
+          "data/1_full/30.jpg": 8.0,
+          "data/1_full/4.jpg": 1.0,
+          "data/1_full/5.jpg": 1.0,
+          "data/1_full/26.jpg": 7.0,
+          "data/1_full/61.jpg": 3.0
+        }
+      },
+      "AI_GroqVision_2": {
+        "selected_card": "data/1_full/1.jpg",
+        "card_scores": {
+          "data/1_full/11.jpg": 8.0,
+          "data/1_full/1.jpg": 9.0,
+          "data/1_full/58.jpg": 8.0,
+          "data/1_full/24.jpg": 7.0,
+          "data/1_full/30.jpg": 7.0,
+          "data/1_full/4.jpg": 8.0,
+          "data/1_full/5.jpg": 8.0,
+          "data/1_full/26.jpg": 9.0,
+          "data/1_full/61.jpg": 8.0
+        }
+      },
+      "AI_ClaudeVision_3": {
+        "selected_card": "data/1_full/1.jpg",
+        "card_scores": {
+          "data/1_full/11.jpg": 3.0,
+          "data/1_full/1.jpg": 7.0,
+          "data/1_full/58.jpg": 6.0,
+          "data/1_full/24.jpg": 2.0,
+          "data/1_full/30.jpg": 3.0,
+          "data/1_full/4.jpg": 6.0,
+          "data/1_full/5.jpg": 6.0,
+          "data/1_full/26.jpg": 7.0,
+          "data/1_full/61.jpg": 2.0
+        }
+      },
+      "AI_ClaudeVision_4": {
+        "selected_card": "data/1_full/30.jpg",
+        "card_scores": {
+          "data/1_full/11.jpg": 7.0,
+          "data/1_full/1.jpg": 7.0,
+          "data/1_full/58.jpg": 7.0,
+          "data/1_full/24.jpg": 4.0,
+          "data/1_full/30.jpg": 8.0,
+          "data/1_full/4.jpg": 7.0,
+          "data/1_full/5.jpg": 7.0,
+          "data/1_full/26.jpg": 8.0,
+          "data/1_full/61.jpg": 4.0
+        }
+      },
+      "AI_OpenAIVision_5": {
+        "selected_card": "data/1_full/1.jpg",
+        "card_scores": {
+          "data/1_full/11.jpg": 5.0,
+          "data/1_full/1.jpg": 8.0,
+          "data/1_full/58.jpg": 8.0,
+          "data/1_full/24.jpg": 5.0,
+          "data/1_full/30.jpg": 7.0,
+          "data/1_full/4.jpg": 5.0,
+          "data/1_full/5.jpg": 5.0,
+          "data/1_full/26.jpg": 7.0,
+          "data/1_full/61.jpg": 5.0
+        }
+      },
+      "AI_OpenAIVision_6": {
+        "selected_card": "data/1_full/11.jpg",
+        "card_scores": {
+          "data/1_full/11.jpg": 7.0,
+          "data/1_full/1.jpg": 7.0,
+          "data/1_full/58.jpg": 7.0,
+          "data/1_full/24.jpg": 7.0,
+          "data/1_full/30.jpg": 7.0,
+          "data/1_full/4.jpg": 4.0,
+          "data/1_full/5.jpg": 4.0,
+          "data/1_full/26.jpg": 7.0,
+          "data/1_full/61.jpg": 7.0
+        }
+      },
+      "AI_GeminiVision_8": {
+        "selected_card": "data/1_full/4.jpg",
+        "card_scores": {
+          "data/1_full/11.jpg": 7.0,
+          "data/1_full/1.jpg": 7.0,
+          "data/1_full/58.jpg": 7.0,
+          "data/1_full/24.jpg": 2.0,
+          "data/1_full/30.jpg": 7.0,
+          "data/1_full/4.jpg": 8.0,
+          "data/1_full/5.jpg": 7.0,
+          "data/1_full/26.jpg": 7.0,
+          "data/1_full/61.jpg": 7.0
+        }
+      },
+      "AI_GeminiVision_9": {
+        "selected_card": "data/1_full/11.jpg",
+        "card_scores": {
+          "data/1_full/11.jpg": 0,
+          "data/1_full/1.jpg": 0,
+          "data/1_full/58.jpg": 0,
+          "data/1_full/24.jpg": 0,
+          "data/1_full/30.jpg": 0,
+          "data/1_full/4.jpg": 0,
+          "data/1_full/5.jpg": 0,
+          "data/1_full/26.jpg": 0,
+          "data/1_full/61.jpg": 0
+        }
+      }
+    },
+    "storyteller_votes": 0,
+    "score_changes": {
+      "AI_GroqVision_1": 2,
+      "AI_GroqVision_2": 2,
+      "AI_ClaudeVision_3": 2,
+      "AI_ClaudeVision_4": 2,
+      "AI_OpenAIVision_5": 4,
+      "AI_OpenAIVision_6": 2,
+      "AI_GeminiVision_8": 2,
+      "AI_GeminiVision_9": 3
+    },
+    "current_scores": {
+      "AI_GroqVision_1": 13,
+      "AI_GroqVision_2": 15,
+      "AI_ClaudeVision_3": 8,
+      "AI_ClaudeVision_4": 16,
+      "AI_OpenAIVision_5": 26,
+      "AI_OpenAIVision_6": 17,
+      "AI_GeminiVision_7": 7,
+      "AI_GeminiVision_8": 7,
+      "AI_GeminiVision_9": 11
+    }
+  },
+  {
+    "round": 8,
+    "storyteller": "AI_GeminiVision_8",
+    "players": [
+      {
+        "model": "llama-3.2-11b-vision-preview",
+        "vision_api": "GroqVision"
+      },
+      {
+        "model": "llama-3.2-90b-vision-preview",
+        "vision_api": "GroqVision"
+      },
+      {
+        "model": "claude-3-opus-20240229",
+        "vision_api": "ClaudeVision"
+      },
+      {
+        "model": "claude-3-5-sonnet-20241022",
+        "vision_api": "ClaudeVision"
+      },
+      {
+        "model": "gpt-4o",
+        "vision_api": "OpenAIVision"
+      },
+      {
+        "model": "gpt-4o-mini",
+        "vision_api": "OpenAIVision"
+      },
+      {
+        "model": "gemini-1.5-flash-8b",
+        "vision_api": "GeminiVision"
+      },
+      {
+        "model": "gemini-2.0-flash-exp",
+        "vision_api": "GeminiVision"
+      },
+      {
+        "model": "gemini-2.0-flash-thinking-exp-1219",
+        "vision_api": "GeminiVision"
+      }
+    ],
+    "clue": "Okay, here's a clue for the Dixit card based on the provided URL, keeping in mind that the URL points to a file, likely an image, and aiming for metaphorical and evocative rather than literal:\n\n**Clue:**\n\n**\"",
+    "storyteller_card": "data/1_full/2.jpg",
+    "played_cards": {
+      "AI_GroqVision_1": {
+        "selected_card": "data/1_full/9.jpg",
+        "card_scores": {
+          "data/1_full/36.jpg": 6.0,
+          "data/1_full/83.jpg": 3.0,
+          "data/1_full/9.jpg": 8.0,
+          "data/1_full/34.jpg": 6.0,
+          "data/1_full/27.jpg": 8.0,
+          "data/1_full/58.jpg": 8.0
+        }
+      },
+      "AI_GroqVision_2": {
+        "selected_card": "data/1_full/60.jpg",
+        "card_scores": {
+          "data/1_full/54.jpg": 8.0,
+          "data/1_full/64.jpg": 8.0,
+          "data/1_full/45.jpg": 8.0,
+          "data/1_full/78.jpg": 5.0,
+          "data/1_full/60.jpg": 9.0,
+          "data/1_full/26.jpg": 8.0
+        }
+      },
+      "AI_ClaudeVision_3": {
+        "selected_card": "data/1_full/5.jpg",
+        "card_scores": {
+          "data/1_full/8.jpg": 1.0,
+          "data/1_full/5.jpg": 6.0,
+          "data/1_full/12.jpg": 2.0,
+          "data/1_full/33.jpg": 0.0,
+          "data/1_full/38.jpg": 2.0,
+          "data/1_full/29.jpg": 1.0
+        }
+      },
+      "AI_ClaudeVision_4": {
+        "selected_card": "data/1_full/65.jpg",
+        "card_scores": {
+          "data/1_full/65.jpg": 0,
+          "data/1_full/55.jpg": 0,
+          "data/1_full/30.jpg": 0,
+          "data/1_full/7.jpg": 0.0,
+          "data/1_full/73.jpg": 0,
+          "data/1_full/69.jpg": 0
+        }
+      },
+      "AI_OpenAIVision_5": {
+        "selected_card": "data/1_full/40.jpg",
+        "card_scores": {
+          "data/1_full/40.jpg": 8.0,
+          "data/1_full/1.jpg": 7.0,
+          "data/1_full/22.jpg": 7.0,
+          "data/1_full/48.jpg": 7.0,
+          "data/1_full/43.jpg": 2.0,
+          "data/1_full/13.jpg": 5.0
+        }
+      },
+      "AI_OpenAIVision_6": {
+        "selected_card": "data/1_full/24.jpg",
+        "card_scores": {
+          "data/1_full/24.jpg": 7.0,
+          "data/1_full/25.jpg": 7.0,
+          "data/1_full/21.jpg": 7.0,
+          "data/1_full/39.jpg": 7.0,
+          "data/1_full/66.jpg": 7.0,
+          "data/1_full/52.jpg": 6.0
+        }
+      },
+      "AI_GeminiVision_7": {
+        "selected_card": "data/1_full/42.jpg",
+        "card_scores": {
+          "data/1_full/42.jpg": 6.0,
+          "data/1_full/44.jpg": 0,
+          "data/1_full/56.jpg": 5.0,
+          "data/1_full/61.jpg": 5.0,
+          "data/1_full/20.jpg": 5.0,
+          "data/1_full/53.jpg": 6.0
+        }
+      },
+      "AI_GeminiVision_9": {
+        "selected_card": "data/1_full/11.jpg",
+        "card_scores": {
+          "data/1_full/11.jpg": 0,
+          "data/1_full/57.jpg": 0,
+          "data/1_full/46.jpg": 0,
+          "data/1_full/41.jpg": 0,
+          "data/1_full/71.jpg": 0,
+          "data/1_full/17.jpg": 0
+        }
+      }
+    },
+    "votes": {
+      "AI_GroqVision_1": {
+        "selected_card": "data/1_full/2.jpg",
+        "card_scores": {
+          "data/1_full/2.jpg": 9.0,
+          "data/1_full/60.jpg": 8.0,
+          "data/1_full/24.jpg": 9.0,
+          "data/1_full/11.jpg": 6.0,
+          "data/1_full/9.jpg": 8.0,
+          "data/1_full/42.jpg": 5.0,
+          "data/1_full/65.jpg": 6.0,
+          "data/1_full/40.jpg": 6.0,
+          "data/1_full/5.jpg": 6.0
+        }
+      },
+      "AI_GroqVision_2": {
+        "selected_card": "data/1_full/65.jpg",
+        "card_scores": {
+          "data/1_full/2.jpg": 7.0,
+          "data/1_full/60.jpg": 9.0,
+          "data/1_full/24.jpg": 8.0,
+          "data/1_full/11.jpg": 7.0,
+          "data/1_full/9.jpg": 7.0,
+          "data/1_full/42.jpg": 8.0,
+          "data/1_full/65.jpg": 10.0,
+          "data/1_full/40.jpg": 6.0,
+          "data/1_full/5.jpg": 6.0
+        }
+      },
+      "AI_ClaudeVision_3": {
+        "selected_card": "data/1_full/2.jpg",
+        "card_scores": {
+          "data/1_full/2.jpg": 8.0,
+          "data/1_full/60.jpg": 1.0,
+          "data/1_full/24.jpg": 2.0,
+          "data/1_full/11.jpg": 2.0,
+          "data/1_full/9.jpg": 2.0,
+          "data/1_full/42.jpg": 2.0,
+          "data/1_full/65.jpg": 0.0,
+          "data/1_full/40.jpg": 2.0,
+          "data/1_full/5.jpg": 6.0
+        }
+      },
+      "AI_ClaudeVision_4": {
+        "selected_card": "data/1_full/2.jpg",
+        "card_scores": {
+          "data/1_full/2.jpg": 0.0,
+          "data/1_full/60.jpg": 0.0,
+          "data/1_full/24.jpg": 0.0,
+          "data/1_full/11.jpg": 0,
+          "data/1_full/9.jpg": 0.0,
+          "data/1_full/42.jpg": 0,
+          "data/1_full/65.jpg": 0,
+          "data/1_full/40.jpg": 0,
+          "data/1_full/5.jpg": 0.0
+        }
+      },
+      "AI_OpenAIVision_5": {
+        "selected_card": "data/1_full/2.jpg",
+        "card_scores": {
+          "data/1_full/2.jpg": 8.0,
+          "data/1_full/60.jpg": 0,
+          "data/1_full/24.jpg": 0,
+          "data/1_full/11.jpg": 7.0,
+          "data/1_full/9.jpg": 5.0,
+          "data/1_full/42.jpg": 7.0,
+          "data/1_full/65.jpg": 5.0,
+          "data/1_full/40.jpg": 8.0,
+          "data/1_full/5.jpg": 7.0
+        }
+      },
+      "AI_OpenAIVision_6": {
+        "selected_card": "data/1_full/2.jpg",
+        "card_scores": {
+          "data/1_full/2.jpg": 8.0,
+          "data/1_full/60.jpg": 5.0,
+          "data/1_full/24.jpg": 7.0,
+          "data/1_full/11.jpg": 7.0,
+          "data/1_full/9.jpg": 7.0,
+          "data/1_full/42.jpg": 7.0,
+          "data/1_full/65.jpg": 7.0,
+          "data/1_full/40.jpg": 7.0,
+          "data/1_full/5.jpg": 8.0
+        }
+      },
+      "AI_GeminiVision_7": {
+        "selected_card": "data/1_full/2.jpg",
+        "card_scores": {
+          "data/1_full/2.jpg": 6.0,
+          "data/1_full/60.jpg": 5.0,
+          "data/1_full/24.jpg": 0,
+          "data/1_full/11.jpg": 6.0,
+          "data/1_full/9.jpg": 0,
+          "data/1_full/42.jpg": 6.0,
+          "data/1_full/65.jpg": 5.0,
+          "data/1_full/40.jpg": 6.0,
+          "data/1_full/5.jpg": 0
+        }
+      },
+      "AI_GeminiVision_9": {
+        "selected_card": "data/1_full/2.jpg",
+        "card_scores": {
+          "data/1_full/2.jpg": 0,
+          "data/1_full/60.jpg": 0,
+          "data/1_full/24.jpg": 0,
+          "data/1_full/11.jpg": 0,
+          "data/1_full/9.jpg": 0,
+          "data/1_full/42.jpg": 0,
+          "data/1_full/65.jpg": 0,
+          "data/1_full/40.jpg": 0,
+          "data/1_full/5.jpg": 0
+        }
+      }
+    },
+    "storyteller_votes": 7,
+    "score_changes": {
+      "AI_GeminiVision_8": 3,
+      "AI_GroqVision_1": 3,
+      "AI_ClaudeVision_3": 3,
+      "AI_ClaudeVision_4": 4,
+      "AI_OpenAIVision_5": 3,
+      "AI_OpenAIVision_6": 3,
+      "AI_GeminiVision_7": 3,
+      "AI_GeminiVision_9": 3
+    },
+    "current_scores": {
+      "AI_GroqVision_1": 16,
+      "AI_GroqVision_2": 15,
+      "AI_ClaudeVision_3": 11,
+      "AI_ClaudeVision_4": 20,
+      "AI_OpenAIVision_5": 29,
+      "AI_OpenAIVision_6": 20,
+      "AI_GeminiVision_7": 10,
+      "AI_GeminiVision_8": 10,
+      "AI_GeminiVision_9": 14
+    }
+  },
+  {
+    "round": 9,
+    "storyteller": "AI_GeminiVision_9",
+    "players": [
+      {
+        "model": "llama-3.2-11b-vision-preview",
+        "vision_api": "GroqVision"
+      },
+      {
+        "model": "llama-3.2-90b-vision-preview",
+        "vision_api": "GroqVision"
+      },
+      {
+        "model": "claude-3-opus-20240229",
+        "vision_api": "ClaudeVision"
+      },
+      {
+        "model": "claude-3-5-sonnet-20241022",
+        "vision_api": "ClaudeVision"
+      },
+      {
+        "model": "gpt-4o",
+        "vision_api": "OpenAIVision"
+      },
+      {
+        "model": "gpt-4o-mini",
+        "vision_api": "OpenAIVision"
+      },
+      {
+        "model": "gemini-1.5-flash-8b",
+        "vision_api": "GeminiVision"
+      },
+      {
+        "model": "gemini-2.0-flash-exp",
+        "vision_api": "GeminiVision"
+      },
+      {
+        "model": "gemini-2.0-flash-thinking-exp-1219",
+        "vision_api": "GeminiVision"
+      }
+    ],
+    "clue": "The user wants a metaphorical clue for a Dixit card. The clue needs to be between 2 and 15 words long and be neither too easy nor too hard to guess. I need to examine the image content at the provided URL",
+    "storyteller_card": "data/1_full/71.jpg",
+    "played_cards": {
+      "AI_GroqVision_1": {
+        "selected_card": "data/1_full/36.jpg",
+        "card_scores": {
+          "data/1_full/36.jpg": 7.0,
+          "data/1_full/83.jpg": 6.0,
+          "data/1_full/9.jpg": 4.0,
+          "data/1_full/34.jpg": 6.0,
+          "data/1_full/27.jpg": 7.0,
+          "data/1_full/58.jpg": 4.0
+        }
+      },
+      "AI_GroqVision_2": {
+        "selected_card": "data/1_full/54.jpg",
+        "card_scores": {
+          "data/1_full/54.jpg": 8.0,
+          "data/1_full/64.jpg": 8.0,
+          "data/1_full/45.jpg": 7.0,
+          "data/1_full/78.jpg": 8.0,
+          "data/1_full/60.jpg": 7.0,
+          "data/1_full/26.jpg": 8.0
+        }
+      },
+      "AI_ClaudeVision_3": {
+        "selected_card": "data/1_full/38.jpg",
+        "card_scores": {
+          "data/1_full/8.jpg": 8.0,
+          "data/1_full/5.jpg": 6.0,
+          "data/1_full/12.jpg": 8.0,
+          "data/1_full/33.jpg": 8.0,
+          "data/1_full/38.jpg": 10.0,
+          "data/1_full/29.jpg": 8.0
+        }
+      },
+      "AI_ClaudeVision_4": {
+        "selected_card": "data/1_full/65.jpg",
+        "card_scores": {
+          "data/1_full/65.jpg": 8.0,
+          "data/1_full/55.jpg": 8.0,
+          "data/1_full/30.jpg": 8.0,
+          "data/1_full/7.jpg": 8.0,
+          "data/1_full/73.jpg": 8.0,
+          "data/1_full/69.jpg": 8.0
+        }
+      },
+      "AI_OpenAIVision_5": {
+        "selected_card": "data/1_full/40.jpg",
+        "card_scores": {
+          "data/1_full/40.jpg": 8.0,
+          "data/1_full/1.jpg": 7.0,
+          "data/1_full/22.jpg": 8.0,
+          "data/1_full/48.jpg": 7.0,
+          "data/1_full/43.jpg": 7.0,
+          "data/1_full/13.jpg": 7.0
+        }
+      },
+      "AI_OpenAIVision_6": {
+        "selected_card": "data/1_full/24.jpg",
+        "card_scores": {
+          "data/1_full/24.jpg": 7.0,
+          "data/1_full/25.jpg": 7.0,
+          "data/1_full/21.jpg": 7.0,
+          "data/1_full/39.jpg": 7.0,
+          "data/1_full/66.jpg": 7.0,
+          "data/1_full/52.jpg": 7.0
+        }
+      },
+      "AI_GeminiVision_7": {
+        "selected_card": "data/1_full/42.jpg",
+        "card_scores": {
+          "data/1_full/42.jpg": 6.0,
+          "data/1_full/44.jpg": 6.0,
+          "data/1_full/56.jpg": 5.0,
+          "data/1_full/61.jpg": 5.0,
+          "data/1_full/20.jpg": 6.0,
+          "data/1_full/53.jpg": 6.0
+        }
+      },
+      "AI_GeminiVision_8": {
+        "selected_card": "data/1_full/4.jpg",
+        "card_scores": {
+          "data/1_full/4.jpg": 10.0,
+          "data/1_full/6.jpg": 10.0,
+          "data/1_full/68.jpg": 0.0,
+          "data/1_full/37.jpg": 7.0,
+          "data/1_full/2.jpg": 7.0,
+          "data/1_full/16.jpg": 9.0
+        }
+      }
+    },
+    "votes": {
+      "AI_GroqVision_1": {
+        "selected_card": "data/1_full/71.jpg",
+        "card_scores": {
+          "data/1_full/65.jpg": 7.0,
+          "data/1_full/24.jpg": 6.0,
+          "data/1_full/42.jpg": 7.0,
+          "data/1_full/40.jpg": 5.0,
+          "data/1_full/36.jpg": 7.0,
+          "data/1_full/4.jpg": 5.0,
+          "data/1_full/38.jpg": 8.0,
+          "data/1_full/71.jpg": 9.0,
+          "data/1_full/54.jpg": 4.0
+        }
+      },
+      "AI_GroqVision_2": {
+        "selected_card": "data/1_full/40.jpg",
+        "card_scores": {
+          "data/1_full/65.jpg": 7.0,
+          "data/1_full/24.jpg": 7.0,
+          "data/1_full/42.jpg": 7.0,
+          "data/1_full/40.jpg": 8.0,
+          "data/1_full/36.jpg": 6.0,
+          "data/1_full/4.jpg": 8.0,
+          "data/1_full/38.jpg": 8.0,
+          "data/1_full/71.jpg": 8.0,
+          "data/1_full/54.jpg": 8.0
+        }
+      },
+      "AI_ClaudeVision_3": {
+        "selected_card": "data/1_full/38.jpg",
+        "card_scores": {
+          "data/1_full/65.jpg": 8.0,
+          "data/1_full/24.jpg": 8.0,
+          "data/1_full/42.jpg": 8.0,
+          "data/1_full/40.jpg": 8.0,
+          "data/1_full/36.jpg": 8.0,
+          "data/1_full/4.jpg": 8.0,
+          "data/1_full/38.jpg": 10.0,
+          "data/1_full/71.jpg": 8.0,
+          "data/1_full/54.jpg": 8.0
+        }
+      },
+      "AI_ClaudeVision_4": {
+        "selected_card": "data/1_full/65.jpg",
+        "card_scores": {
+          "data/1_full/65.jpg": 8.0,
+          "data/1_full/24.jpg": 8.0,
+          "data/1_full/42.jpg": 8.0,
+          "data/1_full/40.jpg": 8.0,
+          "data/1_full/36.jpg": 8.0,
+          "data/1_full/4.jpg": 0.0,
+          "data/1_full/38.jpg": 8.0,
+          "data/1_full/71.jpg": 8.0,
+          "data/1_full/54.jpg": 8.0
+        }
+      },
+      "AI_OpenAIVision_5": {
+        "selected_card": "data/1_full/65.jpg",
+        "card_scores": {
+          "data/1_full/65.jpg": 8.0,
+          "data/1_full/24.jpg": 8.0,
+          "data/1_full/42.jpg": 7.0,
+          "data/1_full/40.jpg": 8.0,
+          "data/1_full/36.jpg": 8.0,
+          "data/1_full/4.jpg": 7.0,
+          "data/1_full/38.jpg": 8.0,
+          "data/1_full/71.jpg": 7.0,
+          "data/1_full/54.jpg": 8.0
+        }
+      },
+      "AI_OpenAIVision_6": {
+        "selected_card": "data/1_full/65.jpg",
+        "card_scores": {
+          "data/1_full/65.jpg": 7.0,
+          "data/1_full/24.jpg": 7.0,
+          "data/1_full/42.jpg": 7.0,
+          "data/1_full/40.jpg": 7.0,
+          "data/1_full/36.jpg": 6.0,
+          "data/1_full/4.jpg": 7.0,
+          "data/1_full/38.jpg": 7.0,
+          "data/1_full/71.jpg": 7.0,
+          "data/1_full/54.jpg": 7.0
+        }
+      },
+      "AI_GeminiVision_7": {
+        "selected_card": "data/1_full/24.jpg",
+        "card_scores": {
+          "data/1_full/65.jpg": 6.0,
+          "data/1_full/24.jpg": 7.0,
+          "data/1_full/42.jpg": 6.0,
+          "data/1_full/40.jpg": 6.0,
+          "data/1_full/36.jpg": 6.0,
+          "data/1_full/4.jpg": 6.0,
+          "data/1_full/38.jpg": 5.0,
+          "data/1_full/71.jpg": 6.0,
+          "data/1_full/54.jpg": 5.0
+        }
+      },
+      "AI_GeminiVision_8": {
+        "selected_card": "data/1_full/4.jpg",
+        "card_scores": {
+          "data/1_full/65.jpg": 9.0,
+          "data/1_full/24.jpg": 9.0,
+          "data/1_full/42.jpg": 7.0,
+          "data/1_full/40.jpg": 9.0,
+          "data/1_full/36.jpg": 7.0,
+          "data/1_full/4.jpg": 10.0,
+          "data/1_full/38.jpg": 8.0,
+          "data/1_full/71.jpg": 1.0,
+          "data/1_full/54.jpg": 9.0
+        }
+      }
+    },
+    "storyteller_votes": 1,
+    "score_changes": {
+      "AI_GeminiVision_9": 3,
+      "AI_GroqVision_1": 3,
+      "AI_OpenAIVision_5": 1,
+      "AI_ClaudeVision_4": 2,
+      "AI_OpenAIVision_6": 1
+    },
+    "current_scores": {
+      "AI_GroqVision_1": 19,
+      "AI_GroqVision_2": 15,
+      "AI_ClaudeVision_3": 11,
+      "AI_ClaudeVision_4": 22,
+      "AI_OpenAIVision_5": 30,
+      "AI_OpenAIVision_6": 21,
+      "AI_GeminiVision_7": 10,
+      "AI_GeminiVision_8": 10,
+      "AI_GeminiVision_9": 17
+    }
+  },
+  {
+    "round": 10,
+    "storyteller": "AI_GroqVision_1",
+    "players": [
+      {
+        "model": "llama-3.2-11b-vision-preview",
+        "vision_api": "GroqVision"
+      },
+      {
+        "model": "llama-3.2-90b-vision-preview",
+        "vision_api": "GroqVision"
+      },
+      {
+        "model": "claude-3-opus-20240229",
+        "vision_api": "ClaudeVision"
+      },
+      {
+        "model": "claude-3-5-sonnet-20241022",
+        "vision_api": "ClaudeVision"
+      },
+      {
+        "model": "gpt-4o",
+        "vision_api": "OpenAIVision"
+      },
+      {
+        "model": "gpt-4o-mini",
+        "vision_api": "OpenAIVision"
+      },
+      {
+        "model": "gemini-1.5-flash-8b",
+        "vision_api": "GeminiVision"
+      },
+      {
+        "model": "gemini-2.0-flash-exp",
+        "vision_api": "GeminiVision"
+      },
+      {
+        "model": "gemini-2.0-flash-thinking-exp-1219",
+        "vision_api": "GeminiVision"
+      }
+    ],
+    "clue": "It is a whimsical water drop containing an unusual floating island within.",
+    "storyteller_card": "data/1_full/58.jpg",
+    "played_cards": {
+      "AI_GroqVision_2": {
+        "selected_card": "data/1_full/54.jpg",
+        "card_scores": {
+          "data/1_full/54.jpg": 10.0,
+          "data/1_full/64.jpg": 0.0,
+          "data/1_full/45.jpg": 0.0,
+          "data/1_full/78.jpg": 0,
+          "data/1_full/60.jpg": 0.0,
+          "data/1_full/26.jpg": 0.0
+        }
+      },
+      "AI_ClaudeVision_3": {
+        "selected_card": "data/1_full/5.jpg",
+        "card_scores": {
+          "data/1_full/8.jpg": 0.0,
+          "data/1_full/5.jpg": 8.0,
+          "data/1_full/12.jpg": 0.0,
+          "data/1_full/33.jpg": 8.0,
+          "data/1_full/38.jpg": 2.0,
+          "data/1_full/29.jpg": 2.0
+        }
+      },
+      "AI_ClaudeVision_4": {
+        "selected_card": "data/1_full/7.jpg",
+        "card_scores": {
+          "data/1_full/65.jpg": 0.0,
+          "data/1_full/55.jpg": 0.0,
+          "data/1_full/30.jpg": 0.0,
+          "data/1_full/7.jpg": 9.0,
+          "data/1_full/73.jpg": 0.0,
+          "data/1_full/69.jpg": 0.0
+        }
+      },
+      "AI_OpenAIVision_5": {
+        "selected_card": "data/1_full/40.jpg",
+        "card_scores": {
+          "data/1_full/40.jpg": 3.0,
+          "data/1_full/1.jpg": 0.0,
+          "data/1_full/22.jpg": 0.0,
+          "data/1_full/48.jpg": 0.0,
+          "data/1_full/43.jpg": 0.0,
+          "data/1_full/13.jpg": 0.0
+        }
+      },
+      "AI_OpenAIVision_6": {
+        "selected_card": "data/1_full/66.jpg",
+        "card_scores": {
+          "data/1_full/24.jpg": 0.0,
+          "data/1_full/25.jpg": 0.0,
+          "data/1_full/21.jpg": 0.0,
+          "data/1_full/39.jpg": 2.0,
+          "data/1_full/66.jpg": 4.0,
+          "data/1_full/52.jpg": 0.0
+        }
+      },
+      "AI_GeminiVision_7": {
+        "selected_card": "data/1_full/42.jpg",
+        "card_scores": {
+          "data/1_full/42.jpg": 7.0,
+          "data/1_full/44.jpg": 7.0,
+          "data/1_full/56.jpg": 6.0,
+          "data/1_full/61.jpg": 7.0,
+          "data/1_full/20.jpg": 7.0,
+          "data/1_full/53.jpg": 7.0
+        }
+      },
+      "AI_GeminiVision_8": {
+        "selected_card": "data/1_full/6.jpg",
+        "card_scores": {
+          "data/1_full/4.jpg": 9.0,
+          "data/1_full/6.jpg": 10.0,
+          "data/1_full/68.jpg": 8.0,
+          "data/1_full/37.jpg": 9.0,
+          "data/1_full/2.jpg": 9.0,
+          "data/1_full/16.jpg": 9.0
+        }
+      },
+      "AI_GeminiVision_9": {
+        "selected_card": "data/1_full/11.jpg",
+        "card_scores": {
+          "data/1_full/11.jpg": 0,
+          "data/1_full/57.jpg": 0,
+          "data/1_full/46.jpg": 0,
+          "data/1_full/41.jpg": 0,
+          "data/1_full/71.jpg": 0,
+          "data/1_full/17.jpg": 0
+        }
+      }
+    },
+    "votes": {
+      "AI_GroqVision_2": {
+        "selected_card": "data/1_full/58.jpg",
+        "card_scores": {
+          "data/1_full/40.jpg": 0.0,
+          "data/1_full/11.jpg": 0.0,
+          "data/1_full/66.jpg": 8.0,
+          "data/1_full/58.jpg": 10.0,
+          "data/1_full/54.jpg": 10.0,
+          "data/1_full/42.jpg": 0.0,
+          "data/1_full/6.jpg": 0.0,
+          "data/1_full/7.jpg": 8.0,
+          "data/1_full/5.jpg": 0.0
+        }
+      },
+      "AI_ClaudeVision_3": {
+        "selected_card": "data/1_full/66.jpg",
+        "card_scores": {
+          "data/1_full/40.jpg": 8.0,
+          "data/1_full/11.jpg": 0.0,
+          "data/1_full/66.jpg": 9.0,
+          "data/1_full/58.jpg": 9.0,
+          "data/1_full/54.jpg": 8.0,
+          "data/1_full/42.jpg": 8.0,
+          "data/1_full/6.jpg": 0.0,
+          "data/1_full/7.jpg": 2.0,
+          "data/1_full/5.jpg": 8.0
+        }
+      },
+      "AI_ClaudeVision_4": {
+        "selected_card": "data/1_full/58.jpg",
+        "card_scores": {
+          "data/1_full/40.jpg": 0.0,
+          "data/1_full/11.jpg": 0.0,
+          "data/1_full/66.jpg": 8.0,
+          "data/1_full/58.jpg": 10.0,
+          "data/1_full/54.jpg": 0.0,
+          "data/1_full/42.jpg": 0.0,
+          "data/1_full/6.jpg": 0.0,
+          "data/1_full/7.jpg": 9.0,
+          "data/1_full/5.jpg": 0.0
+        }
+      },
+      "AI_OpenAIVision_5": {
+        "selected_card": "data/1_full/58.jpg",
+        "card_scores": {
+          "data/1_full/40.jpg": 3.0,
+          "data/1_full/11.jpg": 0.0,
+          "data/1_full/66.jpg": 3.0,
+          "data/1_full/58.jpg": 9.0,
+          "data/1_full/54.jpg": 0.0,
+          "data/1_full/42.jpg": 0.0,
+          "data/1_full/6.jpg": 0.0,
+          "data/1_full/7.jpg": 8.0,
+          "data/1_full/5.jpg": 0.0
+        }
+      },
+      "AI_OpenAIVision_6": {
+        "selected_card": "data/1_full/58.jpg",
+        "card_scores": {
+          "data/1_full/40.jpg": 3.0,
+          "data/1_full/11.jpg": 0.0,
+          "data/1_full/66.jpg": 4.0,
+          "data/1_full/58.jpg": 9.0,
+          "data/1_full/54.jpg": 0.0,
+          "data/1_full/42.jpg": 0.0,
+          "data/1_full/6.jpg": 0.0,
+          "data/1_full/7.jpg": 8.0,
+          "data/1_full/5.jpg": 0.0
+        }
+      },
+      "AI_GeminiVision_7": {
+        "selected_card": "data/1_full/40.jpg",
+        "card_scores": {
+          "data/1_full/40.jpg": 7.0,
+          "data/1_full/11.jpg": 6.0,
+          "data/1_full/66.jpg": 7.0,
+          "data/1_full/58.jpg": 7.0,
+          "data/1_full/54.jpg": 6.0,
+          "data/1_full/42.jpg": 7.0,
+          "data/1_full/6.jpg": 7.0,
+          "data/1_full/7.jpg": 7.0,
+          "data/1_full/5.jpg": 7.0
+        }
+      },
+      "AI_GeminiVision_8": {
+        "selected_card": "data/1_full/42.jpg",
+        "card_scores": {
+          "data/1_full/40.jpg": 9.0,
+          "data/1_full/11.jpg": 9.0,
+          "data/1_full/66.jpg": 9.0,
+          "data/1_full/58.jpg": 9.0,
+          "data/1_full/54.jpg": 9.0,
+          "data/1_full/42.jpg": 10.0,
+          "data/1_full/6.jpg": 10.0,
+          "data/1_full/7.jpg": 9.0,
+          "data/1_full/5.jpg": 9.0
+        }
+      },
+      "AI_GeminiVision_9": {
+        "selected_card": "data/1_full/40.jpg",
+        "card_scores": {
+          "data/1_full/40.jpg": 0,
+          "data/1_full/11.jpg": 0,
+          "data/1_full/66.jpg": 0,
+          "data/1_full/58.jpg": 0,
+          "data/1_full/54.jpg": 0,
+          "data/1_full/42.jpg": 0,
+          "data/1_full/6.jpg": 0,
+          "data/1_full/7.jpg": 0,
+          "data/1_full/5.jpg": 0
+        }
+      }
+    },
+    "storyteller_votes": 4,
+    "score_changes": {
+      "AI_GroqVision_1": 3,
+      "AI_GroqVision_2": 3,
+      "AI_ClaudeVision_4": 3,
+      "AI_OpenAIVision_5": 5,
+      "AI_OpenAIVision_6": 4,
+      "AI_GeminiVision_7": 1
+    },
+    "current_scores": {
+      "AI_GroqVision_1": 22,
+      "AI_GroqVision_2": 18,
+      "AI_ClaudeVision_3": 11,
+      "AI_ClaudeVision_4": 25,
+      "AI_OpenAIVision_5": 35,
+      "AI_OpenAIVision_6": 25,
+      "AI_GeminiVision_7": 11,
+      "AI_GeminiVision_8": 10,
+      "AI_GeminiVision_9": 17
+    }
+  }
+]

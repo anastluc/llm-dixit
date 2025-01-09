@@ -66,7 +66,7 @@ class DixitGame:
 
     def load_deck(self, image_directory: str):
         for filename in os.listdir(image_directory):
-            if filename.endswith(('.jpeg', '.png')):
+            if filename.endswith(('.jpeg', '.jpg', '.png')):
                 self.deck.append(Card(os.path.join(image_directory, filename)))
         
         # print(self.deck)
@@ -333,14 +333,29 @@ if __name__ == "__main__":
     # ai_players = [gemini1, gemini2 , gemini3, gemini1, gemini2 , gemini3]
 
     # everybody!
-    # ai_players = [ groq1, groq2, claude1, claude2, open1, open2, gemini1, gemini2, gemini3, grok1, grok2] 
-    players_list = [ groq1,
-                   gemini2, gemini3, 
-                   gemini1, groq2 ] 
+    ai_players = [ 
+        # groq1, groq2, 
+        claude1, claude2, 
+        open1, open2, 
+        gemini1, gemini2, gemini3, 
+        grok1, grok2
+        ] 
+    # players_list = [ groq1,
+                #    gemini2, gemini3, 
+                #    gemini1, groq2 ] 
+    
+    # # strongest from each provider
+    # players_list = [ groq2,
+    #                gemini2,
+    #                claude2, 
+    #                open1,
+    #             #    grok2
+                #    ] 
 
 
     play_game(
-        image_directory="data/original",
+        # image_directory="data/original",
+        image_directory="data/1_full",
         players = players_list,
         max_number_of_rounds = 10,
         score_to_win = 30
