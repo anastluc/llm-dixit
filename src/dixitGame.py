@@ -309,9 +309,13 @@ if __name__ == "__main__":
     open1 = create_vision_api("openai", specific_model="gpt-4o")
     open2 = create_vision_api("openai", specific_model="gpt-4o-mini")
 
+    gemini1flash = create_vision_api("google", "gemini-1.5-flash")
     gemini1 = create_vision_api("google","gemini-1.5-flash-8b")
+    gemini15pro = create_vision_api("google","gemini-1.5-pro")
+    
     gemini2 = create_vision_api("google","gemini-2.0-flash-exp")
     gemini3 = create_vision_api("google","gemini-2.0-flash-thinking-exp-1219")
+    geminiExp = create_vision_api("google", "gemini-exp-1206")
 
     grok1 = create_vision_api("xai",specific_model="grok-vision-beta")
     grok2 = create_vision_api("xai",specific_model="grok-2-vision-1212")
@@ -324,7 +328,8 @@ if __name__ == "__main__":
 
     random.shuffle(players_list)
 
-    players_list = [groq1, groq2, claude1, claude2, open1, open2, gemini1, gemini2, gemini3]
+    players_list = [groq1, groq2, claude1, claude2, open1, open2, 
+                    gemini1, gemini2, gemini3, gemini15pro, geminiExp, gemini1flash]
     random.sample(players_list, 6)
 
     # ai_players = [gemini1, gemini2 , grok1, claude1, open2, gemini3, gemini2, gemini1]
@@ -334,11 +339,16 @@ if __name__ == "__main__":
 
     # everybody!
     ai_players = [ 
-        # groq1, groq2, 
-        claude1, claude2, 
-        open1, open2, 
-        gemini1, gemini2, gemini3, 
-        grok1, grok2
+        # groq1, 
+        groq2, 
+        # claude1, 
+        claude2, 
+        open1, 
+        # open2,         
+        gemini15pro,
+        gemini1flash,
+        geminiExp,
+        grok1
         ] 
     # players_list = [ groq1,
                 #    gemini2, gemini3, 
@@ -356,7 +366,7 @@ if __name__ == "__main__":
     play_game(
         # image_directory="data/original",
         image_directory="data/1_full",
-        players = players_list,
+        players = ai_players,
         max_number_of_rounds = 10,
         score_to_win = 30
     )
