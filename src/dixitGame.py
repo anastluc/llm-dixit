@@ -11,16 +11,8 @@ from vision_models.gemini_vision import GeminiVision
 from vision_models.openai_vision import OpenAIVision
 from vision_models.xai_vision import XAI_Vision
 
-import os
-from dataclasses import dataclass
-from typing import List, Dict, Optional, Literal
-import random
-import base64
-import time
 import json
 from datetime import datetime
-
-import random
 
 from image_cache import ImageAnalysisCache
 
@@ -121,11 +113,13 @@ class AIPlayer:
  
 
     def select_matching_card(self, clue: str, hand: List[Card], from_cache:bool=True) -> tuple[Card, Dict[str, float]]:      
-      
         scores = {}
         if from_cache:
             cache = ImageAnalysisCache()
         RATE_CARD_WITH_CLUE_PROMPT = f"Rate how well this image matches the clue '{clue}' on a scale of 0-10. Return just a number, nothing else"
+
+        max_retries = 3
+        retry_delay = 2  # seconds
 
         for card in hand:
             if from_cache:
@@ -135,32 +129,43 @@ class AIPlayer:
                 if cached_response is not None:
                     response = cached_response
                 else:
-                
-                    try:
-                        response = self.vision_api.analyze_image(
-                            card.image_path,
-                            RATE_CARD_WITH_CLUE_PROMPT
-                        )
-                        cache.cache_response(self.model, card.image_path, RATE_CARD_WITH_CLUE_PROMPT, response)
-            
-                        
-                    except Exception as e:
-                        print(f"Error analyzing image: {e}")
-                        raise
-
+                    for attempt in range(max_retries):
+                        try:
+                            response = self.vision_api.analyze_image(
+                                card.image_path,
+                                RATE_CARD_WITH_CLUE_PROMPT
+                            )
+                            cache.cache_response(self.model, card.image_path, RATE_CARD_WITH_CLUE_PROMPT, response)
+                            break
+                        except Exception as e:
+                            if "500" in str(e) and attempt < max_retries - 1:
+                                print(f"Attempt {attempt + 1} failed with 500 error, retrying in {retry_delay} seconds...")
+                                time.sleep(retry_delay)
+                                continue
+                            elif attempt == max_retries - 1:
+                                print(f"All retries failed for {card.image_path}, assigning default score")
+                                response = "5"  # Default middle score when all retries fail
+                            else:
+                                print(f"Error analyzing image: {e}")
+                                response = "5"  # Default middle score for other errors
+                                break
                         
                 try:
                     score = float(response.strip())
                     scores[card.image_path] = score
-                    print(f"Card {card} is scored as {score} for this clue")
+                    print(f"Card {card.image_path} is scored as {score} for this clue")
                 except ValueError:
-                    scores[card.image_path] = 0
-                    print(f"Card {card} is scored as 0 for this clue as it had an error converting to number ({response.strip()})")
+                    scores[card.image_path] = 5  # Default middle score for parsing errors
+                    print(f"Card {card.image_path} got invalid score format ({response.strip()}), using default score 5")
         
-        print(hand)
+        if not scores:  # If we somehow got no scores at all
+            print("Warning: No scores were generated, assigning random scores")
+            for card in hand:
+                scores[card.image_path] = random.uniform(0, 10)
+        
         best_card = max(hand, key=lambda x: scores[x.image_path])
         return best_card, scores
-
+    
 def create_vision_api(provider: MLLM_Provider, specific_model:str) -> VisionAPI:
     if provider == "openai":
         return OpenAIVision(specific_model)
