@@ -10,12 +10,12 @@ class GeminiVision(VisionAPI):
         load_dotenv()
         genai.configure(api_key=os.environ["GEMINI_API_KEY"])
         self.model = model
-        self.API_TIME_DELAY = 5
+        self.API_TIME_DELAY = 7
     
         
 
     def analyze_image(self, image_path: str, prompt: str) -> str:
-        print(f"Delaying {self.API_TIME_DELAY} seconds to avoid API's throttling")
+        # print(f"Delaying {self.API_TIME_DELAY} seconds to avoid API's throttling")
         time.sleep(self.API_TIME_DELAY)
 
         # Create the model
@@ -48,7 +48,7 @@ class GeminiVision(VisionAPI):
 
         response = chat_session.send_message(prompt)
 
-        print(response.text)
+        # print(response.text)
         return response.text
     
     def upload_to_gemini(self, path):
@@ -57,7 +57,7 @@ class GeminiVision(VisionAPI):
         See https://ai.google.dev/gemini-api/docs/prompting_with_media
         """
         file = genai.upload_file(path)
-        print(f"Uploaded file '{file.display_name}' as: {file.uri}")
+        # print(f"Uploaded file '{file.display_name}' as: {file.uri}")
         return file.uri
 
 

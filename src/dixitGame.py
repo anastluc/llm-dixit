@@ -93,15 +93,16 @@ class AIPlayer:
             'vision_api': str(self.vision_api.__class__.__name__)
         }
 
-    def generate_clue(self, card_image: str) -> str:
+    def generate_clue(self, card_image: str, from_cache:bool) -> str:
 
         GEN_CLUE_PROMPT = "Generate a creative, metaphorical clue for this Dixit card that is neither too obvious nor too obscure. Use from 2 up to 15 words."
-        cache = ImageAnalysisCache()
+        if from_cache:
+            cache = ImageAnalysisCache()
     
-        # Try to get cached response
-        cached_response = cache.get_cached_response(self.model, card_image, GEN_CLUE_PROMPT)
-        if cached_response is not None:
-            return cached_response
+            # Try to get cached response
+            cached_response = cache.get_cached_response(self.model, card_image, GEN_CLUE_PROMPT)
+            if cached_response is not None:
+                return cached_response
         
         try:
             # Assuming original API call code is here
@@ -119,39 +120,42 @@ class AIPlayer:
             raise
  
 
-    def select_matching_card(self, clue: str, hand: List[Card]) -> tuple[Card, Dict[str, float]]:        
+    def select_matching_card(self, clue: str, hand: List[Card], from_cache:bool=True) -> tuple[Card, Dict[str, float]]:      
+      
         scores = {}
-        cache = ImageAnalysisCache()
+        if from_cache:
+            cache = ImageAnalysisCache()
         RATE_CARD_WITH_CLUE_PROMPT = f"Rate how well this image matches the clue '{clue}' on a scale of 0-10. Return just a number, nothing else"
 
         for card in hand:
+            if from_cache:
                 # Try to get cached response
-            cached_response = cache.get_cached_response(self.model, card.image_path, RATE_CARD_WITH_CLUE_PROMPT)
+                cached_response = cache.get_cached_response(self.model, card.image_path, RATE_CARD_WITH_CLUE_PROMPT)
             
-            if cached_response is not None:
-                response = cached_response
-            else:
+                if cached_response is not None:
+                    response = cached_response
+                else:
+                
+                    try:
+                        response = self.vision_api.analyze_image(
+                            card.image_path,
+                            RATE_CARD_WITH_CLUE_PROMPT
+                        )
+                        cache.cache_response(self.model, card.image_path, RATE_CARD_WITH_CLUE_PROMPT, response)
             
-                try:
-                    response = self.vision_api.analyze_image(
-                        card.image_path,
-                        RATE_CARD_WITH_CLUE_PROMPT
-                    )
-                    cache.cache_response(self.model, card.image_path, RATE_CARD_WITH_CLUE_PROMPT, response)
-        
-                    
-                except Exception as e:
-                    print(f"Error analyzing image: {e}")
-                    raise
+                        
+                    except Exception as e:
+                        print(f"Error analyzing image: {e}")
+                        raise
 
-                    
-            try:
-                score = float(response.strip())
-                scores[card.image_path] = score
-                print(f"Card {card} is scored as {score} for this clue")
-            except ValueError:
-                scores[card.image_path] = 0
-                print(f"Card {card} is scored as 0 for this clue as it had an error converting to number ({response.strip()})")
+                        
+                try:
+                    score = float(response.strip())
+                    scores[card.image_path] = score
+                    print(f"Card {card} is scored as {score} for this clue")
+                except ValueError:
+                    scores[card.image_path] = 0
+                    print(f"Card {card} is scored as 0 for this clue as it had an error converting to number ({response.strip()})")
         
         print(hand)
         best_card = max(hand, key=lambda x: scores[x.image_path])
@@ -198,6 +202,7 @@ def play_game(
     players,
     max_number_of_rounds = 10,
     score_to_win = 30,
+    from_cache = True,
     **kwargs
 ) -> None:
     logger = GameLogger()
@@ -224,7 +229,7 @@ def play_game(
         round_log["players"] = [player.to_dict() for player in ai_players]
         
         storyteller_card = random.choice(storyteller.cards)
-        clue = ai_storyteller.generate_clue(storyteller_card.image_path)
+        clue = ai_storyteller.generate_clue(storyteller_card.image_path, from_cache=from_cache)
         print(f"\n{storyteller.name} (Storyteller) gives clue: {clue}")
         print(f"Storyteller selected card: {storyteller_card.image_path}")
         round_log.update({
@@ -236,7 +241,7 @@ def play_game(
         round_log["played_cards"] = {}
         for player, ai in zip(game.players, ai_players):
             if player != storyteller:
-                matching_card, card_scores = ai.select_matching_card(clue, player.cards)
+                matching_card, card_scores = ai.select_matching_card(clue, player.cards, from_cache=from_cache)
                 played_cards[player] = matching_card
                 print(f"{player.name} played card: {matching_card.image_path}")
                 round_log["played_cards"][player.name] = {
@@ -330,7 +335,9 @@ if __name__ == "__main__":
 
     players_list = [groq1, groq2, claude1, claude2, open1, open2, 
                     gemini1, gemini2, gemini3, gemini15pro, geminiExp, gemini1flash]
-    random.sample(players_list, 6)
+    ai_players = random.sample(players_list, 6)
+
+    print(f"Selected players: {[p.__class__.__name__ for p in ai_players]}")
 
     # ai_players = [gemini1, gemini2 , grok1, claude1, open2, gemini3, gemini2, gemini1]
 
@@ -338,18 +345,18 @@ if __name__ == "__main__":
     # ai_players = [gemini1, gemini2 , gemini3, gemini1, gemini2 , gemini3]
 
     # everybody!
-    ai_players = [ 
-        # groq1, 
-        groq2, 
-        # claude1, 
-        claude2, 
-        open1, 
-        # open2,         
-        gemini15pro,
-        gemini1flash,
-        geminiExp,
-        grok1
-        ] 
+    # ai_players = [ 
+    #     # groq1, 
+    #     # groq2, 
+    #     # claude1, 
+    #     claude2, 
+    #     open1, 
+    #     # open2,         
+    #     gemini15pro,
+    #     # gemini1flash,
+    #     geminiExp,
+    #     grok1
+    #     ] 
     # players_list = [ groq1,
                 #    gemini2, gemini3, 
                 #    gemini1, groq2 ] 
@@ -367,7 +374,8 @@ if __name__ == "__main__":
         # image_directory="data/original",
         image_directory="data/1_full",
         players = ai_players,
-        max_number_of_rounds = 10,
-        score_to_win = 30
+        max_number_of_rounds = 20,
+        score_to_win = 100,
+        from_cache = True
     )
  

@@ -9,7 +9,7 @@ class XAI_Vision(VisionAPI):
     def __init__(self, model: str):
         load_dotenv()
         api_key = os.getenv("XAI_GROK_API_KEY")
-        print("API keyi is ",api_key)
+        # print("API keyi is ",api_key)
         self.client = OpenAI(
             api_key=api_key,
             base_url="https://api.x.ai/v1"
@@ -24,7 +24,7 @@ class XAI_Vision(VisionAPI):
         return base64_image
     
     def analyze_image(self, image_path: str, prompt: str) -> str:
-        print(f"Delaying {self.API_TIME_DELAY} seconds to avoid API's throttling")
+        # print(f"Delaying {self.API_TIME_DELAY} seconds to avoid API's throttling")
         time.sleep(self.API_TIME_DELAY)
         
         image_base64 = self.encode_image(image_path)

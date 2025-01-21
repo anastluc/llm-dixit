@@ -1,0 +1,1608 @@
+[
+  {
+    "round": 1,
+    "storyteller": "AI_OpenAIVision_1",
+    "players": [
+      {
+        "model": "gpt-4o-mini",
+        "vision_api": "OpenAIVision"
+      },
+      {
+        "model": "gemini-1.5-flash",
+        "vision_api": "GeminiVision"
+      },
+      {
+        "model": "llama-3.2-11b-vision-preview",
+        "vision_api": "GroqVision"
+      },
+      {
+        "model": "llama-3.2-90b-vision-preview",
+        "vision_api": "GroqVision"
+      },
+      {
+        "model": "gemini-2.0-flash-exp",
+        "vision_api": "GeminiVision"
+      },
+      {
+        "model": "claude-3-5-sonnet-20241022",
+        "vision_api": "ClaudeVision"
+      }
+    ],
+    "clue": "\"Whiskers gaze into the dance of fate's swimming dreams.\"",
+    "storyteller_card": "data/1_full/34.jpg",
+    "played_cards": {
+      "AI_GeminiVision_2": {
+        "selected_card": "data/1_full/21.jpg",
+        "card_scores": {
+          "data/1_full/2.jpg": 2.0,
+          "data/1_full/67.jpg": 2.0,
+          "data/1_full/30.jpg": 2.0,
+          "data/1_full/21.jpg": 3.0,
+          "data/1_full/41.jpg": 3.0,
+          "data/1_full/50.jpg": 3.0
+        }
+      },
+      "AI_GroqVision_3": {
+        "selected_card": "data/1_full/28.jpg",
+        "card_scores": {
+          "data/1_full/28.jpg": 5.0,
+          "data/1_full/48.jpg": 1.0,
+          "data/1_full/72.jpg": 1.0,
+          "data/1_full/22.jpg": 0.0,
+          "data/1_full/57.jpg": 1.0,
+          "data/1_full/69.jpg": 3.0
+        }
+      },
+      "AI_GroqVision_4": {
+        "selected_card": "data/1_full/78.jpg",
+        "card_scores": {
+          "data/1_full/78.jpg": 7.0,
+          "data/1_full/84.jpg": 6.25,
+          "data/1_full/54.jpg": 0,
+          "data/1_full/13.jpg": 0,
+          "data/1_full/19.jpg": 6.0,
+          "data/1_full/53.jpg": 0.0
+        }
+      },
+      "AI_GeminiVision_5": {
+        "selected_card": "data/1_full/27.jpg",
+        "card_scores": {
+          "data/1_full/27.jpg": 9.0,
+          "data/1_full/46.jpg": 8.0,
+          "data/1_full/20.jpg": 8.0,
+          "data/1_full/35.jpg": 8.0,
+          "data/1_full/17.jpg": 0.0,
+          "data/1_full/49.jpg": 8.0
+        }
+      },
+      "AI_ClaudeVision_6": {
+        "selected_card": "data/1_full/71.jpg",
+        "card_scores": {
+          "data/1_full/71.jpg": 2.0,
+          "data/1_full/31.jpg": 2.0,
+          "data/1_full/80.jpg": 2.0,
+          "data/1_full/10.jpg": 2.0,
+          "data/1_full/29.jpg": 2.0,
+          "data/1_full/66.jpg": 2.0
+        }
+      }
+    },
+    "votes": {
+      "AI_GeminiVision_2": {
+        "selected_card": "data/1_full/21.jpg",
+        "card_scores": {
+          "data/1_full/71.jpg": 2.0,
+          "data/1_full/78.jpg": 2.0,
+          "data/1_full/21.jpg": 3.0,
+          "data/1_full/27.jpg": 2.0,
+          "data/1_full/34.jpg": 2.0,
+          "data/1_full/28.jpg": 3.0
+        }
+      },
+      "AI_GroqVision_3": {
+        "selected_card": "data/1_full/78.jpg",
+        "card_scores": {
+          "data/1_full/71.jpg": 4.0,
+          "data/1_full/78.jpg": 6.0,
+          "data/1_full/21.jpg": 3.0,
+          "data/1_full/27.jpg": 4.0,
+          "data/1_full/34.jpg": 2.0,
+          "data/1_full/28.jpg": 5.0
+        }
+      },
+      "AI_GroqVision_4": {
+        "selected_card": "data/1_full/71.jpg",
+        "card_scores": {
+          "data/1_full/71.jpg": 7.0,
+          "data/1_full/78.jpg": 7.0,
+          "data/1_full/21.jpg": 0.0,
+          "data/1_full/27.jpg": 6.0,
+          "data/1_full/34.jpg": 7.0,
+          "data/1_full/28.jpg": 7.0
+        }
+      },
+      "AI_GeminiVision_5": {
+        "selected_card": "data/1_full/78.jpg",
+        "card_scores": {
+          "data/1_full/71.jpg": 0.0,
+          "data/1_full/78.jpg": 9.0,
+          "data/1_full/21.jpg": 9.0,
+          "data/1_full/27.jpg": 9.0,
+          "data/1_full/34.jpg": 9.0,
+          "data/1_full/28.jpg": 9.0
+        }
+      },
+      "AI_ClaudeVision_6": {
+        "selected_card": "data/1_full/34.jpg",
+        "card_scores": {
+          "data/1_full/71.jpg": 2.0,
+          "data/1_full/78.jpg": 2.0,
+          "data/1_full/21.jpg": 2.0,
+          "data/1_full/27.jpg": 2.0,
+          "data/1_full/34.jpg": 9.0,
+          "data/1_full/28.jpg": 7.0
+        }
+      }
+    },
+    "storyteller_votes": 1,
+    "score_changes": {
+      "AI_OpenAIVision_1": 3,
+      "AI_ClaudeVision_6": 4,
+      "AI_GroqVision_4": 2
+    },
+    "current_scores": {
+      "AI_OpenAIVision_1": 3,
+      "AI_GeminiVision_2": 0,
+      "AI_GroqVision_3": 0,
+      "AI_GroqVision_4": 2,
+      "AI_GeminiVision_5": 0,
+      "AI_ClaudeVision_6": 4
+    }
+  },
+  {
+    "round": 2,
+    "storyteller": "AI_GeminiVision_2",
+    "players": [
+      {
+        "model": "gpt-4o-mini",
+        "vision_api": "OpenAIVision"
+      },
+      {
+        "model": "gemini-1.5-flash",
+        "vision_api": "GeminiVision"
+      },
+      {
+        "model": "llama-3.2-11b-vision-preview",
+        "vision_api": "GroqVision"
+      },
+      {
+        "model": "llama-3.2-90b-vision-preview",
+        "vision_api": "GroqVision"
+      },
+      {
+        "model": "gemini-2.0-flash-exp",
+        "vision_api": "GeminiVision"
+      },
+      {
+        "model": "claude-3-5-sonnet-20241022",
+        "vision_api": "ClaudeVision"
+      }
+    ],
+    "clue": "Please provide me with the image from the link. I need to see the Dixit card to generate a fitting clue.  I cannot access external websites or specific files online.\n",
+    "storyteller_card": "data/1_full/67.jpg",
+    "played_cards": {
+      "AI_OpenAIVision_1": {
+        "selected_card": "data/1_full/14.jpg",
+        "card_scores": {
+          "data/1_full/14.jpg": 8.0,
+          "data/1_full/58.jpg": 7.0,
+          "data/1_full/4.jpg": 5.0,
+          "data/1_full/55.jpg": 5.0,
+          "data/1_full/34.jpg": 7.0,
+          "data/1_full/24.jpg": 6.0
+        }
+      },
+      "AI_GroqVision_3": {
+        "selected_card": "data/1_full/48.jpg",
+        "card_scores": {
+          "data/1_full/28.jpg": 1.0,
+          "data/1_full/48.jpg": 9.0,
+          "data/1_full/72.jpg": 5.0,
+          "data/1_full/22.jpg": 2.0,
+          "data/1_full/57.jpg": 8.0,
+          "data/1_full/69.jpg": 2.0
+        }
+      },
+      "AI_GroqVision_4": {
+        "selected_card": "data/1_full/84.jpg",
+        "card_scores": {
+          "data/1_full/78.jpg": 8.0,
+          "data/1_full/84.jpg": 10.0,
+          "data/1_full/54.jpg": 6.0,
+          "data/1_full/13.jpg": 9.0,
+          "data/1_full/19.jpg": 10.0,
+          "data/1_full/53.jpg": 10.0
+        }
+      },
+      "AI_GeminiVision_5": {
+        "selected_card": "data/1_full/27.jpg",
+        "card_scores": {
+          "data/1_full/27.jpg": 0.0,
+          "data/1_full/46.jpg": 0.0,
+          "data/1_full/20.jpg": 0.0,
+          "data/1_full/35.jpg": 0.0,
+          "data/1_full/17.jpg": 0.0,
+          "data/1_full/49.jpg": 0.0
+        }
+      },
+      "AI_ClaudeVision_6": {
+        "selected_card": "data/1_full/71.jpg",
+        "card_scores": {
+          "data/1_full/71.jpg": 0.0,
+          "data/1_full/31.jpg": 0.0,
+          "data/1_full/80.jpg": 0.0,
+          "data/1_full/10.jpg": 0.0,
+          "data/1_full/29.jpg": 0.0,
+          "data/1_full/66.jpg": 0.0
+        }
+      }
+    },
+    "votes": {
+      "AI_OpenAIVision_1": {
+        "selected_card": "data/1_full/14.jpg",
+        "card_scores": {
+          "data/1_full/27.jpg": 4.0,
+          "data/1_full/14.jpg": 8.0,
+          "data/1_full/84.jpg": 7.0,
+          "data/1_full/67.jpg": 7.0,
+          "data/1_full/71.jpg": 7.0,
+          "data/1_full/48.jpg": 7.0
+        }
+      },
+      "AI_GroqVision_3": {
+        "selected_card": "data/1_full/67.jpg",
+        "card_scores": {
+          "data/1_full/27.jpg": 8.0,
+          "data/1_full/14.jpg": 2.0,
+          "data/1_full/84.jpg": 4.0,
+          "data/1_full/67.jpg": 10.0,
+          "data/1_full/71.jpg": 8.0,
+          "data/1_full/48.jpg": 9.0
+        }
+      },
+      "AI_GroqVision_4": {
+        "selected_card": "data/1_full/27.jpg",
+        "card_scores": {
+          "data/1_full/27.jpg": 10.0,
+          "data/1_full/14.jpg": 8.0,
+          "data/1_full/84.jpg": 10.0,
+          "data/1_full/67.jpg": 8.0,
+          "data/1_full/71.jpg": 6.0,
+          "data/1_full/48.jpg": 9.0
+        }
+      },
+      "AI_GeminiVision_5": {
+        "selected_card": "data/1_full/27.jpg",
+        "card_scores": {
+          "data/1_full/27.jpg": 0.0,
+          "data/1_full/14.jpg": 0.0,
+          "data/1_full/84.jpg": 0.0,
+          "data/1_full/67.jpg": 0.0,
+          "data/1_full/71.jpg": 0.0,
+          "data/1_full/48.jpg": 0.0
+        }
+      },
+      "AI_ClaudeVision_6": {
+        "selected_card": "data/1_full/27.jpg",
+        "card_scores": {
+          "data/1_full/27.jpg": 0.0,
+          "data/1_full/14.jpg": 0.0,
+          "data/1_full/84.jpg": 0.0,
+          "data/1_full/67.jpg": 0.0,
+          "data/1_full/71.jpg": 0.0,
+          "data/1_full/48.jpg": 0.0
+        }
+      }
+    },
+    "storyteller_votes": 1,
+    "score_changes": {
+      "AI_GeminiVision_2": 3,
+      "AI_GroqVision_3": 3,
+      "AI_GeminiVision_5": 2
+    },
+    "current_scores": {
+      "AI_OpenAIVision_1": 3,
+      "AI_GeminiVision_2": 3,
+      "AI_GroqVision_3": 3,
+      "AI_GroqVision_4": 2,
+      "AI_GeminiVision_5": 2,
+      "AI_ClaudeVision_6": 4
+    }
+  },
+  {
+    "round": 3,
+    "storyteller": "AI_GroqVision_3",
+    "players": [
+      {
+        "model": "gpt-4o-mini",
+        "vision_api": "OpenAIVision"
+      },
+      {
+        "model": "gemini-1.5-flash",
+        "vision_api": "GeminiVision"
+      },
+      {
+        "model": "llama-3.2-11b-vision-preview",
+        "vision_api": "GroqVision"
+      },
+      {
+        "model": "llama-3.2-90b-vision-preview",
+        "vision_api": "GroqVision"
+      },
+      {
+        "model": "gemini-2.0-flash-exp",
+        "vision_api": "GeminiVision"
+      },
+      {
+        "model": "claude-3-5-sonnet-20241022",
+        "vision_api": "ClaudeVision"
+      }
+    ],
+    "clue": "Cry for help from the depths of human desire and creativity.",
+    "storyteller_card": "data/1_full/48.jpg",
+    "played_cards": {
+      "AI_OpenAIVision_1": {
+        "selected_card": "data/1_full/58.jpg",
+        "card_scores": {
+          "data/1_full/14.jpg": 3.0,
+          "data/1_full/58.jpg": 7.0,
+          "data/1_full/4.jpg": 3.0,
+          "data/1_full/55.jpg": 4.0,
+          "data/1_full/34.jpg": 4.0,
+          "data/1_full/24.jpg": 5.0
+        }
+      },
+      "AI_GeminiVision_2": {
+        "selected_card": "data/1_full/41.jpg",
+        "card_scores": {
+          "data/1_full/2.jpg": 0.0,
+          "data/1_full/67.jpg": 0.0,
+          "data/1_full/30.jpg": 0.0,
+          "data/1_full/21.jpg": 2.0,
+          "data/1_full/41.jpg": 3.0,
+          "data/1_full/50.jpg": 3.0
+        }
+      },
+      "AI_GroqVision_4": {
+        "selected_card": "data/1_full/53.jpg",
+        "card_scores": {
+          "data/1_full/78.jpg": 7.0,
+          "data/1_full/84.jpg": 7.0,
+          "data/1_full/54.jpg": 0.0,
+          "data/1_full/13.jpg": 0,
+          "data/1_full/19.jpg": 0.0,
+          "data/1_full/53.jpg": 10.0
+        }
+      },
+      "AI_GeminiVision_5": {
+        "selected_card": "data/1_full/27.jpg",
+        "card_scores": {
+          "data/1_full/27.jpg": 8.0,
+          "data/1_full/46.jpg": 7.0,
+          "data/1_full/20.jpg": 3.0,
+          "data/1_full/35.jpg": 7.0,
+          "data/1_full/17.jpg": 0.0,
+          "data/1_full/49.jpg": 7.0
+        }
+      },
+      "AI_ClaudeVision_6": {
+        "selected_card": "data/1_full/71.jpg",
+        "card_scores": {
+          "data/1_full/71.jpg": 8.0,
+          "data/1_full/31.jpg": 8.0,
+          "data/1_full/80.jpg": 8.0,
+          "data/1_full/10.jpg": 7.0,
+          "data/1_full/29.jpg": 7.0,
+          "data/1_full/66.jpg": 7.0
+        }
+      }
+    },
+    "votes": {
+      "AI_OpenAIVision_1": {
+        "selected_card": "data/1_full/48.jpg",
+        "card_scores": {
+          "data/1_full/48.jpg": 8.0,
+          "data/1_full/58.jpg": 7.0,
+          "data/1_full/53.jpg": 7.0,
+          "data/1_full/41.jpg": 5.0,
+          "data/1_full/71.jpg": 7.0,
+          "data/1_full/27.jpg": 7.0
+        }
+      },
+      "AI_GeminiVision_2": {
+        "selected_card": "data/1_full/41.jpg",
+        "card_scores": {
+          "data/1_full/48.jpg": 0.0,
+          "data/1_full/58.jpg": 0.0,
+          "data/1_full/53.jpg": 0.0,
+          "data/1_full/41.jpg": 3.0,
+          "data/1_full/71.jpg": 0.0,
+          "data/1_full/27.jpg": 0.0
+        }
+      },
+      "AI_GroqVision_4": {
+        "selected_card": "data/1_full/53.jpg",
+        "card_scores": {
+          "data/1_full/48.jpg": 8.0,
+          "data/1_full/58.jpg": 7.0,
+          "data/1_full/53.jpg": 10.0,
+          "data/1_full/41.jpg": 7.0,
+          "data/1_full/71.jpg": 7.0,
+          "data/1_full/27.jpg": 10.0
+        }
+      },
+      "AI_GeminiVision_5": {
+        "selected_card": "data/1_full/27.jpg",
+        "card_scores": {
+          "data/1_full/48.jpg": 3.0,
+          "data/1_full/58.jpg": 7.0,
+          "data/1_full/53.jpg": 7.0,
+          "data/1_full/41.jpg": 7.0,
+          "data/1_full/71.jpg": 7.0,
+          "data/1_full/27.jpg": 8.0
+        }
+      },
+      "AI_ClaudeVision_6": {
+        "selected_card": "data/1_full/48.jpg",
+        "card_scores": {
+          "data/1_full/48.jpg": 8.0,
+          "data/1_full/58.jpg": 8.0,
+          "data/1_full/53.jpg": 7.0,
+          "data/1_full/41.jpg": 3.0,
+          "data/1_full/71.jpg": 8.0,
+          "data/1_full/27.jpg": 7.0
+        }
+      }
+    },
+    "storyteller_votes": 2,
+    "score_changes": {
+      "AI_GroqVision_3": 3,
+      "AI_OpenAIVision_1": 3,
+      "AI_ClaudeVision_6": 3
+    },
+    "current_scores": {
+      "AI_OpenAIVision_1": 6,
+      "AI_GeminiVision_2": 3,
+      "AI_GroqVision_3": 6,
+      "AI_GroqVision_4": 2,
+      "AI_GeminiVision_5": 2,
+      "AI_ClaudeVision_6": 7
+    }
+  },
+  {
+    "round": 4,
+    "storyteller": "AI_GroqVision_4",
+    "players": [
+      {
+        "model": "gpt-4o-mini",
+        "vision_api": "OpenAIVision"
+      },
+      {
+        "model": "gemini-1.5-flash",
+        "vision_api": "GeminiVision"
+      },
+      {
+        "model": "llama-3.2-11b-vision-preview",
+        "vision_api": "GroqVision"
+      },
+      {
+        "model": "llama-3.2-90b-vision-preview",
+        "vision_api": "GroqVision"
+      },
+      {
+        "model": "gemini-2.0-flash-exp",
+        "vision_api": "GeminiVision"
+      },
+      {
+        "model": "claude-3-5-sonnet-20241022",
+        "vision_api": "ClaudeVision"
+      }
+    ],
+    "clue": "The one who ruled with an iron fist was said to have reigned with a rainbow's promise.",
+    "storyteller_card": "data/1_full/19.jpg",
+    "played_cards": {
+      "AI_OpenAIVision_1": {
+        "selected_card": "data/1_full/14.jpg",
+        "card_scores": {
+          "data/1_full/14.jpg": 2.0,
+          "data/1_full/58.jpg": 2.0,
+          "data/1_full/4.jpg": 2.0,
+          "data/1_full/55.jpg": 0.0,
+          "data/1_full/34.jpg": 0.0,
+          "data/1_full/24.jpg": 2.0
+        }
+      },
+      "AI_GeminiVision_2": {
+        "selected_card": "data/1_full/50.jpg",
+        "card_scores": {
+          "data/1_full/2.jpg": 0.0,
+          "data/1_full/67.jpg": 0.0,
+          "data/1_full/30.jpg": 0.0,
+          "data/1_full/21.jpg": 0.0,
+          "data/1_full/41.jpg": 0.0,
+          "data/1_full/50.jpg": 2.0
+        }
+      },
+      "AI_GroqVision_3": {
+        "selected_card": "data/1_full/48.jpg",
+        "card_scores": {
+          "data/1_full/28.jpg": 6.0,
+          "data/1_full/48.jpg": 7.0,
+          "data/1_full/72.jpg": 3.0,
+          "data/1_full/22.jpg": 1.0,
+          "data/1_full/57.jpg": 5.0,
+          "data/1_full/69.jpg": 5.0
+        }
+      },
+      "AI_GeminiVision_5": {
+        "selected_card": "data/1_full/35.jpg",
+        "card_scores": {
+          "data/1_full/27.jpg": 2.0,
+          "data/1_full/46.jpg": 2.0,
+          "data/1_full/20.jpg": 3.0,
+          "data/1_full/35.jpg": 7.0,
+          "data/1_full/17.jpg": 1.0,
+          "data/1_full/49.jpg": 0.0
+        }
+      },
+      "AI_ClaudeVision_6": {
+        "selected_card": "data/1_full/80.jpg",
+        "card_scores": {
+          "data/1_full/71.jpg": 2.0,
+          "data/1_full/31.jpg": 2.0,
+          "data/1_full/80.jpg": 7.0,
+          "data/1_full/10.jpg": 2.0,
+          "data/1_full/29.jpg": 2.0,
+          "data/1_full/66.jpg": 2.0
+        }
+      }
+    },
+    "votes": {
+      "AI_OpenAIVision_1": {
+        "selected_card": "data/1_full/19.jpg",
+        "card_scores": {
+          "data/1_full/80.jpg": 4.0,
+          "data/1_full/19.jpg": 5.0,
+          "data/1_full/50.jpg": 4.0,
+          "data/1_full/14.jpg": 2.0,
+          "data/1_full/35.jpg": 2.0,
+          "data/1_full/48.jpg": 2.0
+        }
+      },
+      "AI_GeminiVision_2": {
+        "selected_card": "data/1_full/50.jpg",
+        "card_scores": {
+          "data/1_full/80.jpg": 0.0,
+          "data/1_full/19.jpg": 0.0,
+          "data/1_full/50.jpg": 2.0,
+          "data/1_full/14.jpg": 0.0,
+          "data/1_full/35.jpg": 0.0,
+          "data/1_full/48.jpg": 0.0
+        }
+      },
+      "AI_GroqVision_3": {
+        "selected_card": "data/1_full/19.jpg",
+        "card_scores": {
+          "data/1_full/80.jpg": 0.0,
+          "data/1_full/19.jpg": 9.0,
+          "data/1_full/50.jpg": 5.0,
+          "data/1_full/14.jpg": 2.0,
+          "data/1_full/35.jpg": 3.0,
+          "data/1_full/48.jpg": 7.0
+        }
+      },
+      "AI_GeminiVision_5": {
+        "selected_card": "data/1_full/35.jpg",
+        "card_scores": {
+          "data/1_full/80.jpg": 2.0,
+          "data/1_full/19.jpg": 0.0,
+          "data/1_full/50.jpg": 2.0,
+          "data/1_full/14.jpg": 0.0,
+          "data/1_full/35.jpg": 7.0,
+          "data/1_full/48.jpg": 2.0
+        }
+      },
+      "AI_ClaudeVision_6": {
+        "selected_card": "data/1_full/80.jpg",
+        "card_scores": {
+          "data/1_full/80.jpg": 7.0,
+          "data/1_full/19.jpg": 7.0,
+          "data/1_full/50.jpg": 2.0,
+          "data/1_full/14.jpg": 2.0,
+          "data/1_full/35.jpg": 2.0,
+          "data/1_full/48.jpg": 2.0
+        }
+      }
+    },
+    "storyteller_votes": 2,
+    "score_changes": {
+      "AI_GroqVision_4": 3,
+      "AI_OpenAIVision_1": 3,
+      "AI_GroqVision_3": 3
+    },
+    "current_scores": {
+      "AI_OpenAIVision_1": 9,
+      "AI_GeminiVision_2": 3,
+      "AI_GroqVision_3": 9,
+      "AI_GroqVision_4": 5,
+      "AI_GeminiVision_5": 2,
+      "AI_ClaudeVision_6": 7
+    }
+  },
+  {
+    "round": 5,
+    "storyteller": "AI_GeminiVision_5",
+    "players": [
+      {
+        "model": "gpt-4o-mini",
+        "vision_api": "OpenAIVision"
+      },
+      {
+        "model": "gemini-1.5-flash",
+        "vision_api": "GeminiVision"
+      },
+      {
+        "model": "llama-3.2-11b-vision-preview",
+        "vision_api": "GroqVision"
+      },
+      {
+        "model": "llama-3.2-90b-vision-preview",
+        "vision_api": "GroqVision"
+      },
+      {
+        "model": "gemini-2.0-flash-exp",
+        "vision_api": "GeminiVision"
+      },
+      {
+        "model": "claude-3-5-sonnet-20241022",
+        "vision_api": "ClaudeVision"
+      }
+    ],
+    "clue": "Okay, I've looked at the Dixit card you linked (i0culqx49qxm). It depicts a figure floating in a dark space, surrounded by light and what seems like fabric or flowing matter.\n\nHere's my metaphorical",
+    "storyteller_card": "data/1_full/49.jpg",
+    "played_cards": {
+      "AI_OpenAIVision_1": {
+        "selected_card": "data/1_full/58.jpg",
+        "card_scores": {
+          "data/1_full/14.jpg": 0.0,
+          "data/1_full/58.jpg": 2.0,
+          "data/1_full/4.jpg": 2.0,
+          "data/1_full/55.jpg": 0.0,
+          "data/1_full/34.jpg": 2.0,
+          "data/1_full/24.jpg": 0.0
+        }
+      },
+      "AI_GeminiVision_2": {
+        "selected_card": "data/1_full/2.jpg",
+        "card_scores": {
+          "data/1_full/2.jpg": 8.0,
+          "data/1_full/67.jpg": 8.0,
+          "data/1_full/30.jpg": 7.0,
+          "data/1_full/21.jpg": 8.0,
+          "data/1_full/41.jpg": 8.0,
+          "data/1_full/50.jpg": 7.0
+        }
+      },
+      "AI_GroqVision_3": {
+        "selected_card": "data/1_full/48.jpg",
+        "card_scores": {
+          "data/1_full/28.jpg": 2.0,
+          "data/1_full/48.jpg": 5.0,
+          "data/1_full/72.jpg": 3.0,
+          "data/1_full/22.jpg": 0.0,
+          "data/1_full/57.jpg": 0.0,
+          "data/1_full/69.jpg": 2.0
+        }
+      },
+      "AI_GroqVision_4": {
+        "selected_card": "data/1_full/19.jpg",
+        "card_scores": {
+          "data/1_full/78.jpg": 0.0,
+          "data/1_full/84.jpg": 0.0,
+          "data/1_full/54.jpg": 0,
+          "data/1_full/13.jpg": 0.0,
+          "data/1_full/19.jpg": 10.0,
+          "data/1_full/53.jpg": 0.0
+        }
+      },
+      "AI_ClaudeVision_6": {
+        "selected_card": "data/1_full/31.jpg",
+        "card_scores": {
+          "data/1_full/71.jpg": 2.0,
+          "data/1_full/31.jpg": 8.0,
+          "data/1_full/80.jpg": 2.0,
+          "data/1_full/10.jpg": 2.0,
+          "data/1_full/29.jpg": 2.0,
+          "data/1_full/66.jpg": 2.0
+        }
+      }
+    },
+    "votes": {
+      "AI_OpenAIVision_1": {
+        "selected_card": "data/1_full/49.jpg",
+        "card_scores": {
+          "data/1_full/19.jpg": 3.0,
+          "data/1_full/49.jpg": 6.0,
+          "data/1_full/31.jpg": 4.0,
+          "data/1_full/2.jpg": 3.0,
+          "data/1_full/58.jpg": 2.0,
+          "data/1_full/48.jpg": 2.0
+        }
+      },
+      "AI_GeminiVision_2": {
+        "selected_card": "data/1_full/19.jpg",
+        "card_scores": {
+          "data/1_full/19.jpg": 8.0,
+          "data/1_full/49.jpg": 8.0,
+          "data/1_full/31.jpg": 8.0,
+          "data/1_full/2.jpg": 8.0,
+          "data/1_full/58.jpg": 8.0,
+          "data/1_full/48.jpg": 8.0
+        }
+      },
+      "AI_GroqVision_3": {
+        "selected_card": "data/1_full/31.jpg",
+        "card_scores": {
+          "data/1_full/19.jpg": 2.0,
+          "data/1_full/49.jpg": 3.0,
+          "data/1_full/31.jpg": 7.0,
+          "data/1_full/2.jpg": 0.0,
+          "data/1_full/58.jpg": 5.0,
+          "data/1_full/48.jpg": 5.0
+        }
+      },
+      "AI_GroqVision_4": {
+        "selected_card": "data/1_full/19.jpg",
+        "card_scores": {
+          "data/1_full/19.jpg": 10.0,
+          "data/1_full/49.jpg": 10.0,
+          "data/1_full/31.jpg": 3.0,
+          "data/1_full/2.jpg": 0.0,
+          "data/1_full/58.jpg": 0.0,
+          "data/1_full/48.jpg": 0.0
+        }
+      },
+      "AI_ClaudeVision_6": {
+        "selected_card": "data/1_full/31.jpg",
+        "card_scores": {
+          "data/1_full/19.jpg": 7.0,
+          "data/1_full/49.jpg": 7.0,
+          "data/1_full/31.jpg": 8.0,
+          "data/1_full/2.jpg": 2.0,
+          "data/1_full/58.jpg": 2.0,
+          "data/1_full/48.jpg": 2.0
+        }
+      }
+    },
+    "storyteller_votes": 1,
+    "score_changes": {
+      "AI_GeminiVision_5": 3,
+      "AI_OpenAIVision_1": 3,
+      "AI_GroqVision_4": 1,
+      "AI_ClaudeVision_6": 1
+    },
+    "current_scores": {
+      "AI_OpenAIVision_1": 12,
+      "AI_GeminiVision_2": 3,
+      "AI_GroqVision_3": 9,
+      "AI_GroqVision_4": 6,
+      "AI_GeminiVision_5": 5,
+      "AI_ClaudeVision_6": 8
+    }
+  },
+  {
+    "round": 6,
+    "storyteller": "AI_ClaudeVision_6",
+    "players": [
+      {
+        "model": "gpt-4o-mini",
+        "vision_api": "OpenAIVision"
+      },
+      {
+        "model": "gemini-1.5-flash",
+        "vision_api": "GeminiVision"
+      },
+      {
+        "model": "llama-3.2-11b-vision-preview",
+        "vision_api": "GroqVision"
+      },
+      {
+        "model": "llama-3.2-90b-vision-preview",
+        "vision_api": "GroqVision"
+      },
+      {
+        "model": "gemini-2.0-flash-exp",
+        "vision_api": "GeminiVision"
+      },
+      {
+        "model": "claude-3-5-sonnet-20241022",
+        "vision_api": "ClaudeVision"
+      }
+    ],
+    "clue": "Sometimes the biggest fears wear stripes and smile.",
+    "storyteller_card": "data/1_full/29.jpg",
+    "played_cards": {
+      "AI_OpenAIVision_1": {
+        "selected_card": "data/1_full/14.jpg",
+        "card_scores": {
+          "data/1_full/14.jpg": 7.0,
+          "data/1_full/58.jpg": 0.0,
+          "data/1_full/4.jpg": 4.0,
+          "data/1_full/55.jpg": 0.0,
+          "data/1_full/34.jpg": 4.0,
+          "data/1_full/24.jpg": 4.0
+        }
+      },
+      "AI_GeminiVision_2": {
+        "selected_card": "data/1_full/2.jpg",
+        "card_scores": {
+          "data/1_full/2.jpg": 8.0,
+          "data/1_full/67.jpg": 8.0,
+          "data/1_full/30.jpg": 8.0,
+          "data/1_full/21.jpg": 7.0,
+          "data/1_full/41.jpg": 8.0,
+          "data/1_full/50.jpg": 8.0
+        }
+      },
+      "AI_GroqVision_3": {
+        "selected_card": "data/1_full/69.jpg",
+        "card_scores": {
+          "data/1_full/28.jpg": 6.0,
+          "data/1_full/48.jpg": 0.0,
+          "data/1_full/72.jpg": 4.0,
+          "data/1_full/22.jpg": 0.0,
+          "data/1_full/57.jpg": 1.0,
+          "data/1_full/69.jpg": 7.0
+        }
+      },
+      "AI_GroqVision_4": {
+        "selected_card": "data/1_full/84.jpg",
+        "card_scores": {
+          "data/1_full/78.jpg": 0.0,
+          "data/1_full/84.jpg": 10.0,
+          "data/1_full/54.jpg": 6.0,
+          "data/1_full/13.jpg": 7.0,
+          "data/1_full/19.jpg": 6.0,
+          "data/1_full/53.jpg": 6.0
+        }
+      },
+      "AI_GeminiVision_5": {
+        "selected_card": "data/1_full/20.jpg",
+        "card_scores": {
+          "data/1_full/27.jpg": 9.0,
+          "data/1_full/46.jpg": 9.0,
+          "data/1_full/20.jpg": 10.0,
+          "data/1_full/35.jpg": 10.0,
+          "data/1_full/17.jpg": 9.0,
+          "data/1_full/49.jpg": 9.0
+        }
+      }
+    },
+    "votes": {
+      "AI_OpenAIVision_1": {
+        "selected_card": "data/1_full/14.jpg",
+        "card_scores": {
+          "data/1_full/2.jpg": 0.0,
+          "data/1_full/84.jpg": 0.0,
+          "data/1_full/69.jpg": 2.0,
+          "data/1_full/14.jpg": 7.0,
+          "data/1_full/29.jpg": 7.0,
+          "data/1_full/20.jpg": 3.0
+        }
+      },
+      "AI_GeminiVision_2": {
+        "selected_card": "data/1_full/2.jpg",
+        "card_scores": {
+          "data/1_full/2.jpg": 8.0,
+          "data/1_full/84.jpg": 8.0,
+          "data/1_full/69.jpg": 8.0,
+          "data/1_full/14.jpg": 8.0,
+          "data/1_full/29.jpg": 8.0,
+          "data/1_full/20.jpg": 8.0
+        }
+      },
+      "AI_GroqVision_3": {
+        "selected_card": "data/1_full/84.jpg",
+        "card_scores": {
+          "data/1_full/2.jpg": 6.0,
+          "data/1_full/84.jpg": 10.0,
+          "data/1_full/69.jpg": 7.0,
+          "data/1_full/14.jpg": 8.0,
+          "data/1_full/29.jpg": 10.0,
+          "data/1_full/20.jpg": 2.0
+        }
+      },
+      "AI_GroqVision_4": {
+        "selected_card": "data/1_full/84.jpg",
+        "card_scores": {
+          "data/1_full/2.jpg": 8.0,
+          "data/1_full/84.jpg": 10.0,
+          "data/1_full/69.jpg": 3.0,
+          "data/1_full/14.jpg": 0,
+          "data/1_full/29.jpg": 9.0,
+          "data/1_full/20.jpg": 10.0
+        }
+      },
+      "AI_GeminiVision_5": {
+        "selected_card": "data/1_full/69.jpg",
+        "card_scores": {
+          "data/1_full/2.jpg": 9.0,
+          "data/1_full/84.jpg": 9.0,
+          "data/1_full/69.jpg": 10.0,
+          "data/1_full/14.jpg": 9.0,
+          "data/1_full/29.jpg": 9.0,
+          "data/1_full/20.jpg": 10.0
+        }
+      }
+    },
+    "storyteller_votes": 0,
+    "score_changes": {
+      "AI_OpenAIVision_1": 2,
+      "AI_GeminiVision_2": 2,
+      "AI_GroqVision_3": 3,
+      "AI_GroqVision_4": 3,
+      "AI_GeminiVision_5": 2
+    },
+    "current_scores": {
+      "AI_OpenAIVision_1": 14,
+      "AI_GeminiVision_2": 5,
+      "AI_GroqVision_3": 12,
+      "AI_GroqVision_4": 9,
+      "AI_GeminiVision_5": 7,
+      "AI_ClaudeVision_6": 8
+    }
+  },
+  {
+    "round": 7,
+    "storyteller": "AI_OpenAIVision_1",
+    "players": [
+      {
+        "model": "gpt-4o-mini",
+        "vision_api": "OpenAIVision"
+      },
+      {
+        "model": "gemini-1.5-flash",
+        "vision_api": "GeminiVision"
+      },
+      {
+        "model": "llama-3.2-11b-vision-preview",
+        "vision_api": "GroqVision"
+      },
+      {
+        "model": "llama-3.2-90b-vision-preview",
+        "vision_api": "GroqVision"
+      },
+      {
+        "model": "gemini-2.0-flash-exp",
+        "vision_api": "GeminiVision"
+      },
+      {
+        "model": "claude-3-5-sonnet-20241022",
+        "vision_api": "ClaudeVision"
+      }
+    ],
+    "clue": "\"A world cradled in nature's tear, reflections of tranquility.\"",
+    "storyteller_card": "data/1_full/58.jpg",
+    "played_cards": {
+      "AI_GeminiVision_2": {
+        "selected_card": "data/1_full/2.jpg",
+        "card_scores": {
+          "data/1_full/2.jpg": 8.0,
+          "data/1_full/67.jpg": 8.0,
+          "data/1_full/30.jpg": 7.0,
+          "data/1_full/21.jpg": 8.0,
+          "data/1_full/41.jpg": 7.0,
+          "data/1_full/50.jpg": 8.0
+        }
+      },
+      "AI_GroqVision_3": {
+        "selected_card": "data/1_full/28.jpg",
+        "card_scores": {
+          "data/1_full/28.jpg": 6.0,
+          "data/1_full/48.jpg": 6.0,
+          "data/1_full/72.jpg": 0.0,
+          "data/1_full/22.jpg": 2.0,
+          "data/1_full/57.jpg": 6.0,
+          "data/1_full/69.jpg": 5.0
+        }
+      },
+      "AI_GroqVision_4": {
+        "selected_card": "data/1_full/78.jpg",
+        "card_scores": {
+          "data/1_full/78.jpg": 8.0,
+          "data/1_full/84.jpg": 7.0,
+          "data/1_full/54.jpg": 6.0,
+          "data/1_full/13.jpg": 0.0,
+          "data/1_full/19.jpg": 7.0,
+          "data/1_full/53.jpg": 7.0
+        }
+      },
+      "AI_GeminiVision_5": {
+        "selected_card": "data/1_full/27.jpg",
+        "card_scores": {
+          "data/1_full/27.jpg": 9.0,
+          "data/1_full/46.jpg": 8.0,
+          "data/1_full/20.jpg": 8.0,
+          "data/1_full/35.jpg": 9.0,
+          "data/1_full/17.jpg": 8.0,
+          "data/1_full/49.jpg": 8.0
+        }
+      },
+      "AI_ClaudeVision_6": {
+        "selected_card": "data/1_full/10.jpg",
+        "card_scores": {
+          "data/1_full/71.jpg": 1.0,
+          "data/1_full/31.jpg": 3.0,
+          "data/1_full/80.jpg": 1.0,
+          "data/1_full/10.jpg": 9.0,
+          "data/1_full/29.jpg": 2.0,
+          "data/1_full/66.jpg": 9.0
+        }
+      }
+    },
+    "votes": {
+      "AI_GeminiVision_2": {
+        "selected_card": "data/1_full/58.jpg",
+        "card_scores": {
+          "data/1_full/58.jpg": 8.0,
+          "data/1_full/28.jpg": 7.0,
+          "data/1_full/27.jpg": 7.0,
+          "data/1_full/10.jpg": 8.0,
+          "data/1_full/2.jpg": 8.0,
+          "data/1_full/78.jpg": 8.0
+        }
+      },
+      "AI_GroqVision_3": {
+        "selected_card": "data/1_full/10.jpg",
+        "card_scores": {
+          "data/1_full/58.jpg": 9.0,
+          "data/1_full/28.jpg": 6.0,
+          "data/1_full/27.jpg": 5.0,
+          "data/1_full/10.jpg": 10.0,
+          "data/1_full/2.jpg": 8.0,
+          "data/1_full/78.jpg": 10.0
+        }
+      },
+      "AI_GroqVision_4": {
+        "selected_card": "data/1_full/27.jpg",
+        "card_scores": {
+          "data/1_full/58.jpg": 0,
+          "data/1_full/28.jpg": 7.0,
+          "data/1_full/27.jpg": 8.0,
+          "data/1_full/10.jpg": 0,
+          "data/1_full/2.jpg": 7.0,
+          "data/1_full/78.jpg": 8.0
+        }
+      },
+      "AI_GeminiVision_5": {
+        "selected_card": "data/1_full/27.jpg",
+        "card_scores": {
+          "data/1_full/58.jpg": 8.0,
+          "data/1_full/28.jpg": 8.0,
+          "data/1_full/27.jpg": 9.0,
+          "data/1_full/10.jpg": 9.0,
+          "data/1_full/2.jpg": 9.0,
+          "data/1_full/78.jpg": 8.0
+        }
+      },
+      "AI_ClaudeVision_6": {
+        "selected_card": "data/1_full/58.jpg",
+        "card_scores": {
+          "data/1_full/58.jpg": 9.0,
+          "data/1_full/28.jpg": 2.0,
+          "data/1_full/27.jpg": 2.0,
+          "data/1_full/10.jpg": 9.0,
+          "data/1_full/2.jpg": 7.0,
+          "data/1_full/78.jpg": 4.0
+        }
+      }
+    },
+    "storyteller_votes": 2,
+    "score_changes": {
+      "AI_OpenAIVision_1": 3,
+      "AI_GeminiVision_2": 3,
+      "AI_ClaudeVision_6": 4,
+      "AI_GeminiVision_5": 1
+    },
+    "current_scores": {
+      "AI_OpenAIVision_1": 17,
+      "AI_GeminiVision_2": 8,
+      "AI_GroqVision_3": 12,
+      "AI_GroqVision_4": 9,
+      "AI_GeminiVision_5": 8,
+      "AI_ClaudeVision_6": 12
+    }
+  },
+  {
+    "round": 8,
+    "storyteller": "AI_GeminiVision_2",
+    "players": [
+      {
+        "model": "gpt-4o-mini",
+        "vision_api": "OpenAIVision"
+      },
+      {
+        "model": "gemini-1.5-flash",
+        "vision_api": "GeminiVision"
+      },
+      {
+        "model": "llama-3.2-11b-vision-preview",
+        "vision_api": "GroqVision"
+      },
+      {
+        "model": "llama-3.2-90b-vision-preview",
+        "vision_api": "GroqVision"
+      },
+      {
+        "model": "gemini-2.0-flash-exp",
+        "vision_api": "GeminiVision"
+      },
+      {
+        "model": "claude-3-5-sonnet-20241022",
+        "vision_api": "ClaudeVision"
+      }
+    ],
+    "clue": "Please provide me with the image from the link. I need to see the Dixit card to generate a fitting clue.  I cannot access external websites or specific files online.\n",
+    "storyteller_card": "data/1_full/67.jpg",
+    "played_cards": {
+      "AI_OpenAIVision_1": {
+        "selected_card": "data/1_full/14.jpg",
+        "card_scores": {
+          "data/1_full/14.jpg": 8.0,
+          "data/1_full/58.jpg": 7.0,
+          "data/1_full/4.jpg": 5.0,
+          "data/1_full/55.jpg": 5.0,
+          "data/1_full/34.jpg": 7.0,
+          "data/1_full/24.jpg": 6.0
+        }
+      },
+      "AI_GroqVision_3": {
+        "selected_card": "data/1_full/48.jpg",
+        "card_scores": {
+          "data/1_full/28.jpg": 1.0,
+          "data/1_full/48.jpg": 9.0,
+          "data/1_full/72.jpg": 5.0,
+          "data/1_full/22.jpg": 2.0,
+          "data/1_full/57.jpg": 8.0,
+          "data/1_full/69.jpg": 2.0
+        }
+      },
+      "AI_GroqVision_4": {
+        "selected_card": "data/1_full/84.jpg",
+        "card_scores": {
+          "data/1_full/78.jpg": 8.0,
+          "data/1_full/84.jpg": 10.0,
+          "data/1_full/54.jpg": 6.0,
+          "data/1_full/13.jpg": 9.0,
+          "data/1_full/19.jpg": 10.0,
+          "data/1_full/53.jpg": 10.0
+        }
+      },
+      "AI_GeminiVision_5": {
+        "selected_card": "data/1_full/27.jpg",
+        "card_scores": {
+          "data/1_full/27.jpg": 0.0,
+          "data/1_full/46.jpg": 0.0,
+          "data/1_full/20.jpg": 0.0,
+          "data/1_full/35.jpg": 0.0,
+          "data/1_full/17.jpg": 0.0,
+          "data/1_full/49.jpg": 0.0
+        }
+      },
+      "AI_ClaudeVision_6": {
+        "selected_card": "data/1_full/71.jpg",
+        "card_scores": {
+          "data/1_full/71.jpg": 0.0,
+          "data/1_full/31.jpg": 0.0,
+          "data/1_full/80.jpg": 0.0,
+          "data/1_full/10.jpg": 0.0,
+          "data/1_full/29.jpg": 0.0,
+          "data/1_full/66.jpg": 0.0
+        }
+      }
+    },
+    "votes": {
+      "AI_OpenAIVision_1": {
+        "selected_card": "data/1_full/14.jpg",
+        "card_scores": {
+          "data/1_full/84.jpg": 7.0,
+          "data/1_full/14.jpg": 8.0,
+          "data/1_full/71.jpg": 7.0,
+          "data/1_full/27.jpg": 4.0,
+          "data/1_full/67.jpg": 7.0,
+          "data/1_full/48.jpg": 7.0
+        }
+      },
+      "AI_GroqVision_3": {
+        "selected_card": "data/1_full/67.jpg",
+        "card_scores": {
+          "data/1_full/84.jpg": 4.0,
+          "data/1_full/14.jpg": 2.0,
+          "data/1_full/71.jpg": 8.0,
+          "data/1_full/27.jpg": 8.0,
+          "data/1_full/67.jpg": 10.0,
+          "data/1_full/48.jpg": 9.0
+        }
+      },
+      "AI_GroqVision_4": {
+        "selected_card": "data/1_full/84.jpg",
+        "card_scores": {
+          "data/1_full/84.jpg": 10.0,
+          "data/1_full/14.jpg": 8.0,
+          "data/1_full/71.jpg": 6.0,
+          "data/1_full/27.jpg": 10.0,
+          "data/1_full/67.jpg": 8.0,
+          "data/1_full/48.jpg": 9.0
+        }
+      },
+      "AI_GeminiVision_5": {
+        "selected_card": "data/1_full/84.jpg",
+        "card_scores": {
+          "data/1_full/84.jpg": 0.0,
+          "data/1_full/14.jpg": 0.0,
+          "data/1_full/71.jpg": 0.0,
+          "data/1_full/27.jpg": 0.0,
+          "data/1_full/67.jpg": 0.0,
+          "data/1_full/48.jpg": 0.0
+        }
+      },
+      "AI_ClaudeVision_6": {
+        "selected_card": "data/1_full/84.jpg",
+        "card_scores": {
+          "data/1_full/84.jpg": 0.0,
+          "data/1_full/14.jpg": 0.0,
+          "data/1_full/71.jpg": 0.0,
+          "data/1_full/27.jpg": 0.0,
+          "data/1_full/67.jpg": 0.0,
+          "data/1_full/48.jpg": 0.0
+        }
+      }
+    },
+    "storyteller_votes": 1,
+    "score_changes": {
+      "AI_GeminiVision_2": 3,
+      "AI_GroqVision_3": 3,
+      "AI_GroqVision_4": 2
+    },
+    "current_scores": {
+      "AI_OpenAIVision_1": 17,
+      "AI_GeminiVision_2": 11,
+      "AI_GroqVision_3": 15,
+      "AI_GroqVision_4": 11,
+      "AI_GeminiVision_5": 8,
+      "AI_ClaudeVision_6": 12
+    }
+  },
+  {
+    "round": 9,
+    "storyteller": "AI_GroqVision_3",
+    "players": [
+      {
+        "model": "gpt-4o-mini",
+        "vision_api": "OpenAIVision"
+      },
+      {
+        "model": "gemini-1.5-flash",
+        "vision_api": "GeminiVision"
+      },
+      {
+        "model": "llama-3.2-11b-vision-preview",
+        "vision_api": "GroqVision"
+      },
+      {
+        "model": "llama-3.2-90b-vision-preview",
+        "vision_api": "GroqVision"
+      },
+      {
+        "model": "gemini-2.0-flash-exp",
+        "vision_api": "GeminiVision"
+      },
+      {
+        "model": "claude-3-5-sonnet-20241022",
+        "vision_api": "ClaudeVision"
+      }
+    ],
+    "clue": "A couple's journey is hindered by a massive teddy bear.",
+    "storyteller_card": "data/1_full/72.jpg",
+    "played_cards": {
+      "AI_OpenAIVision_1": {
+        "selected_card": "data/1_full/4.jpg",
+        "card_scores": {
+          "data/1_full/14.jpg": 0.0,
+          "data/1_full/58.jpg": 0.0,
+          "data/1_full/4.jpg": 2.0,
+          "data/1_full/55.jpg": 0.0,
+          "data/1_full/34.jpg": 0.0,
+          "data/1_full/24.jpg": 0.0
+        }
+      },
+      "AI_GeminiVision_2": {
+        "selected_card": "data/1_full/41.jpg",
+        "card_scores": {
+          "data/1_full/2.jpg": 0.0,
+          "data/1_full/67.jpg": 2.0,
+          "data/1_full/30.jpg": 0.0,
+          "data/1_full/21.jpg": 0.0,
+          "data/1_full/41.jpg": 7.0,
+          "data/1_full/50.jpg": 3.0
+        }
+      },
+      "AI_GroqVision_4": {
+        "selected_card": "data/1_full/84.jpg",
+        "card_scores": {
+          "data/1_full/78.jpg": 0.0,
+          "data/1_full/84.jpg": 2.0,
+          "data/1_full/54.jpg": 0.0,
+          "data/1_full/13.jpg": 0.0,
+          "data/1_full/19.jpg": 2.0,
+          "data/1_full/53.jpg": 0.0
+        }
+      },
+      "AI_GeminiVision_5": {
+        "selected_card": "data/1_full/27.jpg",
+        "card_scores": {
+          "data/1_full/27.jpg": 10.0,
+          "data/1_full/46.jpg": 9.0,
+          "data/1_full/20.jpg": 9.0,
+          "data/1_full/35.jpg": 0.0,
+          "data/1_full/17.jpg": 0.0,
+          "data/1_full/49.jpg": 8.0
+        }
+      },
+      "AI_ClaudeVision_6": {
+        "selected_card": "data/1_full/71.jpg",
+        "card_scores": {
+          "data/1_full/71.jpg": 0.0,
+          "data/1_full/31.jpg": 0.0,
+          "data/1_full/80.jpg": 0.0,
+          "data/1_full/10.jpg": 0.0,
+          "data/1_full/29.jpg": 0.0,
+          "data/1_full/66.jpg": 0.0
+        }
+      }
+    },
+    "votes": {
+      "AI_OpenAIVision_1": {
+        "selected_card": "data/1_full/72.jpg",
+        "card_scores": {
+          "data/1_full/72.jpg": 5.0,
+          "data/1_full/27.jpg": 0.0,
+          "data/1_full/71.jpg": 0.0,
+          "data/1_full/84.jpg": 0.0,
+          "data/1_full/41.jpg": 0.0,
+          "data/1_full/4.jpg": 2.0
+        }
+      },
+      "AI_GeminiVision_2": {
+        "selected_card": "data/1_full/41.jpg",
+        "card_scores": {
+          "data/1_full/72.jpg": 0.0,
+          "data/1_full/27.jpg": 0.0,
+          "data/1_full/71.jpg": 0.0,
+          "data/1_full/84.jpg": 2.0,
+          "data/1_full/41.jpg": 7.0,
+          "data/1_full/4.jpg": 0.0
+        }
+      },
+      "AI_GroqVision_4": {
+        "selected_card": "data/1_full/72.jpg",
+        "card_scores": {
+          "data/1_full/72.jpg": 8.0,
+          "data/1_full/27.jpg": 0.0,
+          "data/1_full/71.jpg": 0.0,
+          "data/1_full/84.jpg": 2.0,
+          "data/1_full/41.jpg": 0.0,
+          "data/1_full/4.jpg": 0.0
+        }
+      },
+      "AI_GeminiVision_5": {
+        "selected_card": "data/1_full/27.jpg",
+        "card_scores": {
+          "data/1_full/72.jpg": 9.0,
+          "data/1_full/27.jpg": 10.0,
+          "data/1_full/71.jpg": 0.0,
+          "data/1_full/84.jpg": 0.0,
+          "data/1_full/41.jpg": 0.0,
+          "data/1_full/4.jpg": 9.0
+        }
+      },
+      "AI_ClaudeVision_6": {
+        "selected_card": "data/1_full/72.jpg",
+        "card_scores": {
+          "data/1_full/72.jpg": 8.0,
+          "data/1_full/27.jpg": 0.0,
+          "data/1_full/71.jpg": 0.0,
+          "data/1_full/84.jpg": 0.0,
+          "data/1_full/41.jpg": 0.0,
+          "data/1_full/4.jpg": 0.0
+        }
+      }
+    },
+    "storyteller_votes": 3,
+    "score_changes": {
+      "AI_GroqVision_3": 3,
+      "AI_OpenAIVision_1": 3,
+      "AI_GroqVision_4": 3,
+      "AI_ClaudeVision_6": 3
+    },
+    "current_scores": {
+      "AI_OpenAIVision_1": 20,
+      "AI_GeminiVision_2": 11,
+      "AI_GroqVision_3": 18,
+      "AI_GroqVision_4": 14,
+      "AI_GeminiVision_5": 8,
+      "AI_ClaudeVision_6": 15
+    }
+  },
+  {
+    "round": 10,
+    "storyteller": "AI_GroqVision_4",
+    "players": [
+      {
+        "model": "gpt-4o-mini",
+        "vision_api": "OpenAIVision"
+      },
+      {
+        "model": "gemini-1.5-flash",
+        "vision_api": "GeminiVision"
+      },
+      {
+        "model": "llama-3.2-11b-vision-preview",
+        "vision_api": "GroqVision"
+      },
+      {
+        "model": "llama-3.2-90b-vision-preview",
+        "vision_api": "GroqVision"
+      },
+      {
+        "model": "gemini-2.0-flash-exp",
+        "vision_api": "GeminiVision"
+      },
+      {
+        "model": "claude-3-5-sonnet-20241022",
+        "vision_api": "ClaudeVision"
+      }
+    ],
+    "clue": "A boy standing in the hillside blows bubbles, symbolizing \"Holding onto what makes you happy.\"",
+    "storyteller_card": "data/1_full/78.jpg",
+    "played_cards": {
+      "AI_OpenAIVision_1": {
+        "selected_card": "data/1_full/14.jpg",
+        "card_scores": {
+          "data/1_full/14.jpg": 0.0,
+          "data/1_full/58.jpg": 0.0,
+          "data/1_full/4.jpg": 0.0,
+          "data/1_full/55.jpg": 0.0,
+          "data/1_full/34.jpg": 0.0,
+          "data/1_full/24.jpg": 0.0
+        }
+      },
+      "AI_GeminiVision_2": {
+        "selected_card": "data/1_full/67.jpg",
+        "card_scores": {
+          "data/1_full/2.jpg": 7.0,
+          "data/1_full/67.jpg": 8.0,
+          "data/1_full/30.jpg": 7.0,
+          "data/1_full/21.jpg": 7.0,
+          "data/1_full/41.jpg": 7.0,
+          "data/1_full/50.jpg": 7.0
+        }
+      },
+      "AI_GroqVision_3": {
+        "selected_card": "data/1_full/48.jpg",
+        "card_scores": {
+          "data/1_full/28.jpg": 1.0,
+          "data/1_full/48.jpg": 4.0,
+          "data/1_full/72.jpg": 3.0,
+          "data/1_full/22.jpg": 1.0,
+          "data/1_full/57.jpg": 2.0,
+          "data/1_full/69.jpg": 3.0
+        }
+      },
+      "AI_GeminiVision_5": {
+        "selected_card": "data/1_full/46.jpg",
+        "card_scores": {
+          "data/1_full/27.jpg": 8.0,
+          "data/1_full/46.jpg": 9.0,
+          "data/1_full/20.jpg": 9.0,
+          "data/1_full/35.jpg": 9.0,
+          "data/1_full/17.jpg": 9.0,
+          "data/1_full/49.jpg": 9.0
+        }
+      },
+      "AI_ClaudeVision_6": {
+        "selected_card": "data/1_full/66.jpg",
+        "card_scores": {
+          "data/1_full/71.jpg": 0.0,
+          "data/1_full/31.jpg": 2.0,
+          "data/1_full/80.jpg": 0.0,
+          "data/1_full/10.jpg": 0.0,
+          "data/1_full/29.jpg": 0.0,
+          "data/1_full/66.jpg": 3.0
+        }
+      }
+    },
+    "votes": {
+      "AI_OpenAIVision_1": {
+        "selected_card": "data/1_full/78.jpg",
+        "card_scores": {
+          "data/1_full/67.jpg": 0.0,
+          "data/1_full/46.jpg": 2.0,
+          "data/1_full/48.jpg": 0.0,
+          "data/1_full/66.jpg": 3.0,
+          "data/1_full/14.jpg": 0.0,
+          "data/1_full/78.jpg": 8.0
+        }
+      },
+      "AI_GeminiVision_2": {
+        "selected_card": "data/1_full/67.jpg",
+        "card_scores": {
+          "data/1_full/67.jpg": 8.0,
+          "data/1_full/46.jpg": 7.0,
+          "data/1_full/48.jpg": 8.0,
+          "data/1_full/66.jpg": 7.0,
+          "data/1_full/14.jpg": 7.0,
+          "data/1_full/78.jpg": 7.0
+        }
+      },
+      "AI_GroqVision_3": {
+        "selected_card": "data/1_full/78.jpg",
+        "card_scores": {
+          "data/1_full/67.jpg": 0.0,
+          "data/1_full/46.jpg": 0.0,
+          "data/1_full/48.jpg": 4.0,
+          "data/1_full/66.jpg": 3.0,
+          "data/1_full/14.jpg": 5.0,
+          "data/1_full/78.jpg": 7.0
+        }
+      },
+      "AI_GeminiVision_5": {
+        "selected_card": "data/1_full/46.jpg",
+        "card_scores": {
+          "data/1_full/67.jpg": 8.0,
+          "data/1_full/46.jpg": 9.0,
+          "data/1_full/48.jpg": 9.0,
+          "data/1_full/66.jpg": 7.0,
+          "data/1_full/14.jpg": 9.0,
+          "data/1_full/78.jpg": 9.0
+        }
+      },
+      "AI_ClaudeVision_6": {
+        "selected_card": "data/1_full/78.jpg",
+        "card_scores": {
+          "data/1_full/67.jpg": 0.0,
+          "data/1_full/46.jpg": 2.0,
+          "data/1_full/48.jpg": 2.0,
+          "data/1_full/66.jpg": 3.0,
+          "data/1_full/14.jpg": 2.0,
+          "data/1_full/78.jpg": 9.0
+        }
+      }
+    },
+    "storyteller_votes": 3,
+    "score_changes": {
+      "AI_GroqVision_4": 3,
+      "AI_OpenAIVision_1": 3,
+      "AI_GroqVision_3": 3,
+      "AI_ClaudeVision_6": 3
+    },
+    "current_scores": {
+      "AI_OpenAIVision_1": 23,
+      "AI_GeminiVision_2": 11,
+      "AI_GroqVision_3": 21,
+      "AI_GroqVision_4": 17,
+      "AI_GeminiVision_5": 8,
+      "AI_ClaudeVision_6": 18
+    }
+  }
+]
