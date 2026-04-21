@@ -3,9 +3,19 @@ data/original
 .pytest_cache
 .env
 
+# Frontend
+frontend/node_modules/
+frontend/dist/
+
 *.db
 
 **/__pycache__/
-*.pyc
-*.pyo
-*.pyd
+**/*.pyc
+**/*.pyo
+**/*.pyd
+
+.vscode
+
+llm.txt
+
+.certs/

@@ -184,11 +184,25 @@ class GameLogger:
     def __init__(self, output_dir: str = "game_logs"):
         self.output_dir = output_dir
         os.makedirs(output_dir, exist_ok=True)
-        self.game_log = []
+        self.game_log = {
+            "game_configuration": {},
+            "rounds": []
+        }
         self.timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
         
+    def log_game_parameters(self, params: dict):
+        """Log the game's initial parameters"""
+        self.game_log["game_configuration"] = {
+            "timestamp": self.timestamp,
+            "game_parameters": params
+        }
+        
     def log_round(self, round_data: dict):
-        self.game_log.append(round_data)
+        """Log each round's data without duplicating player information"""
+        # Remove the players array if it exists since it's already in game parameters
+        if 'players' in round_data:
+            del round_data['players']
+        self.game_log["rounds"].append(round_data)
         
     def _json_default(self, obj):
         if hasattr(obj, 'to_dict'):
@@ -201,7 +215,7 @@ class GameLogger:
         with open(filepath, 'w') as f:
             json.dump(self.game_log, f, indent=2, default=self._json_default)
         return filepath
-
+    
 def play_game(
     image_directory: str,
     players,
@@ -214,11 +228,30 @@ def play_game(
     game = DixitGame()
     game.load_deck(image_directory)
     
-    ai_players:List[AIPlayer] = []
+    # Create AI players and get their info
+    ai_players: List[AIPlayer] = []
     for i, api in enumerate(players):
         player_name = f"AI_{api.__class__.__name__}_{i+1}"
         game.add_player(player_name)
-        ai_players.append(AIPlayer(api.model,api))
+        ai_players.append(AIPlayer(api.model, api))
+
+    # Log game parameters
+    game_parameters = {
+        "number_of_players": len(players),
+        "players": [
+            {
+                "name": f"AI_{api.__class__.__name__}_{i+1}",
+                "provider": api.__class__.__name__,
+                "model": api.model
+            } for i, api in enumerate(players)
+        ],
+        "image_directory": image_directory,
+        "max_number_of_rounds": max_number_of_rounds,
+        "score_to_win": score_to_win,
+        "from_cache": from_cache,
+        "deck_size": len(game.deck)
+    }
+    logger.log_game_parameters(game_parameters)
         
     rounds = 0
     while rounds < max_number_of_rounds and any(p.score < score_to_win for p in game.players):
@@ -230,9 +263,6 @@ def play_game(
         ai_storyteller = ai_players[storyteller_idx]
         round_log["storyteller"] = storyteller.name
 
-
-        round_log["players"] = [player.to_dict() for player in ai_players]
-        
         storyteller_card = random.choice(storyteller.cards)
         clue = ai_storyteller.generate_clue(storyteller_card.image_path, from_cache=from_cache)
         print(f"\n{storyteller.name} (Storyteller) gives clue: {clue}")
@@ -340,9 +370,9 @@ if __name__ == "__main__":
 
     players_list = [groq1, groq2, claude1, claude2, open1, open2, 
                     gemini1, gemini2, gemini3, gemini15pro, geminiExp, gemini1flash]
-    ai_players = random.sample(players_list, 6)
+    
 
-    print(f"Selected players: {[p.__class__.__name__ for p in ai_players]}")
+    
 
     # ai_players = [gemini1, gemini2 , grok1, claude1, open2, gemini3, gemini2, gemini1]
 
@@ -374,13 +404,16 @@ if __name__ == "__main__":
     #             #    grok2
                 #    ] 
 
+    NUM_PLAYERS = 8
+    ai_players = random.sample(players_list, NUM_PLAYERS)
+    print(f"Selected players: {[p.__class__.__name__ for p in ai_players]}")
 
     play_game(
         # image_directory="data/original",
         image_directory="data/1_full",
         players = ai_players,
-        max_number_of_rounds = 20,
-        score_to_win = 100,
+        max_number_of_rounds = 10, ### normally is 10
+        score_to_win = 30,        ### normal is 30
         from_cache = True
     )
  

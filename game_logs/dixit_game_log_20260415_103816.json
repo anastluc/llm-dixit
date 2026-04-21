@@ -1,0 +1,1127 @@
+{
+  "game_id": "20260415_103816",
+  "game_configuration": {
+    "timestamp": "20260415_103816",
+    "prompt_style": "creative",
+    "image_directory": "data/1_full",
+    "max_rounds": 10,
+    "score_to_win": 30,
+    "use_cache": true,
+    "deck_size": 84,
+    "players": [
+      {
+        "name": "gemma-3-12b-it:free_1",
+        "model": "google/gemma-3-12b-it:free",
+        "provider": "google",
+        "prompt_style": "creative",
+        "score": 0
+      },
+      {
+        "name": "mistral-small-3.2-24b-instruct_2",
+        "model": "mistralai/mistral-small-3.2-24b-instruct",
+        "provider": "mistralai",
+        "prompt_style": "deceptive",
+        "score": 0
+      },
+      {
+        "name": "claude-opus-4.6_3",
+        "model": "anthropic/claude-opus-4.6",
+        "provider": "anthropic",
+        "prompt_style": "creative",
+        "score": 0
+      },
+      {
+        "name": "gemini-3-flash-preview_4",
+        "model": "google/gemini-3-flash-preview",
+        "provider": "google",
+        "prompt_style": "creative",
+        "score": 0
+      },
+      {
+        "name": "claude-opus-4.6-fast_5",
+        "model": "anthropic/claude-opus-4.6-fast",
+        "provider": "anthropic",
+        "prompt_style": "creative",
+        "score": 0
+      }
+    ]
+  },
+  "rounds": [
+    {
+      "round": 1,
+      "storyteller": "gemma-3-12b-it:free_1",
+      "clue": "Escaping a gilded cage, seeking boundless blue.",
+      "storyteller_card": "data/1_full/49.jpg",
+      "played_cards": {
+        "mistral-small-3.2-24b-instruct_2": {
+          "selected_card": "data/1_full/62.jpg",
+          "card_scores": {
+            "data/1_full/34.jpg": 7.0,
+            "data/1_full/33.jpg": 5.0,
+            "data/1_full/37.jpg": 6.0,
+            "data/1_full/62.jpg": 8.0,
+            "data/1_full/64.jpg": 5.0,
+            "data/1_full/60.jpg": 4.0
+          }
+        },
+        "claude-opus-4.6_3": {
+          "selected_card": "data/1_full/3.jpg",
+          "card_scores": {
+            "data/1_full/42.jpg": 6.0,
+            "data/1_full/54.jpg": 3.0,
+            "data/1_full/3.jpg": 8.0,
+            "data/1_full/66.jpg": 4.0,
+            "data/1_full/71.jpg": 3.0,
+            "data/1_full/18.jpg": 4.0
+          }
+        },
+        "gemini-3-flash-preview_4": {
+          "selected_card": "data/1_full/32.jpg",
+          "card_scores": {
+            "data/1_full/10.jpg": 1.0,
+            "data/1_full/32.jpg": 9.0,
+            "data/1_full/9.jpg": 2.0,
+            "data/1_full/50.jpg": 1.0,
+            "data/1_full/45.jpg": 2.0,
+            "data/1_full/8.jpg": 1.0
+          }
+        },
+        "claude-opus-4.6-fast_5": {
+          "selected_card": "data/1_full/27.jpg",
+          "card_scores": {
+            "data/1_full/61.jpg": 6.0,
+            "data/1_full/56.jpg": 2.0,
+            "data/1_full/51.jpg": 5.0,
+            "data/1_full/39.jpg": 4.0,
+            "data/1_full/27.jpg": 8.0,
+            "data/1_full/38.jpg": 4.0
+          }
+        }
+      },
+      "votes": {
+        "mistral-small-3.2-24b-instruct_2": {
+          "selected_card": "data/1_full/27.jpg",
+          "card_scores": {
+            "data/1_full/27.jpg": 8.0,
+            "data/1_full/49.jpg": 8.0,
+            "data/1_full/62.jpg": 8.0,
+            "data/1_full/3.jpg": 8.0,
+            "data/1_full/32.jpg": 5.0
+          }
+        },
+        "claude-opus-4.6_3": {
+          "selected_card": "data/1_full/49.jpg",
+          "card_scores": {
+            "data/1_full/27.jpg": 7.0,
+            "data/1_full/49.jpg": 8.0,
+            "data/1_full/62.jpg": 5.0,
+            "data/1_full/3.jpg": 8.0,
+            "data/1_full/32.jpg": 7.0
+          }
+        },
+        "gemini-3-flash-preview_4": {
+          "selected_card": "data/1_full/49.jpg",
+          "card_scores": {
+            "data/1_full/27.jpg": 8.0,
+            "data/1_full/49.jpg": 9.0,
+            "data/1_full/62.jpg": 6.0,
+            "data/1_full/3.jpg": 4.0,
+            "data/1_full/32.jpg": 9.0
+          }
+        },
+        "claude-opus-4.6-fast_5": {
+          "selected_card": "data/1_full/27.jpg",
+          "card_scores": {
+            "data/1_full/27.jpg": 8.0,
+            "data/1_full/49.jpg": 8.0,
+            "data/1_full/62.jpg": 5.0,
+            "data/1_full/3.jpg": 8.0,
+            "data/1_full/32.jpg": 7.0
+          }
+        }
+      },
+      "storyteller_votes": 2,
+      "score_changes": {
+        "gemma-3-12b-it:free_1": 3,
+        "claude-opus-4.6_3": 3,
+        "gemini-3-flash-preview_4": 3,
+        "claude-opus-4.6-fast_5": 1
+      },
+      "current_scores": {
+        "gemma-3-12b-it:free_1": 3,
+        "mistral-small-3.2-24b-instruct_2": 0,
+        "claude-opus-4.6_3": 3,
+        "gemini-3-flash-preview_4": 3,
+        "claude-opus-4.6-fast_5": 1
+      }
+    },
+    {
+      "round": 2,
+      "storyteller": "mistral-small-3.2-24b-instruct_2",
+      "clue": "mysterious",
+      "storyteller_card": "data/1_full/64.jpg",
+      "played_cards": {
+        "gemma-3-12b-it:free_1": {
+          "selected_card": "data/1_full/57.jpg",
+          "card_scores": {
+            "data/1_full/19.jpg": 4.0,
+            "data/1_full/57.jpg": 5.0,
+            "data/1_full/55.jpg": 5.0,
+            "data/1_full/20.jpg": 5.0,
+            "data/1_full/63.jpg": 5.0,
+            "data/1_full/15.jpg": 5.0
+          }
+        },
+        "claude-opus-4.6_3": {
+          "selected_card": "data/1_full/81.jpg",
+          "card_scores": {
+            "data/1_full/42.jpg": 4.0,
+            "data/1_full/54.jpg": 3.0,
+            "data/1_full/66.jpg": 5.0,
+            "data/1_full/71.jpg": 6.0,
+            "data/1_full/18.jpg": 5.0,
+            "data/1_full/81.jpg": 7.0
+          }
+        },
+        "gemini-3-flash-preview_4": {
+          "selected_card": "data/1_full/45.jpg",
+          "card_scores": {
+            "data/1_full/10.jpg": 4.0,
+            "data/1_full/9.jpg": 6.0,
+            "data/1_full/50.jpg": 4.0,
+            "data/1_full/45.jpg": 7.0,
+            "data/1_full/8.jpg": 4.0,
+            "data/1_full/21.jpg": 6.0
+          }
+        },
+        "claude-opus-4.6-fast_5": {
+          "selected_card": "data/1_full/79.jpg",
+          "card_scores": {
+            "data/1_full/61.jpg": 4.0,
+            "data/1_full/56.jpg": 6.0,
+            "data/1_full/51.jpg": 5.0,
+            "data/1_full/39.jpg": 6.0,
+            "data/1_full/38.jpg": 6.0,
+            "data/1_full/79.jpg": 7.0
+          }
+        }
+      },
+      "votes": {
+        "gemma-3-12b-it:free_1": {
+          "selected_card": "data/1_full/81.jpg",
+          "card_scores": {
+            "data/1_full/81.jpg": 5.0,
+            "data/1_full/45.jpg": 5.0,
+            "data/1_full/64.jpg": 5.0,
+            "data/1_full/57.jpg": 5.0,
+            "data/1_full/79.jpg": 5.0
+          }
+        },
+        "claude-opus-4.6_3": {
+          "selected_card": "data/1_full/81.jpg",
+          "card_scores": {
+            "data/1_full/81.jpg": 7.0,
+            "data/1_full/45.jpg": 4.0,
+            "data/1_full/64.jpg": 4.0,
+            "data/1_full/57.jpg": 5.0,
+            "data/1_full/79.jpg": 7.0
+          }
+        },
+        "gemini-3-flash-preview_4": {
+          "selected_card": "data/1_full/81.jpg",
+          "card_scores": {
+            "data/1_full/81.jpg": 9.0,
+            "data/1_full/45.jpg": 7.0,
+            "data/1_full/64.jpg": 8.0,
+            "data/1_full/57.jpg": 7.0,
+            "data/1_full/79.jpg": 7.0
+          }
+        },
+        "claude-opus-4.6-fast_5": {
+          "selected_card": "data/1_full/81.jpg",
+          "card_scores": {
+            "data/1_full/81.jpg": 7.0,
+            "data/1_full/45.jpg": 4.0,
+            "data/1_full/64.jpg": 4.0,
+            "data/1_full/57.jpg": 5.0,
+            "data/1_full/79.jpg": 7.0
+          }
+        }
+      },
+      "storyteller_votes": 0,
+      "score_changes": {
+        "gemma-3-12b-it:free_1": 2,
+        "claude-opus-4.6_3": 5,
+        "gemini-3-flash-preview_4": 2,
+        "claude-opus-4.6-fast_5": 2
+      },
+      "current_scores": {
+        "gemma-3-12b-it:free_1": 5,
+        "mistral-small-3.2-24b-instruct_2": 0,
+        "claude-opus-4.6_3": 8,
+        "gemini-3-flash-preview_4": 5,
+        "claude-opus-4.6-fast_5": 3
+      }
+    },
+    {
+      "round": 3,
+      "storyteller": "claude-opus-4.6_3",
+      "clue": "The postman always delivers, but some packages are already cracking open.",
+      "storyteller_card": "data/1_full/54.jpg",
+      "played_cards": {
+        "gemma-3-12b-it:free_1": {
+          "selected_card": "data/1_full/19.jpg",
+          "card_scores": {
+            "data/1_full/19.jpg": 5.0,
+            "data/1_full/55.jpg": 2.0,
+            "data/1_full/20.jpg": 5.0,
+            "data/1_full/63.jpg": 5.0,
+            "data/1_full/15.jpg": 5.0,
+            "data/1_full/52.jpg": 3.0
+          }
+        },
+        "mistral-small-3.2-24b-instruct_2": {
+          "selected_card": "data/1_full/33.jpg",
+          "card_scores": {
+            "data/1_full/34.jpg": 4.0,
+            "data/1_full/33.jpg": 5.0,
+            "data/1_full/37.jpg": 4.0,
+            "data/1_full/60.jpg": 3.0,
+            "data/1_full/53.jpg": 5.0,
+            "data/1_full/4.jpg": 5.0
+          }
+        },
+        "gemini-3-flash-preview_4": {
+          "selected_card": "data/1_full/76.jpg",
+          "card_scores": {
+            "data/1_full/10.jpg": 1.0,
+            "data/1_full/9.jpg": 3.0,
+            "data/1_full/50.jpg": 1.0,
+            "data/1_full/8.jpg": 1.0,
+            "data/1_full/21.jpg": 1.0,
+            "data/1_full/76.jpg": 10.0
+          }
+        },
+        "claude-opus-4.6-fast_5": {
+          "selected_card": "data/1_full/56.jpg",
+          "card_scores": {
+            "data/1_full/61.jpg": 2.0,
+            "data/1_full/56.jpg": 4.0,
+            "data/1_full/51.jpg": 4.0,
+            "data/1_full/39.jpg": 4.0,
+            "data/1_full/38.jpg": 2.0,
+            "data/1_full/47.jpg": 2.0
+          }
+        }
+      },
+      "votes": {
+        "gemma-3-12b-it:free_1": {
+          "selected_card": "data/1_full/56.jpg",
+          "card_scores": {
+            "data/1_full/56.jpg": 5.0,
+            "data/1_full/54.jpg": 5.0,
+            "data/1_full/19.jpg": 5.0,
+            "data/1_full/76.jpg": 5.0,
+            "data/1_full/33.jpg": 5.0
+          }
+        },
+        "mistral-small-3.2-24b-instruct_2": {
+          "selected_card": "data/1_full/54.jpg",
+          "card_scores": {
+            "data/1_full/56.jpg": 6.0,
+            "data/1_full/54.jpg": 8.0,
+            "data/1_full/19.jpg": 5.0,
+            "data/1_full/76.jpg": 5.0,
+            "data/1_full/33.jpg": 6.0
+          }
+        },
+        "gemini-3-flash-preview_4": {
+          "selected_card": "data/1_full/54.jpg",
+          "card_scores": {
+            "data/1_full/56.jpg": 2.0,
+            "data/1_full/54.jpg": 10.0,
+            "data/1_full/19.jpg": 1.0,
+            "data/1_full/76.jpg": 10.0,
+            "data/1_full/33.jpg": 2.0
+          }
+        },
+        "claude-opus-4.6-fast_5": {
+          "selected_card": "data/1_full/54.jpg",
+          "card_scores": {
+            "data/1_full/56.jpg": 4.0,
+            "data/1_full/54.jpg": 9.0,
+            "data/1_full/19.jpg": 3.0,
+            "data/1_full/76.jpg": 5.0,
+            "data/1_full/33.jpg": 2.0
+          }
+        }
+      },
+      "storyteller_votes": 3,
+      "score_changes": {
+        "mistral-small-3.2-24b-instruct_2": 3,
+        "claude-opus-4.6_3": 3,
+        "gemini-3-flash-preview_4": 3,
+        "claude-opus-4.6-fast_5": 4
+      },
+      "current_scores": {
+        "gemma-3-12b-it:free_1": 5,
+        "mistral-small-3.2-24b-instruct_2": 3,
+        "claude-opus-4.6_3": 11,
+        "gemini-3-flash-preview_4": 8,
+        "claude-opus-4.6-fast_5": 7
+      }
+    },
+    {
+      "round": 4,
+      "storyteller": "gemini-3-flash-preview_4",
+      "clue": "A different kind of peace in a field of fire.",
+      "storyteller_card": "data/1_full/10.jpg",
+      "played_cards": {
+        "gemma-3-12b-it:free_1": {
+          "selected_card": "data/1_full/55.jpg",
+          "card_scores": {
+            "data/1_full/55.jpg": 5.0,
+            "data/1_full/20.jpg": 5.0,
+            "data/1_full/63.jpg": 5.0,
+            "data/1_full/15.jpg": 5.0,
+            "data/1_full/52.jpg": 5.0,
+            "data/1_full/43.jpg": 5.0
+          }
+        },
+        "mistral-small-3.2-24b-instruct_2": {
+          "selected_card": "data/1_full/53.jpg",
+          "card_scores": {
+            "data/1_full/34.jpg": 5.0,
+            "data/1_full/37.jpg": 5.0,
+            "data/1_full/60.jpg": 3.0,
+            "data/1_full/53.jpg": 6.0,
+            "data/1_full/4.jpg": 6.0,
+            "data/1_full/14.jpg": 6.0
+          }
+        },
+        "claude-opus-4.6_3": {
+          "selected_card": "data/1_full/66.jpg",
+          "card_scores": {
+            "data/1_full/42.jpg": 3.0,
+            "data/1_full/66.jpg": 5.0,
+            "data/1_full/71.jpg": 3.0,
+            "data/1_full/18.jpg": 4.0,
+            "data/1_full/80.jpg": 2.0,
+            "data/1_full/70.jpg": 3.0
+          }
+        },
+        "claude-opus-4.6-fast_5": {
+          "selected_card": "data/1_full/51.jpg",
+          "card_scores": {
+            "data/1_full/61.jpg": 4.0,
+            "data/1_full/51.jpg": 6.0,
+            "data/1_full/39.jpg": 3.0,
+            "data/1_full/38.jpg": 3.0,
+            "data/1_full/47.jpg": 5.0,
+            "data/1_full/17.jpg": 1.0
+          }
+        }
+      },
+      "votes": {
+        "gemma-3-12b-it:free_1": {
+          "selected_card": "data/1_full/55.jpg",
+          "card_scores": {
+            "data/1_full/55.jpg": 5.0,
+            "data/1_full/53.jpg": 5.0,
+            "data/1_full/51.jpg": 5.0,
+            "data/1_full/10.jpg": 5.0,
+            "data/1_full/66.jpg": 5.0
+          }
+        },
+        "mistral-small-3.2-24b-instruct_2": {
+          "selected_card": "data/1_full/10.jpg",
+          "card_scores": {
+            "data/1_full/55.jpg": 3.0,
+            "data/1_full/53.jpg": 6.0,
+            "data/1_full/51.jpg": 7.0,
+            "data/1_full/10.jpg": 8.0,
+            "data/1_full/66.jpg": 3.0
+          }
+        },
+        "claude-opus-4.6_3": {
+          "selected_card": "data/1_full/10.jpg",
+          "card_scores": {
+            "data/1_full/55.jpg": 2.0,
+            "data/1_full/53.jpg": 3.0,
+            "data/1_full/51.jpg": 5.0,
+            "data/1_full/10.jpg": 9.0,
+            "data/1_full/66.jpg": 5.0
+          }
+        },
+        "claude-opus-4.6-fast_5": {
+          "selected_card": "data/1_full/10.jpg",
+          "card_scores": {
+            "data/1_full/55.jpg": 2.0,
+            "data/1_full/53.jpg": 3.0,
+            "data/1_full/51.jpg": 6.0,
+            "data/1_full/10.jpg": 9.0,
+            "data/1_full/66.jpg": 5.0
+          }
+        }
+      },
+      "storyteller_votes": 3,
+      "score_changes": {
+        "mistral-small-3.2-24b-instruct_2": 3,
+        "claude-opus-4.6_3": 3,
+        "gemini-3-flash-preview_4": 3,
+        "claude-opus-4.6-fast_5": 3
+      },
+      "current_scores": {
+        "gemma-3-12b-it:free_1": 5,
+        "mistral-small-3.2-24b-instruct_2": 6,
+        "claude-opus-4.6_3": 14,
+        "gemini-3-flash-preview_4": 11,
+        "claude-opus-4.6-fast_5": 10
+      }
+    },
+    {
+      "round": 5,
+      "storyteller": "claude-opus-4.6-fast_5",
+      "clue": "The loneliest screen glows brighter than a thousand distant stars.",
+      "storyteller_card": "data/1_full/38.jpg",
+      "played_cards": {
+        "gemma-3-12b-it:free_1": {
+          "selected_card": "data/1_full/43.jpg",
+          "card_scores": {
+            "data/1_full/20.jpg": 8.0,
+            "data/1_full/63.jpg": 3.0,
+            "data/1_full/15.jpg": 5.0,
+            "data/1_full/52.jpg": 2.0,
+            "data/1_full/43.jpg": 9.0,
+            "data/1_full/73.jpg": 3.0
+          }
+        },
+        "mistral-small-3.2-24b-instruct_2": {
+          "selected_card": "data/1_full/34.jpg",
+          "card_scores": {
+            "data/1_full/34.jpg": 6.0,
+            "data/1_full/37.jpg": 5.0,
+            "data/1_full/60.jpg": 5.0,
+            "data/1_full/4.jpg": 3.0,
+            "data/1_full/14.jpg": 6.0,
+            "data/1_full/11.jpg": 6.0
+          }
+        },
+        "claude-opus-4.6_3": {
+          "selected_card": "data/1_full/70.jpg",
+          "card_scores": {
+            "data/1_full/42.jpg": 2.0,
+            "data/1_full/71.jpg": 2.0,
+            "data/1_full/18.jpg": 3.0,
+            "data/1_full/80.jpg": 3.0,
+            "data/1_full/70.jpg": 5.0,
+            "data/1_full/84.jpg": 2.0
+          }
+        },
+        "gemini-3-flash-preview_4": {
+          "selected_card": "data/1_full/9.jpg",
+          "card_scores": {
+            "data/1_full/9.jpg": 1.0,
+            "data/1_full/50.jpg": 1.0,
+            "data/1_full/8.jpg": 0.0,
+            "data/1_full/21.jpg": 1.0,
+            "data/1_full/2.jpg": 1.0,
+            "data/1_full/68.jpg": 0.0
+          }
+        }
+      },
+      "votes": {
+        "gemma-3-12b-it:free_1": {
+          "selected_card": "data/1_full/43.jpg",
+          "card_scores": {
+            "data/1_full/43.jpg": 9.0,
+            "data/1_full/38.jpg": 9.0,
+            "data/1_full/9.jpg": 2.0,
+            "data/1_full/34.jpg": 7.0,
+            "data/1_full/70.jpg": 8.0
+          }
+        },
+        "mistral-small-3.2-24b-instruct_2": {
+          "selected_card": "data/1_full/38.jpg",
+          "card_scores": {
+            "data/1_full/43.jpg": 8.0,
+            "data/1_full/38.jpg": 9.0,
+            "data/1_full/9.jpg": 3.0,
+            "data/1_full/34.jpg": 6.0,
+            "data/1_full/70.jpg": 8.0
+          }
+        },
+        "claude-opus-4.6_3": {
+          "selected_card": "data/1_full/38.jpg",
+          "card_scores": {
+            "data/1_full/43.jpg": 6.0,
+            "data/1_full/38.jpg": 9.0,
+            "data/1_full/9.jpg": 2.0,
+            "data/1_full/34.jpg": 4.0,
+            "data/1_full/70.jpg": 5.0
+          }
+        },
+        "gemini-3-flash-preview_4": {
+          "selected_card": "data/1_full/38.jpg",
+          "card_scores": {
+            "data/1_full/43.jpg": 3.0,
+            "data/1_full/38.jpg": 9.0,
+            "data/1_full/9.jpg": 1.0,
+            "data/1_full/34.jpg": 8.0,
+            "data/1_full/70.jpg": 4.0
+          }
+        }
+      },
+      "storyteller_votes": 3,
+      "score_changes": {
+        "mistral-small-3.2-24b-instruct_2": 3,
+        "claude-opus-4.6_3": 3,
+        "gemini-3-flash-preview_4": 3,
+        "claude-opus-4.6-fast_5": 3
+      },
+      "current_scores": {
+        "gemma-3-12b-it:free_1": 5,
+        "mistral-small-3.2-24b-instruct_2": 9,
+        "claude-opus-4.6_3": 17,
+        "gemini-3-flash-preview_4": 14,
+        "claude-opus-4.6-fast_5": 13
+      }
+    },
+    {
+      "round": 6,
+      "storyteller": "gemma-3-12b-it:free_1",
+      "clue": "mysterious",
+      "storyteller_card": "data/1_full/63.jpg",
+      "played_cards": {
+        "mistral-small-3.2-24b-instruct_2": {
+          "selected_card": "data/1_full/11.jpg",
+          "card_scores": {
+            "data/1_full/37.jpg": 3.0,
+            "data/1_full/60.jpg": 6.0,
+            "data/1_full/4.jpg": 3.0,
+            "data/1_full/14.jpg": 3.0,
+            "data/1_full/11.jpg": 7.0,
+            "data/1_full/44.jpg": 5.0
+          }
+        },
+        "claude-opus-4.6_3": {
+          "selected_card": "data/1_full/71.jpg",
+          "card_scores": {
+            "data/1_full/42.jpg": 4.0,
+            "data/1_full/71.jpg": 6.0,
+            "data/1_full/18.jpg": 5.0,
+            "data/1_full/80.jpg": 6.0,
+            "data/1_full/84.jpg": 5.0,
+            "data/1_full/77.jpg": 5.0
+          }
+        },
+        "gemini-3-flash-preview_4": {
+          "selected_card": "data/1_full/2.jpg",
+          "card_scores": {
+            "data/1_full/50.jpg": 4.0,
+            "data/1_full/8.jpg": 4.0,
+            "data/1_full/21.jpg": 6.0,
+            "data/1_full/2.jpg": 7.0,
+            "data/1_full/68.jpg": 4.0,
+            "data/1_full/46.jpg": 7.0
+          }
+        },
+        "claude-opus-4.6-fast_5": {
+          "selected_card": "data/1_full/23.jpg",
+          "card_scores": {
+            "data/1_full/61.jpg": 4.0,
+            "data/1_full/39.jpg": 6.0,
+            "data/1_full/47.jpg": 5.0,
+            "data/1_full/17.jpg": 5.0,
+            "data/1_full/72.jpg": 4.0,
+            "data/1_full/23.jpg": 7.0
+          }
+        }
+      },
+      "votes": {
+        "mistral-small-3.2-24b-instruct_2": {
+          "selected_card": "data/1_full/2.jpg",
+          "card_scores": {
+            "data/1_full/2.jpg": 8.0,
+            "data/1_full/63.jpg": 8.0,
+            "data/1_full/11.jpg": 7.0,
+            "data/1_full/71.jpg": 8.0,
+            "data/1_full/23.jpg": 7.0
+          }
+        },
+        "claude-opus-4.6_3": {
+          "selected_card": "data/1_full/2.jpg",
+          "card_scores": {
+            "data/1_full/2.jpg": 7.0,
+            "data/1_full/63.jpg": 7.0,
+            "data/1_full/11.jpg": 6.0,
+            "data/1_full/71.jpg": 6.0,
+            "data/1_full/23.jpg": 7.0
+          }
+        },
+        "gemini-3-flash-preview_4": {
+          "selected_card": "data/1_full/63.jpg",
+          "card_scores": {
+            "data/1_full/2.jpg": 7.0,
+            "data/1_full/63.jpg": 8.0,
+            "data/1_full/11.jpg": 8.0,
+            "data/1_full/71.jpg": 7.0,
+            "data/1_full/23.jpg": 7.0
+          }
+        },
+        "claude-opus-4.6-fast_5": {
+          "selected_card": "data/1_full/2.jpg",
+          "card_scores": {
+            "data/1_full/2.jpg": 7.0,
+            "data/1_full/63.jpg": 7.0,
+            "data/1_full/11.jpg": 6.0,
+            "data/1_full/71.jpg": 6.0,
+            "data/1_full/23.jpg": 7.0
+          }
+        }
+      },
+      "storyteller_votes": 1,
+      "score_changes": {
+        "gemma-3-12b-it:free_1": 3,
+        "gemini-3-flash-preview_4": 6
+      },
+      "current_scores": {
+        "gemma-3-12b-it:free_1": 8,
+        "mistral-small-3.2-24b-instruct_2": 9,
+        "claude-opus-4.6_3": 17,
+        "gemini-3-flash-preview_4": 20,
+        "claude-opus-4.6-fast_5": 13
+      }
+    },
+    {
+      "round": 7,
+      "storyteller": "mistral-small-3.2-24b-instruct_2",
+      "clue": "Shiny masked figures on a colorful floats.",
+      "storyteller_card": "data/1_full/4.jpg",
+      "played_cards": {
+        "gemma-3-12b-it:free_1": {
+          "selected_card": "data/1_full/20.jpg",
+          "card_scores": {
+            "data/1_full/20.jpg": 5.0,
+            "data/1_full/15.jpg": 2.0,
+            "data/1_full/52.jpg": 5.0,
+            "data/1_full/73.jpg": 1.0,
+            "data/1_full/40.jpg": 5.0,
+            "data/1_full/26.jpg": 5.0
+          }
+        },
+        "claude-opus-4.6_3": {
+          "selected_card": "data/1_full/80.jpg",
+          "card_scores": {
+            "data/1_full/42.jpg": 1.0,
+            "data/1_full/18.jpg": 1.0,
+            "data/1_full/80.jpg": 2.0,
+            "data/1_full/84.jpg": 2.0,
+            "data/1_full/77.jpg": 1.0,
+            "data/1_full/41.jpg": 1.0
+          }
+        },
+        "gemini-3-flash-preview_4": {
+          "selected_card": "data/1_full/68.jpg",
+          "card_scores": {
+            "data/1_full/50.jpg": 0.0,
+            "data/1_full/8.jpg": 1.0,
+            "data/1_full/21.jpg": 0.0,
+            "data/1_full/68.jpg": 2.0,
+            "data/1_full/46.jpg": 0.0,
+            "data/1_full/5.jpg": 1.0
+          }
+        },
+        "claude-opus-4.6-fast_5": {
+          "selected_card": "data/1_full/61.jpg",
+          "card_scores": {
+            "data/1_full/61.jpg": 3.0,
+            "data/1_full/39.jpg": 1.0,
+            "data/1_full/47.jpg": 1.0,
+            "data/1_full/17.jpg": 1.0,
+            "data/1_full/72.jpg": 2.0,
+            "data/1_full/29.jpg": 2.0
+          }
+        }
+      },
+      "votes": {
+        "gemma-3-12b-it:free_1": {
+          "selected_card": "data/1_full/68.jpg",
+          "card_scores": {
+            "data/1_full/68.jpg": 5.0,
+            "data/1_full/20.jpg": 5.0,
+            "data/1_full/61.jpg": 5.0,
+            "data/1_full/80.jpg": 5.0,
+            "data/1_full/4.jpg": 5.0
+          }
+        },
+        "claude-opus-4.6_3": {
+          "selected_card": "data/1_full/4.jpg",
+          "card_scores": {
+            "data/1_full/68.jpg": 2.0,
+            "data/1_full/20.jpg": 1.0,
+            "data/1_full/61.jpg": 3.0,
+            "data/1_full/80.jpg": 2.0,
+            "data/1_full/4.jpg": 6.0
+          }
+        },
+        "gemini-3-flash-preview_4": {
+          "selected_card": "data/1_full/61.jpg",
+          "card_scores": {
+            "data/1_full/68.jpg": 2.0,
+            "data/1_full/20.jpg": 0.0,
+            "data/1_full/61.jpg": 3.0,
+            "data/1_full/80.jpg": 1.0,
+            "data/1_full/4.jpg": 1.0
+          }
+        },
+        "claude-opus-4.6-fast_5": {
+          "selected_card": "data/1_full/4.jpg",
+          "card_scores": {
+            "data/1_full/68.jpg": 2.0,
+            "data/1_full/20.jpg": 1.0,
+            "data/1_full/61.jpg": 3.0,
+            "data/1_full/80.jpg": 2.0,
+            "data/1_full/4.jpg": 6.0
+          }
+        }
+      },
+      "storyteller_votes": 2,
+      "score_changes": {
+        "mistral-small-3.2-24b-instruct_2": 3,
+        "claude-opus-4.6_3": 3,
+        "gemini-3-flash-preview_4": 1,
+        "claude-opus-4.6-fast_5": 4
+      },
+      "current_scores": {
+        "gemma-3-12b-it:free_1": 8,
+        "mistral-small-3.2-24b-instruct_2": 12,
+        "claude-opus-4.6_3": 20,
+        "gemini-3-flash-preview_4": 21,
+        "claude-opus-4.6-fast_5": 17
+      }
+    },
+    {
+      "round": 8,
+      "storyteller": "claude-opus-4.6_3",
+      "clue": "The fever broke, and with it, the night began to bleed.",
+      "storyteller_card": "data/1_full/77.jpg",
+      "played_cards": {
+        "gemma-3-12b-it:free_1": {
+          "selected_card": "data/1_full/15.jpg",
+          "card_scores": {
+            "data/1_full/15.jpg": 5.0,
+            "data/1_full/52.jpg": 5.0,
+            "data/1_full/73.jpg": 5.0,
+            "data/1_full/40.jpg": 5.0,
+            "data/1_full/26.jpg": 5.0,
+            "data/1_full/83.jpg": 5.0
+          }
+        },
+        "mistral-small-3.2-24b-instruct_2": {
+          "selected_card": "data/1_full/60.jpg",
+          "card_scores": {
+            "data/1_full/37.jpg": 2.0,
+            "data/1_full/60.jpg": 5.0,
+            "data/1_full/14.jpg": 2.0,
+            "data/1_full/44.jpg": 5.0,
+            "data/1_full/74.jpg": 4.0,
+            "data/1_full/31.jpg": 4.0
+          }
+        },
+        "gemini-3-flash-preview_4": {
+          "selected_card": "data/1_full/67.jpg",
+          "card_scores": {
+            "data/1_full/50.jpg": 7.0,
+            "data/1_full/8.jpg": 3.0,
+            "data/1_full/21.jpg": 0.0,
+            "data/1_full/46.jpg": 1.0,
+            "data/1_full/5.jpg": 2.0,
+            "data/1_full/67.jpg": 9.0
+          }
+        },
+        "claude-opus-4.6-fast_5": {
+          "selected_card": "data/1_full/47.jpg",
+          "card_scores": {
+            "data/1_full/39.jpg": 3.0,
+            "data/1_full/47.jpg": 4.0,
+            "data/1_full/17.jpg": 3.0,
+            "data/1_full/72.jpg": 2.0,
+            "data/1_full/29.jpg": 4.0,
+            "data/1_full/24.jpg": 3.0
+          }
+        }
+      },
+      "votes": {
+        "gemma-3-12b-it:free_1": {
+          "selected_card": "data/1_full/15.jpg",
+          "card_scores": {
+            "data/1_full/15.jpg": 5.0,
+            "data/1_full/67.jpg": 5.0,
+            "data/1_full/47.jpg": 5.0,
+            "data/1_full/60.jpg": 5.0,
+            "data/1_full/77.jpg": 5.0
+          }
+        },
+        "mistral-small-3.2-24b-instruct_2": {
+          "selected_card": "data/1_full/15.jpg",
+          "card_scores": {
+            "data/1_full/15.jpg": 6.0,
+            "data/1_full/67.jpg": 5.0,
+            "data/1_full/47.jpg": 5.0,
+            "data/1_full/60.jpg": 5.0,
+            "data/1_full/77.jpg": 5.0
+          }
+        },
+        "gemini-3-flash-preview_4": {
+          "selected_card": "data/1_full/77.jpg",
+          "card_scores": {
+            "data/1_full/15.jpg": 5.0,
+            "data/1_full/67.jpg": 9.0,
+            "data/1_full/47.jpg": 3.0,
+            "data/1_full/60.jpg": 1.0,
+            "data/1_full/77.jpg": 10.0
+          }
+        },
+        "claude-opus-4.6-fast_5": {
+          "selected_card": "data/1_full/77.jpg",
+          "card_scores": {
+            "data/1_full/15.jpg": 4.0,
+            "data/1_full/67.jpg": 6.0,
+            "data/1_full/47.jpg": 4.0,
+            "data/1_full/60.jpg": 2.0,
+            "data/1_full/77.jpg": 9.0
+          }
+        }
+      },
+      "storyteller_votes": 2,
+      "score_changes": {
+        "gemma-3-12b-it:free_1": 1,
+        "claude-opus-4.6_3": 3,
+        "gemini-3-flash-preview_4": 3,
+        "claude-opus-4.6-fast_5": 3
+      },
+      "current_scores": {
+        "gemma-3-12b-it:free_1": 9,
+        "mistral-small-3.2-24b-instruct_2": 12,
+        "claude-opus-4.6_3": 23,
+        "gemini-3-flash-preview_4": 24,
+        "claude-opus-4.6-fast_5": 20
+      }
+    },
+    {
+      "round": 9,
+      "storyteller": "gemini-3-flash-preview_4",
+      "clue": "The high cost of pride.",
+      "storyteller_card": "data/1_full/8.jpg",
+      "played_cards": {
+        "gemma-3-12b-it:free_1": {
+          "selected_card": "data/1_full/52.jpg",
+          "card_scores": {
+            "data/1_full/52.jpg": 7.0,
+            "data/1_full/73.jpg": 3.0,
+            "data/1_full/40.jpg": 6.0,
+            "data/1_full/26.jpg": 7.0,
+            "data/1_full/83.jpg": 7.0,
+            "data/1_full/65.jpg": 7.0
+          }
+        },
+        "mistral-small-3.2-24b-instruct_2": {
+          "selected_card": "data/1_full/14.jpg",
+          "card_scores": {
+            "data/1_full/37.jpg": 5.0,
+            "data/1_full/14.jpg": 6.0,
+            "data/1_full/44.jpg": 5.0,
+            "data/1_full/74.jpg": 5.0,
+            "data/1_full/31.jpg": 3.0,
+            "data/1_full/36.jpg": 3.0
+          }
+        },
+        "claude-opus-4.6_3": {
+          "selected_card": "data/1_full/82.jpg",
+          "card_scores": {
+            "data/1_full/42.jpg": 3.0,
+            "data/1_full/18.jpg": 3.0,
+            "data/1_full/84.jpg": 3.0,
+            "data/1_full/41.jpg": 3.0,
+            "data/1_full/82.jpg": 4.0,
+            "data/1_full/58.jpg": 2.0
+          }
+        },
+        "claude-opus-4.6-fast_5": {
+          "selected_card": "data/1_full/29.jpg",
+          "card_scores": {
+            "data/1_full/39.jpg": 2.0,
+            "data/1_full/17.jpg": 3.0,
+            "data/1_full/72.jpg": 3.0,
+            "data/1_full/29.jpg": 6.0,
+            "data/1_full/24.jpg": 2.0,
+            "data/1_full/13.jpg": 4.0
+          }
+        }
+      },
+      "votes": {
+        "gemma-3-12b-it:free_1": {
+          "selected_card": "data/1_full/82.jpg",
+          "card_scores": {
+            "data/1_full/52.jpg": 7.0,
+            "data/1_full/8.jpg": 7.0,
+            "data/1_full/14.jpg": 3.0,
+            "data/1_full/82.jpg": 9.0,
+            "data/1_full/29.jpg": 8.0
+          }
+        },
+        "mistral-small-3.2-24b-instruct_2": {
+          "selected_card": "data/1_full/14.jpg",
+          "card_scores": {
+            "data/1_full/52.jpg": 5.0,
+            "data/1_full/8.jpg": 5.0,
+            "data/1_full/14.jpg": 6.0,
+            "data/1_full/82.jpg": 5.0,
+            "data/1_full/29.jpg": 5.0
+          }
+        },
+        "claude-opus-4.6_3": {
+          "selected_card": "data/1_full/8.jpg",
+          "card_scores": {
+            "data/1_full/52.jpg": 4.0,
+            "data/1_full/8.jpg": 6.0,
+            "data/1_full/14.jpg": 2.0,
+            "data/1_full/82.jpg": 4.0,
+            "data/1_full/29.jpg": 6.0
+          }
+        },
+        "claude-opus-4.6-fast_5": {
+          "selected_card": "data/1_full/8.jpg",
+          "card_scores": {
+            "data/1_full/52.jpg": 4.0,
+            "data/1_full/8.jpg": 6.0,
+            "data/1_full/14.jpg": 2.0,
+            "data/1_full/82.jpg": 4.0,
+            "data/1_full/29.jpg": 6.0
+          }
+        }
+      },
+      "storyteller_votes": 2,
+      "score_changes": {
+        "claude-opus-4.6_3": 4,
+        "gemini-3-flash-preview_4": 3,
+        "claude-opus-4.6-fast_5": 3
+      },
+      "current_scores": {
+        "gemma-3-12b-it:free_1": 9,
+        "mistral-small-3.2-24b-instruct_2": 12,
+        "claude-opus-4.6_3": 27,
+        "gemini-3-flash-preview_4": 27,
+        "claude-opus-4.6-fast_5": 23
+      }
+    },
+    {
+      "round": 10,
+      "storyteller": "claude-opus-4.6-fast_5",
+      "clue": "The shadow that outgrew its owner learned to walk alone.",
+      "storyteller_card": "data/1_full/72.jpg",
+      "played_cards": {
+        "gemma-3-12b-it:free_1": {
+          "selected_card": "data/1_full/26.jpg",
+          "card_scores": {
+            "data/1_full/73.jpg": 8.0,
+            "data/1_full/40.jpg": 7.0,
+            "data/1_full/26.jpg": 10.0,
+            "data/1_full/83.jpg": 9.0,
+            "data/1_full/65.jpg": 9.0,
+            "data/1_full/75.jpg": 9.0
+          }
+        },
+        "mistral-small-3.2-24b-instruct_2": {
+          "selected_card": "data/1_full/31.jpg",
+          "card_scores": {
+            "data/1_full/37.jpg": 7.0,
+            "data/1_full/44.jpg": 5.0,
+            "data/1_full/74.jpg": 5.0,
+            "data/1_full/31.jpg": 8.0,
+            "data/1_full/36.jpg": 5.0,
+            "data/1_full/48.jpg": 7.0
+          }
+        },
+        "claude-opus-4.6_3": {
+          "selected_card": "data/1_full/84.jpg",
+          "card_scores": {
+            "data/1_full/42.jpg": 3.0,
+            "data/1_full/18.jpg": 4.0,
+            "data/1_full/84.jpg": 5.0,
+            "data/1_full/41.jpg": 3.0,
+            "data/1_full/58.jpg": 2.0,
+            "data/1_full/69.jpg": 3.0
+          }
+        },
+        "gemini-3-flash-preview_4": {
+          "selected_card": "data/1_full/50.jpg",
+          "card_scores": {
+            "data/1_full/50.jpg": 2.0,
+            "data/1_full/21.jpg": 1.0,
+            "data/1_full/46.jpg": 2.0,
+            "data/1_full/5.jpg": 2.0,
+            "data/1_full/28.jpg": 1.0,
+            "data/1_full/22.jpg": 1.0
+          }
+        }
+      },
+      "votes": {
+        "gemma-3-12b-it:free_1": {
+          "selected_card": "data/1_full/26.jpg",
+          "card_scores": {
+            "data/1_full/72.jpg": 5.0,
+            "data/1_full/26.jpg": 10.0,
+            "data/1_full/50.jpg": 5.0,
+            "data/1_full/31.jpg": 5.0,
+            "data/1_full/84.jpg": 5.0
+          }
+        },
+        "mistral-small-3.2-24b-instruct_2": {
+          "selected_card": "data/1_full/26.jpg",
+          "card_scores": {
+            "data/1_full/72.jpg": 5.0,
+            "data/1_full/26.jpg": 9.0,
+            "data/1_full/50.jpg": 7.0,
+            "data/1_full/31.jpg": 8.0,
+            "data/1_full/84.jpg": 8.0
+          }
+        },
+        "claude-opus-4.6_3": {
+          "selected_card": "data/1_full/72.jpg",
+          "card_scores": {
+            "data/1_full/72.jpg": 8.0,
+            "data/1_full/26.jpg": 8.0,
+            "data/1_full/50.jpg": 3.0,
+            "data/1_full/31.jpg": 6.0,
+            "data/1_full/84.jpg": 5.0
+          }
+        },
+        "gemini-3-flash-preview_4": {
+          "selected_card": "data/1_full/26.jpg",
+          "card_scores": {
+            "data/1_full/72.jpg": 8.0,
+            "data/1_full/26.jpg": 9.0,
+            "data/1_full/50.jpg": 2.0,
+            "data/1_full/31.jpg": 2.0,
+            "data/1_full/84.jpg": 1.0
+          }
+        }
+      },
+      "storyteller_votes": 1,
+      "score_changes": {
+        "gemma-3-12b-it:free_1": 2,
+        "claude-opus-4.6_3": 3,
+        "claude-opus-4.6-fast_5": 3
+      },
+      "current_scores": {
+        "gemma-3-12b-it:free_1": 11,
+        "mistral-small-3.2-24b-instruct_2": 12,
+        "claude-opus-4.6_3": 30,
+        "gemini-3-flash-preview_4": 27,
+        "claude-opus-4.6-fast_5": 26
+      }
+    }
+  ]
+}
