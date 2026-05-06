@@ -1,0 +1,30 @@
+{
+  "defaults": {
+    "cards": "data/1_full",
+    "max_rounds": 10,
+    "score_to_win": 30,
+    "use_cache": true,
+    "prompt_style": "creative"
+  },
+  "runs": [
+    {
+      "name": "gpt4o_vs_claude",
+      "trials": 1,
+      "players": [
+        {"model": "openai/gpt-4o"},
+        {"model": "anthropic/claude-3-5-sonnet"},
+        {"model": "google/gemini-2.0-flash"}
+      ]
+    },
+    {
+      "name": "deceptive_styles",
+      "trials": 2,
+      "prompt_style": "deceptive",
+      "players": [
+        {"model": "openai/gpt-4o-mini"},
+        {"model": "anthropic/claude-3-5-haiku"},
+        {"model": "google/gemini-1.5-flash"}
+      ]
+    }
+  ]
+}

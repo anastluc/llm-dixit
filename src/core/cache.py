@@ -47,6 +47,8 @@ class ImageAnalysisCache:
             conn.commit()
 
     def _hash(self, image_path: str) -> str:
+        if image_path.startswith(("http://", "https://")):
+            return hashlib.sha256(image_path.encode("utf-8")).hexdigest()
         with open(image_path, "rb") as f:
             return hashlib.sha256(f.read()).hexdigest()
 

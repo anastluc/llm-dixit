@@ -1,0 +1,1129 @@
+{
+  "game_id": "20260430_171850",
+  "game_configuration": {
+    "timestamp": "20260430_171850",
+    "prompt_style": "creative",
+    "image_directory": "original",
+    "max_rounds": 10,
+    "score_to_win": 30,
+    "use_cache": true,
+    "deck_size": 84,
+    "players": [
+      {
+        "name": "gpt-4o-2024-08-06_1",
+        "model": "openai/gpt-4o-2024-08-06",
+        "provider": "openai",
+        "prompt_style": "minimalist",
+        "score": 0
+      },
+      {
+        "name": "grok-4-fast_2",
+        "model": "x-ai/grok-4-fast",
+        "provider": "x-ai",
+        "prompt_style": "minimalist",
+        "score": 0
+      },
+      {
+        "name": "qwen3-vl-8b-thinking_3",
+        "model": "qwen/qwen3-vl-8b-thinking",
+        "provider": "qwen",
+        "prompt_style": "narrative",
+        "score": 0
+      },
+      {
+        "name": "ministral-14b-2512_4",
+        "model": "mistralai/ministral-14b-2512",
+        "provider": "mistralai",
+        "prompt_style": "minimalist",
+        "score": 0
+      },
+      {
+        "name": "claude-opus-4.5_5",
+        "model": "anthropic/claude-opus-4.5",
+        "provider": "anthropic",
+        "prompt_style": "minimalist",
+        "score": 0
+      }
+    ]
+  },
+  "rounds": [
+    {
+      "round": 1,
+      "storyteller": "gpt-4o-2024-08-06_1",
+      "clue": "Forest mystery",
+      "storyteller_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/31.jpg",
+      "played_cards": {
+        "grok-4-fast_2": {
+          "selected_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/45.jpg",
+          "card_scores": {
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/67.jpg": 0.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/37.jpg": 3.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/45.jpg": 8.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/59.jpg": 2.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/11.jpg": 2.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/70.jpg": 3.0
+          }
+        },
+        "qwen3-vl-8b-thinking_3": {
+          "selected_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/41.jpg",
+          "card_scores": {
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/55.jpg": 0.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/21.jpg": 2.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/41.jpg": 3.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/58.jpg": 0.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/14.jpg": 0.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/51.jpg": 2.0
+          }
+        },
+        "ministral-14b-2512_4": {
+          "selected_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/39.jpg",
+          "card_scores": {
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/56.jpg": 6.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/68.jpg": 2.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/72.jpg": 5.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/39.jpg": 7.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/78.jpg": 6.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/6.jpg": 3.0
+          }
+        },
+        "claude-opus-4.5_5": {
+          "selected_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/57.jpg",
+          "card_scores": {
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/61.jpg": 2.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/57.jpg": 6.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/66.jpg": 2.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/38.jpg": 3.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/12.jpg": 2.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/65.jpg": 1.0
+          }
+        }
+      },
+      "votes": {
+        "grok-4-fast_2": {
+          "selected_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/31.jpg",
+          "card_scores": {
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/41.jpg": 0.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/39.jpg": 8.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/57.jpg": 7.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/45.jpg": 8.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/31.jpg": 10.0
+          }
+        },
+        "qwen3-vl-8b-thinking_3": {
+          "selected_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/57.jpg",
+          "card_scores": {
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/41.jpg": 3.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/39.jpg": 6.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/57.jpg": 9.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/45.jpg": 1.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/31.jpg": 9.0
+          }
+        },
+        "ministral-14b-2512_4": {
+          "selected_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/31.jpg",
+          "card_scores": {
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/41.jpg": 2.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/39.jpg": 7.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/57.jpg": 5.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/45.jpg": 2.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/31.jpg": 9.0
+          }
+        },
+        "claude-opus-4.5_5": {
+          "selected_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/31.jpg",
+          "card_scores": {
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/41.jpg": 3.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/39.jpg": 6.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/57.jpg": 6.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/45.jpg": 4.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/31.jpg": 9.0
+          }
+        }
+      },
+      "storyteller_votes": 3,
+      "score_changes": {
+        "gpt-4o-2024-08-06_1": 3,
+        "grok-4-fast_2": 3,
+        "ministral-14b-2512_4": 3,
+        "claude-opus-4.5_5": 4
+      },
+      "current_scores": {
+        "gpt-4o-2024-08-06_1": 3,
+        "grok-4-fast_2": 3,
+        "qwen3-vl-8b-thinking_3": 0,
+        "ministral-14b-2512_4": 3,
+        "claude-opus-4.5_5": 4
+      }
+    },
+    {
+      "round": 2,
+      "storyteller": "grok-4-fast_2",
+      "clue": "Solitary flame",
+      "storyteller_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/67.jpg",
+      "played_cards": {
+        "gpt-4o-2024-08-06_1": {
+          "selected_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/7.jpg",
+          "card_scores": {
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/54.jpg": 0.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/35.jpg": 2.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/25.jpg": 0.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/7.jpg": 7.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/30.jpg": 5.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/79.jpg": 3.0
+          }
+        },
+        "qwen3-vl-8b-thinking_3": {
+          "selected_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/14.jpg",
+          "card_scores": {
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/55.jpg": 2.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/21.jpg": 2.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/58.jpg": 2.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/14.jpg": 7.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/51.jpg": 6.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/50.jpg": 3.0
+          }
+        },
+        "ministral-14b-2512_4": {
+          "selected_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/78.jpg",
+          "card_scores": {
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/56.jpg": 5.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/68.jpg": 6.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/72.jpg": 3.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/78.jpg": 7.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/6.jpg": 3.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/4.jpg": 0.0
+          }
+        },
+        "claude-opus-4.5_5": {
+          "selected_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/61.jpg",
+          "card_scores": {
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/61.jpg": 6.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/66.jpg": 3.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/38.jpg": 4.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/12.jpg": 2.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/65.jpg": 2.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/63.jpg": 5.0
+          }
+        }
+      },
+      "votes": {
+        "gpt-4o-2024-08-06_1": {
+          "selected_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/67.jpg",
+          "card_scores": {
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/14.jpg": 2.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/61.jpg": 2.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/67.jpg": 10.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/78.jpg": 2.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/7.jpg": 7.0
+          }
+        },
+        "qwen3-vl-8b-thinking_3": {
+          "selected_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/67.jpg",
+          "card_scores": {
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/14.jpg": 7.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/61.jpg": 2.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/67.jpg": 10.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/78.jpg": 7.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/7.jpg": 9.0
+          }
+        },
+        "ministral-14b-2512_4": {
+          "selected_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/67.jpg",
+          "card_scores": {
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/14.jpg": 3.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/61.jpg": 5.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/67.jpg": 10.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/78.jpg": 7.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/7.jpg": 6.0
+          }
+        },
+        "claude-opus-4.5_5": {
+          "selected_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/67.jpg",
+          "card_scores": {
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/14.jpg": 3.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/61.jpg": 6.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/67.jpg": 10.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/78.jpg": 7.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/7.jpg": 6.0
+          }
+        }
+      },
+      "storyteller_votes": 4,
+      "score_changes": {
+        "gpt-4o-2024-08-06_1": 2,
+        "qwen3-vl-8b-thinking_3": 2,
+        "ministral-14b-2512_4": 2,
+        "claude-opus-4.5_5": 2
+      },
+      "current_scores": {
+        "gpt-4o-2024-08-06_1": 5,
+        "grok-4-fast_2": 3,
+        "qwen3-vl-8b-thinking_3": 2,
+        "ministral-14b-2512_4": 5,
+        "claude-opus-4.5_5": 6
+      }
+    },
+    {
+      "round": 3,
+      "storyteller": "qwen3-vl-8b-thinking_3",
+      "clue": "Beneath the lamp, crimson leaves fell as they stared across the chessboard, each move a silent question in the dim room.",
+      "storyteller_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/50.jpg",
+      "played_cards": {
+        "gpt-4o-2024-08-06_1": {
+          "selected_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/30.jpg",
+          "card_scores": {
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/54.jpg": 1.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/35.jpg": 3.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/25.jpg": 1.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/30.jpg": 4.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/79.jpg": 2.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/17.jpg": 1.0
+          }
+        },
+        "grok-4-fast_2": {
+          "selected_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/37.jpg",
+          "card_scores": {
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/37.jpg": 2.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/59.jpg": 0.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/11.jpg": 1.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/70.jpg": 0.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/36.jpg": 0.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/8.jpg": 0.0
+          }
+        },
+        "ministral-14b-2512_4": {
+          "selected_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/33.jpg",
+          "card_scores": {
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/56.jpg": 2.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/68.jpg": 3.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/72.jpg": 2.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/6.jpg": 4.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/4.jpg": 0.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/33.jpg": 6.0
+          }
+        },
+        "claude-opus-4.5_5": {
+          "selected_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/65.jpg",
+          "card_scores": {
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/66.jpg": 1.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/38.jpg": 2.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/12.jpg": 1.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/65.jpg": 3.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/63.jpg": 2.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/19.jpg": 2.0
+          }
+        }
+      },
+      "votes": {
+        "gpt-4o-2024-08-06_1": {
+          "selected_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/50.jpg",
+          "card_scores": {
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/30.jpg": 4.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/65.jpg": 3.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/33.jpg": 2.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/50.jpg": 9.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/37.jpg": 3.0
+          }
+        },
+        "grok-4-fast_2": {
+          "selected_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/50.jpg",
+          "card_scores": {
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/30.jpg": 3.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/65.jpg": 2.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/33.jpg": 7.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/50.jpg": 10.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/37.jpg": 2.0
+          }
+        },
+        "ministral-14b-2512_4": {
+          "selected_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/50.jpg",
+          "card_scores": {
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/30.jpg": 3.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/65.jpg": 0.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/33.jpg": 6.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/50.jpg": 9.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/37.jpg": 0.0
+          }
+        },
+        "claude-opus-4.5_5": {
+          "selected_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/50.jpg",
+          "card_scores": {
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/30.jpg": 3.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/65.jpg": 3.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/33.jpg": 2.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/50.jpg": 9.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/37.jpg": 2.0
+          }
+        }
+      },
+      "storyteller_votes": 4,
+      "score_changes": {
+        "gpt-4o-2024-08-06_1": 2,
+        "grok-4-fast_2": 2,
+        "ministral-14b-2512_4": 2,
+        "claude-opus-4.5_5": 2
+      },
+      "current_scores": {
+        "gpt-4o-2024-08-06_1": 7,
+        "grok-4-fast_2": 5,
+        "qwen3-vl-8b-thinking_3": 2,
+        "ministral-14b-2512_4": 7,
+        "claude-opus-4.5_5": 8
+      }
+    },
+    {
+      "round": 4,
+      "storyteller": "ministral-14b-2512_4",
+      "clue": "Fiery dragon breath",
+      "storyteller_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/68.jpg",
+      "played_cards": {
+        "gpt-4o-2024-08-06_1": {
+          "selected_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/54.jpg",
+          "card_scores": {
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/54.jpg": 2.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/35.jpg": 2.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/25.jpg": 2.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/79.jpg": 0.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/17.jpg": 2.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/60.jpg": 2.0
+          }
+        },
+        "grok-4-fast_2": {
+          "selected_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/59.jpg",
+          "card_scores": {
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/59.jpg": 0.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/11.jpg": 0.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/70.jpg": 0.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/36.jpg": 0.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/8.jpg": 0.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/46.jpg": 0.0
+          }
+        },
+        "qwen3-vl-8b-thinking_3": {
+          "selected_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/5.jpg",
+          "card_scores": {
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/55.jpg": 0.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/21.jpg": 0.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/58.jpg": 0.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/51.jpg": 0.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/5.jpg": 2.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/13.jpg": 0.0
+          }
+        },
+        "claude-opus-4.5_5": {
+          "selected_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/19.jpg",
+          "card_scores": {
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/66.jpg": 1.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/38.jpg": 1.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/12.jpg": 1.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/63.jpg": 1.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/19.jpg": 2.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/24.jpg": 2.0
+          }
+        }
+      },
+      "votes": {
+        "gpt-4o-2024-08-06_1": {
+          "selected_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/68.jpg",
+          "card_scores": {
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/68.jpg": 6.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/5.jpg": 1.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/59.jpg": 0.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/54.jpg": 2.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/19.jpg": 0.0
+          }
+        },
+        "grok-4-fast_2": {
+          "selected_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/68.jpg",
+          "card_scores": {
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/68.jpg": 5.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/5.jpg": 0.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/59.jpg": 0.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/54.jpg": 0.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/19.jpg": 0.0
+          }
+        },
+        "qwen3-vl-8b-thinking_3": {
+          "selected_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/68.jpg",
+          "card_scores": {
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/68.jpg": 2.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/5.jpg": 2.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/59.jpg": 0.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/54.jpg": 0.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/19.jpg": 0.0
+          }
+        },
+        "claude-opus-4.5_5": {
+          "selected_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/68.jpg",
+          "card_scores": {
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/68.jpg": 6.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/5.jpg": 3.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/59.jpg": 1.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/54.jpg": 1.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/19.jpg": 2.0
+          }
+        }
+      },
+      "storyteller_votes": 4,
+      "score_changes": {
+        "gpt-4o-2024-08-06_1": 2,
+        "grok-4-fast_2": 2,
+        "qwen3-vl-8b-thinking_3": 2,
+        "claude-opus-4.5_5": 2
+      },
+      "current_scores": {
+        "gpt-4o-2024-08-06_1": 9,
+        "grok-4-fast_2": 7,
+        "qwen3-vl-8b-thinking_3": 4,
+        "ministral-14b-2512_4": 7,
+        "claude-opus-4.5_5": 10
+      }
+    },
+    {
+      "round": 5,
+      "storyteller": "claude-opus-4.5_5",
+      "clue": "Endless circles",
+      "storyteller_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/24.jpg",
+      "played_cards": {
+        "gpt-4o-2024-08-06_1": {
+          "selected_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/25.jpg",
+          "card_scores": {
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/35.jpg": 2.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/25.jpg": 3.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/79.jpg": 0.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/17.jpg": 1.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/60.jpg": 2.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/74.jpg": 0.0
+          }
+        },
+        "grok-4-fast_2": {
+          "selected_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/36.jpg",
+          "card_scores": {
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/11.jpg": 1.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/70.jpg": 8.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/36.jpg": 9.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/8.jpg": 4.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/46.jpg": 3.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/32.jpg": 4.0
+          }
+        },
+        "qwen3-vl-8b-thinking_3": {
+          "selected_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/58.jpg",
+          "card_scores": {
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/55.jpg": 2.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/21.jpg": 3.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/58.jpg": 7.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/51.jpg": 2.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/13.jpg": 7.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/49.jpg": 7.0
+          }
+        },
+        "ministral-14b-2512_4": {
+          "selected_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/27.jpg",
+          "card_scores": {
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/56.jpg": 3.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/72.jpg": 5.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/6.jpg": 3.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/4.jpg": 3.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/43.jpg": 7.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/27.jpg": 8.0
+          }
+        }
+      },
+      "votes": {
+        "gpt-4o-2024-08-06_1": {
+          "selected_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/24.jpg",
+          "card_scores": {
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/27.jpg": 2.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/58.jpg": 2.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/25.jpg": 3.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/24.jpg": 8.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/36.jpg": 5.0
+          }
+        },
+        "grok-4-fast_2": {
+          "selected_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/24.jpg",
+          "card_scores": {
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/27.jpg": 8.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/58.jpg": 7.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/25.jpg": 0.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/24.jpg": 9.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/36.jpg": 9.0
+          }
+        },
+        "qwen3-vl-8b-thinking_3": {
+          "selected_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/27.jpg",
+          "card_scores": {
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/27.jpg": 10.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/58.jpg": 7.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/25.jpg": 5.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/24.jpg": 10.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/36.jpg": 9.0
+          }
+        },
+        "ministral-14b-2512_4": {
+          "selected_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/24.jpg",
+          "card_scores": {
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/27.jpg": 8.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/58.jpg": 5.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/25.jpg": 2.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/24.jpg": 9.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/36.jpg": 7.0
+          }
+        }
+      },
+      "storyteller_votes": 3,
+      "score_changes": {
+        "gpt-4o-2024-08-06_1": 3,
+        "grok-4-fast_2": 3,
+        "ministral-14b-2512_4": 4,
+        "claude-opus-4.5_5": 3
+      },
+      "current_scores": {
+        "gpt-4o-2024-08-06_1": 12,
+        "grok-4-fast_2": 10,
+        "qwen3-vl-8b-thinking_3": 4,
+        "ministral-14b-2512_4": 11,
+        "claude-opus-4.5_5": 13
+      }
+    },
+    {
+      "round": 6,
+      "storyteller": "gpt-4o-2024-08-06_1",
+      "clue": "Imagination journey",
+      "storyteller_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/74.jpg",
+      "played_cards": {
+        "grok-4-fast_2": {
+          "selected_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/70.jpg",
+          "card_scores": {
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/11.jpg": 8.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/70.jpg": 9.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/8.jpg": 0.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/46.jpg": 7.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/32.jpg": 8.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/52.jpg": 1.0
+          }
+        },
+        "qwen3-vl-8b-thinking_3": {
+          "selected_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/55.jpg",
+          "card_scores": {
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/55.jpg": 9.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/21.jpg": 9.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/51.jpg": 7.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/13.jpg": 8.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/49.jpg": 9.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/71.jpg": 7.0
+          }
+        },
+        "ministral-14b-2512_4": {
+          "selected_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/43.jpg",
+          "card_scores": {
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/56.jpg": 6.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/72.jpg": 7.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/6.jpg": 7.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/4.jpg": 5.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/43.jpg": 9.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/69.jpg": 7.0
+          }
+        },
+        "claude-opus-4.5_5": {
+          "selected_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/38.jpg",
+          "card_scores": {
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/66.jpg": 6.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/38.jpg": 8.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/12.jpg": 5.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/63.jpg": 6.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/3.jpg": 7.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/10.jpg": 6.0
+          }
+        }
+      },
+      "votes": {
+        "grok-4-fast_2": {
+          "selected_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/74.jpg",
+          "card_scores": {
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/74.jpg": 9.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/55.jpg": 8.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/38.jpg": 9.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/43.jpg": 9.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/70.jpg": 9.0
+          }
+        },
+        "qwen3-vl-8b-thinking_3": {
+          "selected_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/55.jpg",
+          "card_scores": {
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/74.jpg": 8.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/55.jpg": 9.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/38.jpg": 7.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/43.jpg": 9.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/70.jpg": 8.0
+          }
+        },
+        "ministral-14b-2512_4": {
+          "selected_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/74.jpg",
+          "card_scores": {
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/74.jpg": 9.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/55.jpg": 9.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/38.jpg": 9.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/43.jpg": 9.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/70.jpg": 9.0
+          }
+        },
+        "claude-opus-4.5_5": {
+          "selected_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/74.jpg",
+          "card_scores": {
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/74.jpg": 9.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/55.jpg": 6.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/38.jpg": 8.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/43.jpg": 8.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/70.jpg": 6.0
+          }
+        }
+      },
+      "storyteller_votes": 3,
+      "score_changes": {
+        "gpt-4o-2024-08-06_1": 3,
+        "grok-4-fast_2": 3,
+        "ministral-14b-2512_4": 3,
+        "claude-opus-4.5_5": 3
+      },
+      "current_scores": {
+        "gpt-4o-2024-08-06_1": 15,
+        "grok-4-fast_2": 13,
+        "qwen3-vl-8b-thinking_3": 4,
+        "ministral-14b-2512_4": 14,
+        "claude-opus-4.5_5": 16
+      }
+    },
+    {
+      "round": 7,
+      "storyteller": "grok-4-fast_2",
+      "clue": "Puppet King",
+      "storyteller_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/80.jpg",
+      "played_cards": {
+        "gpt-4o-2024-08-06_1": {
+          "selected_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/60.jpg",
+          "card_scores": {
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/35.jpg": 2.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/79.jpg": 3.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/17.jpg": 2.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/60.jpg": 7.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/44.jpg": 0.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/84.jpg": 2.0
+          }
+        },
+        "qwen3-vl-8b-thinking_3": {
+          "selected_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/13.jpg",
+          "card_scores": {
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/21.jpg": 1.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/51.jpg": 0.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/13.jpg": 8.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/49.jpg": 8.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/71.jpg": 7.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/26.jpg": 1.0
+          }
+        },
+        "ministral-14b-2512_4": {
+          "selected_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/4.jpg",
+          "card_scores": {
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/56.jpg": 5.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/72.jpg": 7.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/6.jpg": 7.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/4.jpg": 8.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/69.jpg": 7.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/28.jpg": 7.0
+          }
+        },
+        "claude-opus-4.5_5": {
+          "selected_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/66.jpg",
+          "card_scores": {
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/66.jpg": 3.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/12.jpg": 2.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/63.jpg": 2.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/3.jpg": 2.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/10.jpg": 2.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/53.jpg": 2.0
+          }
+        }
+      },
+      "votes": {
+        "gpt-4o-2024-08-06_1": {
+          "selected_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/80.jpg",
+          "card_scores": {
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/66.jpg": 3.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/60.jpg": 7.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/4.jpg": 5.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/13.jpg": 3.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/80.jpg": 10.0
+          }
+        },
+        "qwen3-vl-8b-thinking_3": {
+          "selected_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/4.jpg",
+          "card_scores": {
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/66.jpg": 2.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/60.jpg": 8.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/4.jpg": 10.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/13.jpg": 8.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/80.jpg": 10.0
+          }
+        },
+        "ministral-14b-2512_4": {
+          "selected_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/80.jpg",
+          "card_scores": {
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/66.jpg": 3.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/60.jpg": 7.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/4.jpg": 8.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/13.jpg": 7.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/80.jpg": 9.0
+          }
+        },
+        "claude-opus-4.5_5": {
+          "selected_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/80.jpg",
+          "card_scores": {
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/66.jpg": 3.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/60.jpg": 7.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/4.jpg": 6.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/13.jpg": 3.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/80.jpg": 10.0
+          }
+        }
+      },
+      "storyteller_votes": 3,
+      "score_changes": {
+        "gpt-4o-2024-08-06_1": 3,
+        "grok-4-fast_2": 3,
+        "ministral-14b-2512_4": 4,
+        "claude-opus-4.5_5": 3
+      },
+      "current_scores": {
+        "gpt-4o-2024-08-06_1": 18,
+        "grok-4-fast_2": 16,
+        "qwen3-vl-8b-thinking_3": 4,
+        "ministral-14b-2512_4": 18,
+        "claude-opus-4.5_5": 19
+      }
+    },
+    {
+      "round": 8,
+      "storyteller": "qwen3-vl-8b-thinking_3",
+      "clue": "The barred window\u2019s sunbeam cast shadows on the quilt as he sat, bare feet touching cool tiles, silence lingering.",
+      "storyteller_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/20.jpg",
+      "played_cards": {
+        "gpt-4o-2024-08-06_1": {
+          "selected_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/1.jpg",
+          "card_scores": {
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/35.jpg": 2.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/79.jpg": 3.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/17.jpg": 0.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/44.jpg": 0.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/84.jpg": 3.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/1.jpg": 5.0
+          }
+        },
+        "grok-4-fast_2": {
+          "selected_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/32.jpg",
+          "card_scores": {
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/11.jpg": 0.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/8.jpg": 0.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/46.jpg": 0.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/32.jpg": 5.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/52.jpg": 0.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/29.jpg": 0.0
+          }
+        },
+        "ministral-14b-2512_4": {
+          "selected_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/56.jpg",
+          "card_scores": {
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/56.jpg": 5.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/72.jpg": 3.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/6.jpg": 0.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/69.jpg": 0.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/28.jpg": 5.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/82.jpg": 3.0
+          }
+        },
+        "claude-opus-4.5_5": {
+          "selected_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/63.jpg",
+          "card_scores": {
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/12.jpg": 2.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/63.jpg": 3.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/3.jpg": 2.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/10.jpg": 2.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/53.jpg": 1.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/42.jpg": 2.0
+          }
+        }
+      },
+      "votes": {
+        "gpt-4o-2024-08-06_1": {
+          "selected_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/20.jpg",
+          "card_scores": {
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/63.jpg": 2.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/20.jpg": 8.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/1.jpg": 5.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/56.jpg": 3.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/32.jpg": 0.0
+          }
+        },
+        "grok-4-fast_2": {
+          "selected_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/20.jpg",
+          "card_scores": {
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/63.jpg": 0.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/20.jpg": 10.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/1.jpg": 7.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/56.jpg": 0.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/32.jpg": 5.0
+          }
+        },
+        "ministral-14b-2512_4": {
+          "selected_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/20.jpg",
+          "card_scores": {
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/63.jpg": 2.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/20.jpg": 9.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/1.jpg": 2.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/56.jpg": 5.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/32.jpg": 4.0
+          }
+        },
+        "claude-opus-4.5_5": {
+          "selected_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/20.jpg",
+          "card_scores": {
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/63.jpg": 3.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/20.jpg": 8.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/1.jpg": 2.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/56.jpg": 3.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/32.jpg": 6.0
+          }
+        }
+      },
+      "storyteller_votes": 4,
+      "score_changes": {
+        "gpt-4o-2024-08-06_1": 2,
+        "grok-4-fast_2": 2,
+        "ministral-14b-2512_4": 2,
+        "claude-opus-4.5_5": 2
+      },
+      "current_scores": {
+        "gpt-4o-2024-08-06_1": 20,
+        "grok-4-fast_2": 18,
+        "qwen3-vl-8b-thinking_3": 4,
+        "ministral-14b-2512_4": 20,
+        "claude-opus-4.5_5": 21
+      }
+    },
+    {
+      "round": 9,
+      "storyteller": "ministral-14b-2512_4",
+      "clue": "Royal contemplation",
+      "storyteller_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/28.jpg",
+      "played_cards": {
+        "gpt-4o-2024-08-06_1": {
+          "selected_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/35.jpg",
+          "card_scores": {
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/35.jpg": 3.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/79.jpg": 2.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/17.jpg": 1.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/44.jpg": 2.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/84.jpg": 0.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/15.jpg": 3.0
+          }
+        },
+        "grok-4-fast_2": {
+          "selected_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/11.jpg",
+          "card_scores": {
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/11.jpg": 7.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/8.jpg": 0.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/46.jpg": 0.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/52.jpg": 0.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/29.jpg": 3.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/47.jpg": 3.0
+          }
+        },
+        "qwen3-vl-8b-thinking_3": {
+          "selected_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/49.jpg",
+          "card_scores": {
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/21.jpg": 3.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/51.jpg": 2.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/49.jpg": 7.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/71.jpg": 0.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/26.jpg": 2.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/40.jpg": 3.0
+          }
+        },
+        "claude-opus-4.5_5": {
+          "selected_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/53.jpg",
+          "card_scores": {
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/12.jpg": 2.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/3.jpg": 2.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/10.jpg": 3.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/53.jpg": 6.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/42.jpg": 2.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/23.jpg": 5.0
+          }
+        }
+      },
+      "votes": {
+        "gpt-4o-2024-08-06_1": {
+          "selected_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/49.jpg",
+          "card_scores": {
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/11.jpg": 1.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/35.jpg": 3.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/28.jpg": 2.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/49.jpg": 5.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/53.jpg": 5.0
+          }
+        },
+        "grok-4-fast_2": {
+          "selected_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/53.jpg",
+          "card_scores": {
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/11.jpg": 7.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/35.jpg": 3.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/28.jpg": 7.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/49.jpg": 8.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/53.jpg": 10.0
+          }
+        },
+        "qwen3-vl-8b-thinking_3": {
+          "selected_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/28.jpg",
+          "card_scores": {
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/11.jpg": 5.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/35.jpg": 2.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/28.jpg": 7.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/49.jpg": 7.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/53.jpg": 5.0
+          }
+        },
+        "claude-opus-4.5_5": {
+          "selected_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/28.jpg",
+          "card_scores": {
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/11.jpg": 4.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/35.jpg": 2.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/28.jpg": 7.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/49.jpg": 3.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/53.jpg": 6.0
+          }
+        }
+      },
+      "storyteller_votes": 2,
+      "score_changes": {
+        "qwen3-vl-8b-thinking_3": 4,
+        "ministral-14b-2512_4": 3,
+        "claude-opus-4.5_5": 4
+      },
+      "current_scores": {
+        "gpt-4o-2024-08-06_1": 20,
+        "grok-4-fast_2": 18,
+        "qwen3-vl-8b-thinking_3": 8,
+        "ministral-14b-2512_4": 23,
+        "claude-opus-4.5_5": 25
+      }
+    },
+    {
+      "round": 10,
+      "storyteller": "claude-opus-4.5_5",
+      "clue": "Misplaced stability",
+      "storyteller_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/42.jpg",
+      "played_cards": {
+        "gpt-4o-2024-08-06_1": {
+          "selected_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/22.jpg",
+          "card_scores": {
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/79.jpg": 5.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/17.jpg": 5.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/44.jpg": 5.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/84.jpg": 5.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/15.jpg": 5.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/22.jpg": 7.0
+          }
+        },
+        "grok-4-fast_2": {
+          "selected_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/8.jpg",
+          "card_scores": {
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/8.jpg": 9.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/46.jpg": 1.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/52.jpg": 9.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/29.jpg": 8.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/47.jpg": 4.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/73.jpg": 3.0
+          }
+        },
+        "qwen3-vl-8b-thinking_3": {
+          "selected_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/51.jpg",
+          "card_scores": {
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/21.jpg": 7.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/51.jpg": 8.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/71.jpg": 8.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/26.jpg": 7.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/40.jpg": 7.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/77.jpg": 8.0
+          }
+        },
+        "ministral-14b-2512_4": {
+          "selected_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/69.jpg",
+          "card_scores": {
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/72.jpg": 7.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/6.jpg": 5.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/69.jpg": 8.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/82.jpg": 7.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/34.jpg": 7.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/75.jpg": 5.0
+          }
+        }
+      },
+      "votes": {
+        "gpt-4o-2024-08-06_1": {
+          "selected_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/51.jpg",
+          "card_scores": {
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/42.jpg": 7.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/51.jpg": 8.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/69.jpg": 8.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/8.jpg": 5.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/22.jpg": 7.0
+          }
+        },
+        "grok-4-fast_2": {
+          "selected_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/42.jpg",
+          "card_scores": {
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/42.jpg": 10.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/51.jpg": 8.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/69.jpg": 9.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/8.jpg": 9.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/22.jpg": 9.0
+          }
+        },
+        "qwen3-vl-8b-thinking_3": {
+          "selected_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/42.jpg",
+          "card_scores": {
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/42.jpg": 10.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/51.jpg": 8.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/69.jpg": 9.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/8.jpg": 8.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/22.jpg": 10.0
+          }
+        },
+        "ministral-14b-2512_4": {
+          "selected_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/69.jpg",
+          "card_scores": {
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/42.jpg": 7.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/51.jpg": 5.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/69.jpg": 8.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/8.jpg": 7.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/22.jpg": 7.0
+          }
+        }
+      },
+      "storyteller_votes": 2,
+      "score_changes": {
+        "grok-4-fast_2": 3,
+        "qwen3-vl-8b-thinking_3": 4,
+        "claude-opus-4.5_5": 3
+      },
+      "current_scores": {
+        "gpt-4o-2024-08-06_1": 20,
+        "grok-4-fast_2": 21,
+        "qwen3-vl-8b-thinking_3": 12,
+        "ministral-14b-2512_4": 23,
+        "claude-opus-4.5_5": 28
+      }
+    }
+  ]
+}

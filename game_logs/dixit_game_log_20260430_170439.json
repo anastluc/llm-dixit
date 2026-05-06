@@ -1,0 +1,1277 @@
+{
+  "game_id": "20260430_170439",
+  "game_configuration": {
+    "timestamp": "20260430_170439",
+    "prompt_style": "creative",
+    "image_directory": "original",
+    "max_rounds": 10,
+    "score_to_win": 30,
+    "use_cache": true,
+    "deck_size": 84,
+    "players": [
+      {
+        "name": "llama-4-maverick_1",
+        "model": "meta-llama/llama-4-maverick",
+        "provider": "meta-llama",
+        "prompt_style": "deceptive",
+        "score": 0
+      },
+      {
+        "name": "qwen3-vl-235b-a22b-instruct_2",
+        "model": "qwen/qwen3-vl-235b-a22b-instruct",
+        "provider": "qwen",
+        "prompt_style": "creative",
+        "score": 0
+      },
+      {
+        "name": "gemini-2.0-flash-001_3",
+        "model": "google/gemini-2.0-flash-001",
+        "provider": "google",
+        "prompt_style": "narrative",
+        "score": 0
+      },
+      {
+        "name": "gemini-2.5-flash-image_4",
+        "model": "google/gemini-2.5-flash-image",
+        "provider": "google",
+        "prompt_style": "creative",
+        "score": 0
+      },
+      {
+        "name": "gpt-5-chat_5",
+        "model": "openai/gpt-5-chat",
+        "provider": "openai",
+        "prompt_style": "narrative",
+        "score": 0
+      },
+      {
+        "name": "llama-3.2-11b-vision-instruct_6",
+        "model": "meta-llama/llama-3.2-11b-vision-instruct",
+        "provider": "meta-llama",
+        "prompt_style": "minimalist",
+        "score": 0
+      }
+    ]
+  },
+  "rounds": [
+    {
+      "round": 1,
+      "storyteller": "llama-4-maverick_1",
+      "clue": "Variety of emotions depicted in a simple yet striking visual arrangement.",
+      "storyteller_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/6.jpg",
+      "played_cards": {
+        "qwen3-vl-235b-a22b-instruct_2": {
+          "selected_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/32.jpg",
+          "card_scores": {
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/32.jpg": 8.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/16.jpg": 6.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/77.jpg": 6.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/3.jpg": 8.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/7.jpg": 8.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/82.jpg": 4.0
+          }
+        },
+        "gemini-2.0-flash-001_3": {
+          "selected_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/26.jpg",
+          "card_scores": {
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/22.jpg": 6.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/35.jpg": 5.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/84.jpg": 5.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/43.jpg": 7.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/48.jpg": 6.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/26.jpg": 8.0
+          }
+        },
+        "gemini-2.5-flash-image_4": {
+          "selected_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/40.jpg",
+          "card_scores": {
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/9.jpg": 0.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/46.jpg": 1.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/70.jpg": 0.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/40.jpg": 2.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/76.jpg": 2.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/55.jpg": 2.0
+          }
+        },
+        "gpt-5-chat_5": {
+          "selected_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/67.jpg",
+          "card_scores": {
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/66.jpg": 6.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/67.jpg": 8.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/83.jpg": 8.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/8.jpg": 6.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/1.jpg": 8.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/81.jpg": 7.0
+          }
+        },
+        "llama-3.2-11b-vision-instruct_6": {
+          "selected_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/71.jpg",
+          "card_scores": {
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/28.jpg": 0.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/45.jpg": 3.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/80.jpg": 6.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/69.jpg": 7.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/11.jpg": 2.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/71.jpg": 10.0
+          }
+        }
+      },
+      "votes": {
+        "qwen3-vl-235b-a22b-instruct_2": {
+          "selected_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/6.jpg",
+          "card_scores": {
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/40.jpg": 4.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/32.jpg": 8.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/67.jpg": 4.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/71.jpg": 4.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/26.jpg": 8.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/6.jpg": 9.0
+          }
+        },
+        "gemini-2.0-flash-001_3": {
+          "selected_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/6.jpg",
+          "card_scores": {
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/40.jpg": 5.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/32.jpg": 7.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/67.jpg": 7.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/71.jpg": 5.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/26.jpg": 8.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/6.jpg": 9.0
+          }
+        },
+        "gemini-2.5-flash-image_4": {
+          "selected_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/6.jpg",
+          "card_scores": {
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/40.jpg": 2.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/32.jpg": 6.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/67.jpg": 3.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/71.jpg": 3.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/26.jpg": 4.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/6.jpg": 8.0
+          }
+        },
+        "gpt-5-chat_5": {
+          "selected_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/32.jpg",
+          "card_scores": {
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/40.jpg": 8.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/32.jpg": 9.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/67.jpg": 8.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/71.jpg": 8.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/26.jpg": 8.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/6.jpg": 9.0
+          }
+        },
+        "llama-3.2-11b-vision-instruct_6": {
+          "selected_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/71.jpg",
+          "card_scores": {
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/40.jpg": 8.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/32.jpg": 5.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/67.jpg": 5.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/71.jpg": 10.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/26.jpg": 8.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/6.jpg": 9.0
+          }
+        }
+      },
+      "storyteller_votes": 3,
+      "score_changes": {
+        "llama-4-maverick_1": 3,
+        "qwen3-vl-235b-a22b-instruct_2": 4,
+        "gemini-2.0-flash-001_3": 3,
+        "gemini-2.5-flash-image_4": 3
+      },
+      "current_scores": {
+        "llama-4-maverick_1": 3,
+        "qwen3-vl-235b-a22b-instruct_2": 4,
+        "gemini-2.0-flash-001_3": 3,
+        "gemini-2.5-flash-image_4": 3,
+        "gpt-5-chat_5": 0,
+        "llama-3.2-11b-vision-instruct_6": 0
+      }
+    },
+    {
+      "round": 2,
+      "storyteller": "qwen3-vl-235b-a22b-instruct_2",
+      "clue": "Reaching for the sky\u2019s dangling fruit, wings of longing.",
+      "storyteller_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/3.jpg",
+      "played_cards": {
+        "llama-4-maverick_1": {
+          "selected_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/79.jpg",
+          "card_scores": {
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/79.jpg": 8.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/33.jpg": 8.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/2.jpg": 8.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/17.jpg": 8.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/57.jpg": 8.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/23.jpg": 8.0
+          }
+        },
+        "gemini-2.0-flash-001_3": {
+          "selected_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/35.jpg",
+          "card_scores": {
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/22.jpg": 5.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/35.jpg": 6.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/84.jpg": 6.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/43.jpg": 3.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/48.jpg": 5.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/10.jpg": 6.0
+          }
+        },
+        "gemini-2.5-flash-image_4": {
+          "selected_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/21.jpg",
+          "card_scores": {
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/9.jpg": 1.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/46.jpg": 0.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/70.jpg": 2.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/76.jpg": 1.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/55.jpg": 0.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/21.jpg": 5.0
+          }
+        },
+        "gpt-5-chat_5": {
+          "selected_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/81.jpg",
+          "card_scores": {
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/66.jpg": 6.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/83.jpg": 6.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/8.jpg": 2.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/1.jpg": 4.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/81.jpg": 7.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/37.jpg": 3.0
+          }
+        },
+        "llama-3.2-11b-vision-instruct_6": {
+          "selected_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/50.jpg",
+          "card_scores": {
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/28.jpg": 6.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/45.jpg": 6.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/80.jpg": 5.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/69.jpg": 8.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/11.jpg": 3.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/50.jpg": 10.0
+          }
+        }
+      },
+      "votes": {
+        "llama-4-maverick_1": {
+          "selected_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/3.jpg",
+          "card_scores": {
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/81.jpg": 5.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/3.jpg": 8.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/79.jpg": 8.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/50.jpg": 2.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/35.jpg": 8.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/21.jpg": 8.0
+          }
+        },
+        "gemini-2.0-flash-001_3": {
+          "selected_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/35.jpg",
+          "card_scores": {
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/81.jpg": 5.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/3.jpg": 5.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/79.jpg": 5.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/50.jpg": 5.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/35.jpg": 6.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/21.jpg": 5.0
+          }
+        },
+        "gemini-2.5-flash-image_4": {
+          "selected_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/3.jpg",
+          "card_scores": {
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/81.jpg": 3.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/3.jpg": 7.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/79.jpg": 1.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/50.jpg": 0.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/35.jpg": 1.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/21.jpg": 5.0
+          }
+        },
+        "gpt-5-chat_5": {
+          "selected_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/3.jpg",
+          "card_scores": {
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/81.jpg": 7.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/3.jpg": 8.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/79.jpg": 2.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/50.jpg": 3.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/35.jpg": 3.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/21.jpg": 7.0
+          }
+        },
+        "llama-3.2-11b-vision-instruct_6": {
+          "selected_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/50.jpg",
+          "card_scores": {
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/81.jpg": 1.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/3.jpg": 8.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/79.jpg": 9.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/50.jpg": 10.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/35.jpg": 3.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/21.jpg": 0.0
+          }
+        }
+      },
+      "storyteller_votes": 3,
+      "score_changes": {
+        "llama-4-maverick_1": 3,
+        "qwen3-vl-235b-a22b-instruct_2": 3,
+        "gemini-2.5-flash-image_4": 3,
+        "gpt-5-chat_5": 3
+      },
+      "current_scores": {
+        "llama-4-maverick_1": 6,
+        "qwen3-vl-235b-a22b-instruct_2": 7,
+        "gemini-2.0-flash-001_3": 3,
+        "gemini-2.5-flash-image_4": 6,
+        "gpt-5-chat_5": 3,
+        "llama-3.2-11b-vision-instruct_6": 0
+      }
+    },
+    {
+      "round": 3,
+      "storyteller": "gemini-2.0-flash-001_3",
+      "clue": "The torch flickered, a dying star against the vast, indifferent ocean as the hand slipped beneath the waves.",
+      "storyteller_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/48.jpg",
+      "played_cards": {
+        "llama-4-maverick_1": {
+          "selected_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/33.jpg",
+          "card_scores": {
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/33.jpg": 8.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/2.jpg": 8.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/17.jpg": 8.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/57.jpg": 6.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/23.jpg": 8.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/31.jpg": 6.0
+          }
+        },
+        "qwen3-vl-235b-a22b-instruct_2": {
+          "selected_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/7.jpg",
+          "card_scores": {
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/16.jpg": 1.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/77.jpg": 2.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/7.jpg": 3.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/82.jpg": 2.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/62.jpg": 3.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/44.jpg": 1.0
+          }
+        },
+        "gemini-2.5-flash-image_4": {
+          "selected_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/70.jpg",
+          "card_scores": {
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/9.jpg": 0.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/46.jpg": 0.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/70.jpg": 1.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/76.jpg": 0.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/55.jpg": 0.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/30.jpg": 0.0
+          }
+        },
+        "gpt-5-chat_5": {
+          "selected_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/1.jpg",
+          "card_scores": {
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/66.jpg": 2.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/83.jpg": 2.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/8.jpg": 2.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/1.jpg": 3.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/37.jpg": 2.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/61.jpg": 2.0
+          }
+        },
+        "llama-3.2-11b-vision-instruct_6": {
+          "selected_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/45.jpg",
+          "card_scores": {
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/28.jpg": 0.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/45.jpg": 8.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/80.jpg": 1.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/69.jpg": 1.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/11.jpg": 2.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/42.jpg": 2.0
+          }
+        }
+      },
+      "votes": {
+        "llama-4-maverick_1": {
+          "selected_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/48.jpg",
+          "card_scores": {
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/45.jpg": 8.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/33.jpg": 8.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/70.jpg": 8.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/7.jpg": 5.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/48.jpg": 9.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/1.jpg": 8.0
+          }
+        },
+        "qwen3-vl-235b-a22b-instruct_2": {
+          "selected_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/48.jpg",
+          "card_scores": {
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/45.jpg": 2.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/33.jpg": 2.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/70.jpg": 1.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/7.jpg": 3.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/48.jpg": 9.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/1.jpg": 2.0
+          }
+        },
+        "gemini-2.5-flash-image_4": {
+          "selected_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/48.jpg",
+          "card_scores": {
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/45.jpg": 0.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/33.jpg": 3.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/70.jpg": 1.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/7.jpg": 2.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/48.jpg": 10.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/1.jpg": 0.0
+          }
+        },
+        "gpt-5-chat_5": {
+          "selected_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/48.jpg",
+          "card_scores": {
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/45.jpg": 2.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/33.jpg": 7.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/70.jpg": 2.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/7.jpg": 7.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/48.jpg": 10.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/1.jpg": 3.0
+          }
+        },
+        "llama-3.2-11b-vision-instruct_6": {
+          "selected_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/48.jpg",
+          "card_scores": {
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/45.jpg": 8.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/33.jpg": 3.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/70.jpg": 2.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/7.jpg": 3.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/48.jpg": 10.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/1.jpg": 1.0
+          }
+        }
+      },
+      "storyteller_votes": 5,
+      "score_changes": {
+        "llama-4-maverick_1": 2,
+        "qwen3-vl-235b-a22b-instruct_2": 2,
+        "gemini-2.5-flash-image_4": 2,
+        "gpt-5-chat_5": 2,
+        "llama-3.2-11b-vision-instruct_6": 2
+      },
+      "current_scores": {
+        "llama-4-maverick_1": 8,
+        "qwen3-vl-235b-a22b-instruct_2": 9,
+        "gemini-2.0-flash-001_3": 3,
+        "gemini-2.5-flash-image_4": 8,
+        "gpt-5-chat_5": 5,
+        "llama-3.2-11b-vision-instruct_6": 2
+      }
+    },
+    {
+      "round": 4,
+      "storyteller": "gemini-2.5-flash-image_4",
+      "clue": "Unlocking inner thoughts and hidden truths.",
+      "storyteller_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/30.jpg",
+      "played_cards": {
+        "llama-4-maverick_1": {
+          "selected_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/2.jpg",
+          "card_scores": {
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/2.jpg": 8.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/17.jpg": 8.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/57.jpg": 8.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/23.jpg": 8.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/31.jpg": 8.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/64.jpg": 8.0
+          }
+        },
+        "qwen3-vl-235b-a22b-instruct_2": {
+          "selected_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/49.jpg",
+          "card_scores": {
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/16.jpg": 6.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/77.jpg": 3.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/82.jpg": 4.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/62.jpg": 7.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/44.jpg": 4.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/49.jpg": 8.0
+          }
+        },
+        "gemini-2.0-flash-001_3": {
+          "selected_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/59.jpg",
+          "card_scores": {
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/22.jpg": 5.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/84.jpg": 5.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/43.jpg": 5.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/10.jpg": 5.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/59.jpg": 6.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/4.jpg": 5.0
+          }
+        },
+        "gpt-5-chat_5": {
+          "selected_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/83.jpg",
+          "card_scores": {
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/66.jpg": 7.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/83.jpg": 8.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/8.jpg": 3.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/37.jpg": 7.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/61.jpg": 6.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/73.jpg": 8.0
+          }
+        },
+        "llama-3.2-11b-vision-instruct_6": {
+          "selected_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/28.jpg",
+          "card_scores": {
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/28.jpg": 6.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/80.jpg": 3.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/69.jpg": 3.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/11.jpg": 2.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/42.jpg": 6.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/74.jpg": 5.0
+          }
+        }
+      },
+      "votes": {
+        "llama-4-maverick_1": {
+          "selected_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/49.jpg",
+          "card_scores": {
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/49.jpg": 8.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/30.jpg": 8.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/59.jpg": 8.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/2.jpg": 8.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/83.jpg": 8.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/28.jpg": 8.0
+          }
+        },
+        "qwen3-vl-235b-a22b-instruct_2": {
+          "selected_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/30.jpg",
+          "card_scores": {
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/49.jpg": 8.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/30.jpg": 10.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/59.jpg": 7.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/2.jpg": 6.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/83.jpg": 8.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/28.jpg": 6.0
+          }
+        },
+        "gemini-2.0-flash-001_3": {
+          "selected_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/30.jpg",
+          "card_scores": {
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/49.jpg": 5.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/30.jpg": 9.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/59.jpg": 6.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/2.jpg": 5.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/83.jpg": 5.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/28.jpg": 5.0
+          }
+        },
+        "gpt-5-chat_5": {
+          "selected_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/49.jpg",
+          "card_scores": {
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/49.jpg": 9.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/30.jpg": 9.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/59.jpg": 7.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/2.jpg": 8.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/83.jpg": 8.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/28.jpg": 4.0
+          }
+        },
+        "llama-3.2-11b-vision-instruct_6": {
+          "selected_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/83.jpg",
+          "card_scores": {
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/49.jpg": 6.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/30.jpg": 7.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/59.jpg": 4.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/2.jpg": 7.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/83.jpg": 8.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/28.jpg": 6.0
+          }
+        }
+      },
+      "storyteller_votes": 2,
+      "score_changes": {
+        "qwen3-vl-235b-a22b-instruct_2": 5,
+        "gemini-2.0-flash-001_3": 3,
+        "gemini-2.5-flash-image_4": 3,
+        "gpt-5-chat_5": 1
+      },
+      "current_scores": {
+        "llama-4-maverick_1": 8,
+        "qwen3-vl-235b-a22b-instruct_2": 14,
+        "gemini-2.0-flash-001_3": 6,
+        "gemini-2.5-flash-image_4": 11,
+        "gpt-5-chat_5": 6,
+        "llama-3.2-11b-vision-instruct_6": 2
+      }
+    },
+    {
+      "round": 5,
+      "storyteller": "gpt-5-chat_5",
+      "clue": "The porcelain cat waited beneath the watchful deer, as if expecting the silence to answer.",
+      "storyteller_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/37.jpg",
+      "played_cards": {
+        "llama-4-maverick_1": {
+          "selected_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/57.jpg",
+          "card_scores": {
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/17.jpg": 4.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/57.jpg": 8.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/23.jpg": 8.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/31.jpg": 8.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/64.jpg": 8.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/75.jpg": 7.0
+          }
+        },
+        "qwen3-vl-235b-a22b-instruct_2": {
+          "selected_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/82.jpg",
+          "card_scores": {
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/16.jpg": 0.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/77.jpg": 1.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/82.jpg": 2.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/62.jpg": 2.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/44.jpg": 0.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/68.jpg": 0.0
+          }
+        },
+        "gemini-2.0-flash-001_3": {
+          "selected_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/84.jpg",
+          "card_scores": {
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/22.jpg": 1.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/84.jpg": 2.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/43.jpg": 1.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/10.jpg": 2.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/4.jpg": 1.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/39.jpg": 1.0
+          }
+        },
+        "gemini-2.5-flash-image_4": {
+          "selected_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/9.jpg",
+          "card_scores": {
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/9.jpg": 0.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/46.jpg": 0.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/76.jpg": 0.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/55.jpg": 0.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/58.jpg": 0.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/72.jpg": 0.0
+          }
+        },
+        "llama-3.2-11b-vision-instruct_6": {
+          "selected_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/69.jpg",
+          "card_scores": {
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/80.jpg": 0.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/69.jpg": 8.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/11.jpg": 3.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/42.jpg": 0.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/74.jpg": 0.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/25.jpg": 0.0
+          }
+        }
+      },
+      "votes": {
+        "llama-4-maverick_1": {
+          "selected_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/82.jpg",
+          "card_scores": {
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/82.jpg": 8.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/37.jpg": 8.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/57.jpg": 8.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/9.jpg": 8.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/69.jpg": 8.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/84.jpg": 8.0
+          }
+        },
+        "qwen3-vl-235b-a22b-instruct_2": {
+          "selected_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/37.jpg",
+          "card_scores": {
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/82.jpg": 2.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/37.jpg": 10.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/57.jpg": 0.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/9.jpg": 1.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/69.jpg": 0.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/84.jpg": 1.0
+          }
+        },
+        "gemini-2.0-flash-001_3": {
+          "selected_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/82.jpg",
+          "card_scores": {
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/82.jpg": 5.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/37.jpg": 5.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/57.jpg": 5.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/9.jpg": 1.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/69.jpg": 5.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/84.jpg": 2.0
+          }
+        },
+        "gemini-2.5-flash-image_4": {
+          "selected_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/37.jpg",
+          "card_scores": {
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/82.jpg": 0.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/37.jpg": 8.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/57.jpg": 0.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/9.jpg": 0.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/69.jpg": 0.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/84.jpg": 0.0
+          }
+        },
+        "llama-3.2-11b-vision-instruct_6": {
+          "selected_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/37.jpg",
+          "card_scores": {
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/82.jpg": 0.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/37.jpg": 8.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/57.jpg": 0.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/9.jpg": 5.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/69.jpg": 8.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/84.jpg": 5.0
+          }
+        }
+      },
+      "storyteller_votes": 3,
+      "score_changes": {
+        "qwen3-vl-235b-a22b-instruct_2": 5,
+        "gemini-2.5-flash-image_4": 3,
+        "gpt-5-chat_5": 3,
+        "llama-3.2-11b-vision-instruct_6": 3
+      },
+      "current_scores": {
+        "llama-4-maverick_1": 8,
+        "qwen3-vl-235b-a22b-instruct_2": 19,
+        "gemini-2.0-flash-001_3": 6,
+        "gemini-2.5-flash-image_4": 14,
+        "gpt-5-chat_5": 9,
+        "llama-3.2-11b-vision-instruct_6": 5
+      }
+    },
+    {
+      "round": 6,
+      "storyteller": "llama-3.2-11b-vision-instruct_6",
+      "clue": "Book Rider",
+      "storyteller_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/74.jpg",
+      "played_cards": {
+        "llama-4-maverick_1": {
+          "selected_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/17.jpg",
+          "card_scores": {
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/17.jpg": 8.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/23.jpg": 4.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/31.jpg": 8.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/64.jpg": 8.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/75.jpg": 8.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/63.jpg": 6.0
+          }
+        },
+        "qwen3-vl-235b-a22b-instruct_2": {
+          "selected_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/62.jpg",
+          "card_scores": {
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/16.jpg": 0.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/77.jpg": 0.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/62.jpg": 2.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/44.jpg": 2.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/68.jpg": 0.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/15.jpg": 2.0
+          }
+        },
+        "gemini-2.0-flash-001_3": {
+          "selected_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/22.jpg",
+          "card_scores": {
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/22.jpg": 5.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/43.jpg": 3.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/10.jpg": 1.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/4.jpg": 3.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/39.jpg": 2.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/60.jpg": 2.0
+          }
+        },
+        "gemini-2.5-flash-image_4": {
+          "selected_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/76.jpg",
+          "card_scores": {
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/46.jpg": 0.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/76.jpg": 4.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/55.jpg": 0.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/58.jpg": 0.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/72.jpg": 0.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/47.jpg": 0.0
+          }
+        },
+        "gpt-5-chat_5": {
+          "selected_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/53.jpg",
+          "card_scores": {
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/66.jpg": 3.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/8.jpg": 2.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/61.jpg": 4.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/73.jpg": 6.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/53.jpg": 7.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/41.jpg": 2.0
+          }
+        }
+      },
+      "votes": {
+        "llama-4-maverick_1": {
+          "selected_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/74.jpg",
+          "card_scores": {
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/22.jpg": 8.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/76.jpg": 8.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/74.jpg": 9.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/62.jpg": 8.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/53.jpg": 8.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/17.jpg": 8.0
+          }
+        },
+        "qwen3-vl-235b-a22b-instruct_2": {
+          "selected_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/74.jpg",
+          "card_scores": {
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/22.jpg": 8.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/76.jpg": 2.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/74.jpg": 10.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/62.jpg": 2.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/53.jpg": 2.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/17.jpg": 2.0
+          }
+        },
+        "gemini-2.0-flash-001_3": {
+          "selected_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/22.jpg",
+          "card_scores": {
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/22.jpg": 7.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/76.jpg": 7.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/74.jpg": 5.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/62.jpg": 5.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/53.jpg": 5.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/17.jpg": 5.0
+          }
+        },
+        "gemini-2.5-flash-image_4": {
+          "selected_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/74.jpg",
+          "card_scores": {
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/22.jpg": 7.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/76.jpg": 4.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/74.jpg": 10.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/62.jpg": 0.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/53.jpg": 0.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/17.jpg": 2.0
+          }
+        },
+        "gpt-5-chat_5": {
+          "selected_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/74.jpg",
+          "card_scores": {
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/22.jpg": 9.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/76.jpg": 4.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/74.jpg": 10.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/62.jpg": 4.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/53.jpg": 7.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/17.jpg": 4.0
+          }
+        }
+      },
+      "storyteller_votes": 4,
+      "score_changes": {
+        "llama-4-maverick_1": 3,
+        "qwen3-vl-235b-a22b-instruct_2": 3,
+        "gemini-2.5-flash-image_4": 3,
+        "gpt-5-chat_5": 3,
+        "llama-3.2-11b-vision-instruct_6": 3
+      },
+      "current_scores": {
+        "llama-4-maverick_1": 11,
+        "qwen3-vl-235b-a22b-instruct_2": 22,
+        "gemini-2.0-flash-001_3": 6,
+        "gemini-2.5-flash-image_4": 17,
+        "gpt-5-chat_5": 12,
+        "llama-3.2-11b-vision-instruct_6": 8
+      }
+    },
+    {
+      "round": 7,
+      "storyteller": "llama-4-maverick_1",
+      "clue": "A solo figure drifting in a desolate or ethereal environment.",
+      "storyteller_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/63.jpg",
+      "played_cards": {
+        "qwen3-vl-235b-a22b-instruct_2": {
+          "selected_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/15.jpg",
+          "card_scores": {
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/16.jpg": 6.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/77.jpg": 2.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/44.jpg": 2.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/68.jpg": 2.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/15.jpg": 7.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/19.jpg": 4.0
+          }
+        },
+        "gemini-2.0-flash-001_3": {
+          "selected_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/43.jpg",
+          "card_scores": {
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/43.jpg": 5.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/10.jpg": 5.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/4.jpg": 5.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/39.jpg": 3.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/60.jpg": 1.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/24.jpg": 3.0
+          }
+        },
+        "gemini-2.5-flash-image_4": {
+          "selected_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/72.jpg",
+          "card_scores": {
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/46.jpg": 3.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/55.jpg": 0.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/58.jpg": 3.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/72.jpg": 4.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/47.jpg": 2.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/29.jpg": 4.0
+          }
+        },
+        "gpt-5-chat_5": {
+          "selected_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/66.jpg",
+          "card_scores": {
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/66.jpg": 7.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/8.jpg": 1.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/61.jpg": 6.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/73.jpg": 3.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/41.jpg": 2.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/12.jpg": 6.0
+          }
+        },
+        "llama-3.2-11b-vision-instruct_6": {
+          "selected_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/11.jpg",
+          "card_scores": {
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/80.jpg": 3.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/11.jpg": 8.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/42.jpg": 1.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/25.jpg": 5.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/14.jpg": 2.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/27.jpg": 2.0
+          }
+        }
+      },
+      "votes": {
+        "qwen3-vl-235b-a22b-instruct_2": {
+          "selected_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/63.jpg",
+          "card_scores": {
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/72.jpg": 3.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/15.jpg": 7.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/11.jpg": 4.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/43.jpg": 8.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/63.jpg": 9.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/66.jpg": 6.0
+          }
+        },
+        "gemini-2.0-flash-001_3": {
+          "selected_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/43.jpg",
+          "card_scores": {
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/72.jpg": 4.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/15.jpg": 6.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/11.jpg": 5.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/43.jpg": 7.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/63.jpg": 5.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/66.jpg": 3.0
+          }
+        },
+        "gemini-2.5-flash-image_4": {
+          "selected_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/63.jpg",
+          "card_scores": {
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/72.jpg": 4.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/15.jpg": 5.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/11.jpg": 3.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/43.jpg": 8.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/63.jpg": 9.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/66.jpg": 4.0
+          }
+        },
+        "gpt-5-chat_5": {
+          "selected_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/43.jpg",
+          "card_scores": {
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/72.jpg": 3.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/15.jpg": 7.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/11.jpg": 2.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/43.jpg": 9.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/63.jpg": 9.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/66.jpg": 7.0
+          }
+        },
+        "llama-3.2-11b-vision-instruct_6": {
+          "selected_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/63.jpg",
+          "card_scores": {
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/72.jpg": 0.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/15.jpg": 1.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/11.jpg": 8.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/43.jpg": 3.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/63.jpg": 10.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/66.jpg": 6.0
+          }
+        }
+      },
+      "storyteller_votes": 3,
+      "score_changes": {
+        "llama-4-maverick_1": 3,
+        "qwen3-vl-235b-a22b-instruct_2": 3,
+        "gemini-2.0-flash-001_3": 1,
+        "gemini-2.5-flash-image_4": 3,
+        "llama-3.2-11b-vision-instruct_6": 3
+      },
+      "current_scores": {
+        "llama-4-maverick_1": 14,
+        "qwen3-vl-235b-a22b-instruct_2": 25,
+        "gemini-2.0-flash-001_3": 7,
+        "gemini-2.5-flash-image_4": 20,
+        "gpt-5-chat_5": 12,
+        "llama-3.2-11b-vision-instruct_6": 11
+      }
+    },
+    {
+      "round": 8,
+      "storyteller": "qwen3-vl-235b-a22b-instruct_2",
+      "clue": "Moonlit fever dream bleeding warmth into the night.",
+      "storyteller_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/77.jpg",
+      "played_cards": {
+        "llama-4-maverick_1": {
+          "selected_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/64.jpg",
+          "card_scores": {
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/23.jpg": 4.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/31.jpg": 6.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/64.jpg": 8.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/75.jpg": 8.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/38.jpg": 8.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/34.jpg": 8.0
+          }
+        },
+        "gemini-2.0-flash-001_3": {
+          "selected_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/10.jpg",
+          "card_scores": {
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/10.jpg": 5.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/4.jpg": 3.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/39.jpg": 4.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/60.jpg": 5.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/24.jpg": 5.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/52.jpg": 4.0
+          }
+        },
+        "gemini-2.5-flash-image_4": {
+          "selected_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/29.jpg",
+          "card_scores": {
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/46.jpg": 0.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/55.jpg": 0.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/58.jpg": 0.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/47.jpg": 1.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/29.jpg": 2.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/54.jpg": 0.0
+          }
+        },
+        "gpt-5-chat_5": {
+          "selected_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/61.jpg",
+          "card_scores": {
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/8.jpg": 2.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/61.jpg": 6.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/73.jpg": 3.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/41.jpg": 3.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/12.jpg": 6.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/13.jpg": 4.0
+          }
+        },
+        "llama-3.2-11b-vision-instruct_6": {
+          "selected_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/42.jpg",
+          "card_scores": {
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/80.jpg": 0.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/42.jpg": 10.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/25.jpg": 0.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/14.jpg": 0.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/27.jpg": 0.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/20.jpg": 6.0
+          }
+        }
+      },
+      "votes": {
+        "llama-4-maverick_1": {
+          "selected_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/42.jpg",
+          "card_scores": {
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/42.jpg": 8.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/61.jpg": 8.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/29.jpg": 6.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/77.jpg": 8.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/64.jpg": 8.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/10.jpg": 8.0
+          }
+        },
+        "gemini-2.0-flash-001_3": {
+          "selected_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/61.jpg",
+          "card_scores": {
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/42.jpg": 2.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/61.jpg": 7.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/29.jpg": 7.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/77.jpg": 7.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/64.jpg": 4.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/10.jpg": 6.0
+          }
+        },
+        "gemini-2.5-flash-image_4": {
+          "selected_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/77.jpg",
+          "card_scores": {
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/42.jpg": 3.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/61.jpg": 6.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/29.jpg": 2.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/77.jpg": 9.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/64.jpg": 1.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/10.jpg": 3.0
+          }
+        },
+        "gpt-5-chat_5": {
+          "selected_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/77.jpg",
+          "card_scores": {
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/42.jpg": 4.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/61.jpg": 6.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/29.jpg": 6.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/77.jpg": 9.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/64.jpg": 4.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/10.jpg": 8.0
+          }
+        },
+        "llama-3.2-11b-vision-instruct_6": {
+          "selected_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/42.jpg",
+          "card_scores": {
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/42.jpg": 10.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/61.jpg": 1.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/29.jpg": 1.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/77.jpg": 8.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/64.jpg": 1.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/10.jpg": 0.0
+          }
+        }
+      },
+      "storyteller_votes": 2,
+      "score_changes": {
+        "qwen3-vl-235b-a22b-instruct_2": 3,
+        "gemini-2.5-flash-image_4": 3,
+        "gpt-5-chat_5": 4,
+        "llama-3.2-11b-vision-instruct_6": 1
+      },
+      "current_scores": {
+        "llama-4-maverick_1": 14,
+        "qwen3-vl-235b-a22b-instruct_2": 28,
+        "gemini-2.0-flash-001_3": 7,
+        "gemini-2.5-flash-image_4": 23,
+        "gpt-5-chat_5": 16,
+        "llama-3.2-11b-vision-instruct_6": 12
+      }
+    },
+    {
+      "round": 9,
+      "storyteller": "gemini-2.0-flash-001_3",
+      "clue": "The carousel\u2019s chipped paint and ghostly passengers hinted at forgotten joys and an ending that always returned.",
+      "storyteller_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/24.jpg",
+      "played_cards": {
+        "llama-4-maverick_1": {
+          "selected_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/31.jpg",
+          "card_scores": {
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/23.jpg": 6.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/31.jpg": 8.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/75.jpg": 8.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/38.jpg": 5.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/34.jpg": 6.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/5.jpg": 2.0
+          }
+        },
+        "qwen3-vl-235b-a22b-instruct_2": {
+          "selected_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/68.jpg",
+          "card_scores": {
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/16.jpg": 1.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/44.jpg": 1.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/68.jpg": 2.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/19.jpg": 2.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/65.jpg": 2.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/56.jpg": 1.0
+          }
+        },
+        "gemini-2.5-flash-image_4": {
+          "selected_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/46.jpg",
+          "card_scores": {
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/46.jpg": 0.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/55.jpg": 0.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/58.jpg": 0.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/47.jpg": 0.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/54.jpg": 0.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/36.jpg": 0.0
+          }
+        },
+        "gpt-5-chat_5": {
+          "selected_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/12.jpg",
+          "card_scores": {
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/8.jpg": 2.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/73.jpg": 3.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/41.jpg": 3.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/12.jpg": 7.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/13.jpg": 3.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/18.jpg": 6.0
+          }
+        },
+        "llama-3.2-11b-vision-instruct_6": {
+          "selected_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/27.jpg",
+          "card_scores": {
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/80.jpg": 4.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/25.jpg": 2.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/14.jpg": 6.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/27.jpg": 8.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/20.jpg": 7.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/51.jpg": 3.0
+          }
+        }
+      },
+      "votes": {
+        "llama-4-maverick_1": {
+          "selected_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/24.jpg",
+          "card_scores": {
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/24.jpg": 8.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/12.jpg": 6.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/46.jpg": 8.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/31.jpg": 8.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/68.jpg": 8.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/27.jpg": 4.0
+          }
+        },
+        "qwen3-vl-235b-a22b-instruct_2": {
+          "selected_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/24.jpg",
+          "card_scores": {
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/24.jpg": 7.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/12.jpg": 3.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/46.jpg": 2.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/31.jpg": 2.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/68.jpg": 2.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/27.jpg": 2.0
+          }
+        },
+        "gemini-2.5-flash-image_4": {
+          "selected_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/24.jpg",
+          "card_scores": {
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/24.jpg": 8.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/12.jpg": 0.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/46.jpg": 0.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/31.jpg": 0.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/68.jpg": 0.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/27.jpg": 0.0
+          }
+        },
+        "gpt-5-chat_5": {
+          "selected_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/24.jpg",
+          "card_scores": {
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/24.jpg": 9.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/12.jpg": 7.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/46.jpg": 3.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/31.jpg": 6.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/68.jpg": 2.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/27.jpg": 6.0
+          }
+        },
+        "llama-3.2-11b-vision-instruct_6": {
+          "selected_card": "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/68.jpg",
+          "card_scores": {
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/24.jpg": 7.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/12.jpg": 9.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/46.jpg": 8.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/31.jpg": 3.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/68.jpg": 10.0,
+            "https://storage.googleapis.com/llm-dixit.firebasestorage.app/collections/original/27.jpg": 8.0
+          }
+        }
+      },
+      "storyteller_votes": 4,
+      "score_changes": {
+        "llama-4-maverick_1": 3,
+        "qwen3-vl-235b-a22b-instruct_2": 4,
+        "gemini-2.0-flash-001_3": 3,
+        "gemini-2.5-flash-image_4": 3,
+        "gpt-5-chat_5": 3
+      },
+      "current_scores": {
+        "llama-4-maverick_1": 17,
+        "qwen3-vl-235b-a22b-instruct_2": 32,
+        "gemini-2.0-flash-001_3": 10,
+        "gemini-2.5-flash-image_4": 26,
+        "gpt-5-chat_5": 19,
+        "llama-3.2-11b-vision-instruct_6": 12
+      }
+    }
+  ]
+}
